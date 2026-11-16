@@ -98,6 +98,7 @@ def primary_doc(key):
 
 # kutipan pendukung (<= 15 kata) untuk tiap entri; dicek ke teks sumber
 QUOTES = {
+ "abraheem2026_seqmeta": "Seq and Offset emerged as the two highest-ranked predictors",
  "khalil2026_swits": "5G-NIDD is structurally clean",
  "engelen2021_troubleshooting": "problems with traffic generation, flow construction, feature extraction and labelling",
  "liu2022_errorprevalence": "",

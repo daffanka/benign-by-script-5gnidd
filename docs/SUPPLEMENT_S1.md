@@ -54,18 +54,26 @@ passed the screen**; the full citer list is in
 Reading the abstracts of the screened subset, two records bear on our claims:
 
 1. **A leakage-aware evaluation of 5G-NIDD that ranks Seq and Offset highest.**
-   OpenAlex lists *"Feature-Selected Machine Learning for 5G Intrusion
-   Detection: Leakage-Aware Evaluation and Sensitivity to Sequence Metadata in
-   5G-NIDD"* (2026, Wadi Alshatti University Journal of Pure and Applied
-   Sciences, authors listed as Abraheem, Arhoumah, Fokla, Basheer). Its abstract
-   states that Seq and Offset emerge as the two highest-ranked predictors and
-   that removing them lowers holdout accuracy from about 99.97% to about 71%,
-   concluding that near-perfect record-level results depend on acquisition-order
-   metadata. **Status: the DOI (`10.63318/waujpasv4i2_14`) does not resolve at
-   doi.org, Crossref returns 404, and we could not open the publisher's version.
-   BELUM TERVERIFIKASI as a citable source**, so it is not in our bibliography.
-   It is, however, enough to stop us claiming the identity-shortcut mechanism as
-   unreported: the novelty sentence in Section 2.2 was weakened accordingly.
+   Abraheem, Arhoumah, Fokla and Basheer, *"Feature-Selected Machine Learning for
+   5G Intrusion Detection: Leakage-Aware Evaluation and Sensitivity to Sequence
+   Metadata in 5G-NIDD"*, Wadi Alshatti University Journal of Pure and Applied
+   Sciences 4(2), 2026, pages 121-135, DOI `10.63318/waujpasv4i2_14`.
+   **We opened the publisher's PDF (15 pages) and read its method and results**;
+   it is stored as `sources/primary_abraheem2026_seqmeta.pdf`. What it reports:
+   a record-level stratified 70:30 split of `Combined.csv` after removing 21
+   exact duplicate rows; zero-variance, correlation and ANOVA filtering down to
+   a top-ten feature set; Random Forest, XGBoost and an RFF-SVM reaching about
+   99.97% holdout accuracy; "Seq and Offset emerged as the two highest-ranked
+   predictors"; and an ablation in which removing those two columns drops
+   holdout accuracy to 71.18% (XGBoost), 71.16% (Random Forest) and 73.09%
+   (RFF-SVM). The paper concludes that near-perfect record-level results are
+   "heavily contingent upon acquisition-order metadata" and calls for
+   session-aware and base-station-aware validation. Searching its full text for
+   *mislabel*, *label error*, *labelling error* and *wrong label* returns
+   nothing: **it keeps the original labels and reports no labelling error.**
+   It is now cited in Section 2.2 and appears as a row in Panel B of the
+   comparison table. Note for the record: the DOI is printed in the article but
+   did not resolve at doi.org, and Crossref returned 404 on 2026-11-16.
 2. **An empirical leakage-free assessment** (Bouke and Abdullah, 2024,
    DOI `10.1016/j.prime.2024.100590`), already cited in the manuscript, which
    audits preprocessing leakage rather than labels.
@@ -114,11 +122,15 @@ not describe this presentation as reporting a shortcut in 5G-NIDD.
 - OpenAlex coverage is not complete, and its citation count (125) exceeded the
   records returned (119).
 - Only English-language records were examined.
+- Relevant work we could not open: none at the time of writing. The one record
+  that was unreadable in the previous pass (Abraheem et al.) has since been
+  read from the publisher's PDF.
 
 ### Effect on the novelty claim
 
 The manuscript says: *"In the sources we searched (Supplement S1), we found no
-prior work reporting the labelling error we describe"*, and adds that the
-dependence of 5G-NIDD scores on Seq and Offset has been observed independently
-in an indexed record we could not verify. We make no claim of priority for the
-shortcut observation itself.
+prior work reporting the labelling error we describe"*, and then cites
+Abraheem et al. (2026) for the independent observation that 5G-NIDD scores
+depend on Seq and Offset. We make no claim of priority for the shortcut
+observation itself; what this paper adds is the mislabelled block and the rule
+that produced it.

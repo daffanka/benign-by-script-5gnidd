@@ -227,12 +227,11 @@ the affected share of the dataset and its effect on eleven models.
 \centering
 \includegraphics[width=\linewidth]{figures/fig_positioning.pdf}
 \caption{Positioning of this work against the closest dataset-audit
-literature, using the same evidence as Table~
-ef{tab:related}. Filled:
+literature, using the same evidence as Table~\ref{tab:related}. Filled:
 demonstrated; half: partial; empty: not reported in the record we opened.
 Cell-level evidence, with quotations and the URLs consulted, is in the
-supplementary files 	exttt{positioning\_matrix\_v11.csv} and
-	exttt{RELATED\_WORK\_EVIDENCE.csv}.}
+supplementary files \texttt{positioning\_matrix\_v11.csv} and
+\texttt{RELATED\_WORK\_EVIDENCE.csv}.}
 \label{fig:positioning}
 \end{figure}
 
@@ -264,9 +263,14 @@ important \citep{uccello2026_featureattr, ilias2024_cnnmoe}, or examined
 leakage only in the narrow sense of preprocessing leakage
 \citep{bouke2024_leakagefree}. In the sources we searched (Supplement~S1), we found no prior work
 reporting the labelling error we describe. We claim no priority for the
-shortcut observation itself: the dependence of 5G-NIDD scores on Seq and
-Offset also appears in an indexed record whose publisher version we could not
-open, and which we therefore do not cite. A structural audit of the dataset
+shortcut observation itself. \citet{abraheem2026_seqmeta} independently rank
+Seq and Offset as the two most important predictors on 5G-NIDD and show that
+removing them drives record-level accuracy down to roughly the level of a
+majority-class predictor, which they read as dependence on acquisition-order
+metadata and as a reason to demand session-aware and base-station-aware
+validation. Their evaluation keeps the original labels and reports no
+labelling error; the block of mislabelled rows and the rule behind it are
+what this paper adds. A structural audit of the dataset
 with bad-smell tests reports no exact duplicate rows and judges it
 structurally clean \citep{khalil2026_swits}; those tests examine ports, class
 balance, backward packets and feature variance rather than the labelling rule

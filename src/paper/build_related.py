@@ -176,6 +176,12 @@ PANEL_B = [
   ("Supervised models on 5G-NIDD; notes earlier work uses limited subsets",
    "existing works using 5G-NIDD often focus on limited subsets"),
   "Evaluates supervised models on 5G-NIDD; this work audits the labels and the evaluation protocol itself (Secs.~5--6)"),
+ ("abraheem2026_seqmeta", "5G-NIDD (Combined.csv)",
+  ("Leakage-aware record-level evaluation; Seq and Offset rank highest, and removing "
+   "them lowers holdout accuracy to 71.18\\% (XGBoost); 21 exact duplicates removed; "
+   "no labelling error reported",
+   "Seq and Offset emerged as the two highest-ranked predictors"),
+  "Reports dependence on acquisition-order metadata under a record-level split; this work traces the labelling rule behind the affected block (Sec.~5.3)"),
 ]
 
 THIS_A = ("\\textbf{This work}", "5G-NIDD (plus four datasets scanned)",

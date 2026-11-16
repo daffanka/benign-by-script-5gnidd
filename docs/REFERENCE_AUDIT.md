@@ -6,10 +6,11 @@ Metode: `verify_refs.py` membandingkan judul (kemiripan kata >= 0,80), tahun, da
 
 Status: TERVERIFIKASI = metadata + kutipan isi cocok; SEBAGIAN = metadata cocok, isi (abstrak) tidak terbuka sehingga bukti hanya tingkat judul; BELUM TERVERIFIKASI = ada yang tidak cocok.
 
-Jumlah entri bib: **39**. Disitasi di main_v11.tex: **0** (main_v11.tex belum ada saat audit ini dibuat).
+Jumlah entri bib: **40**. Disitasi di main_v11.tex: **0** (main_v11.tex belum ada saat audit ini dibuat).
 
 | kunci bib | judul | penulis (dari sumber) | tempat, tahun | DOI / URL yang dibuka | jenis sumber | kutipan pendukung (<=15 kata) | cocok | status |
 |---|---|---|---|---|---|---|---|---|
+| `abraheem2026_seqmeta` | Feature-Selected Machine Learning for {5G} Intrusion Detection: Leakag | Abraheem, Abraheem Sulayman Alsaedi and Arhoumah, Ali Saed Riheel and ... | Wadi Alshatti University Journal o, 2026 | 10.63318/waujpasv4i2_14 | PDF repositori penulis + PDF repositori penulis | Seq and Offset emerged as the two highest-ranked predictors | 1.00 | TERVERIFIKASI |
 | `ahmad2018_5gsecurity` | Overview of {5G} Security Challenges and Solutions | Ahmad, Ijaz; Kumar, Tanesh; Liyanage, Madhusanka; Okwuibe, Jude; Ylian... | IEEE Communications Standards Maga, 2018 | 10.1109/mcomstd.2018.1700063 | Crossref API | Overview of 5G Security Challenges and Solutions | 1.00 | TERVERIFIKASI |
 | `arp2022_dosdonts` | Dos and Don'ts of Machine Learning in Computer Security | Daniel Arp; Erwin Quiring; Feargus Pendlebury; Alexander Warnecke; Fab... | USENIX Security Symposium, 2022 | http://arxiv.org/abs/2010.09470v2 | arXiv API | we identify common pitfalls in the design, implementation, and evaluation | 1.00 | TERVERIFIKASI |
 | `booij2022_toniot` | {ToN-IoT}: The Role of Heterogeneity and the Need for Standardization  | Booij, Tim M.; Chiscop, Irina; Meeuwissen, Erik; Moustafa, Nour; Harto... | IEEE Internet of Things Journal, 2022 | 10.1109/jiot.2021.3085194 | Crossref API | the Need for Standardization of Features and Attack Types in IoT Network Intrusion Data Sets | 1.00 | TERVERIFIKASI |
@@ -61,7 +62,7 @@ Jumlah entri bib: **39**. Disitasi di main_v11.tex: **0** (main_v11.tex belum ad
 
 ## Proporsi preprint arXiv
 
-9 dari 39 entri (23.1%) berupa preprint arXiv: `samarakoon2022_5gnidd`, `uccello2026_featureattr`, `ilias2024_cnnmoe`, `galal2026_edgeiiotset`, `roy2026_shortcut`, `jerabek2025_simplemodel`, `qu2025_tabicl`, `luay2025_temporal`, `chen2021_dataquality`.
+9 dari 40 entri (22.5%) berupa preprint arXiv: `samarakoon2022_5gnidd`, `uccello2026_featureattr`, `ilias2024_cnnmoe`, `galal2026_edgeiiotset`, `roy2026_shortcut`, `jerabek2025_simplemodel`, `qu2025_tabicl`, `luay2025_temporal`, `chen2021_dataquality`.
 
 ## Entri yang TIDAK lolos pemeriksaan
 
