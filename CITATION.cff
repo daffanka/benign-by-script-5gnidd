@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or the corrected dataset versions, please cite the paper below."
+title: "Benign by Script: audit code for the 5G-NIDD intrusion dataset"
+abstract: >-
+  Code and summary results for an audit of the 5G-NIDD intrusion detection
+  dataset: a block of 281,529 mislabelled UDP flood flows, identity-shortcut
+  columns, corrected dataset versions, and an evaluation of label-error audit
+  procedures.
+authors:
+  - family-names: "[NAMA BELAKANG PENULIS 1]"
+    given-names: "[NAMA DEPAN PENULIS 1]"
+    affiliation: "[AFILIASI]"
+  - family-names: "[NAMA BELAKANG PENULIS 2]"
+    given-names: "[NAMA DEPAN PENULIS 2]"
+    affiliation: "[AFILIASI]"
+license: MIT
+version: "0.1.0"
+date-released: "2026-11-16"
+repository-code: "[URL REPO SETELAH DIBUAT]"
+preferred-citation:
+  type: article
+  title: "Benign by Script: A Large-Scale Labelling Error and Identity Shortcuts Behind 99.9% Results on the 5G-NIDD Intrusion Dataset"
+  authors:
+    - family-names: "[NAMA BELAKANG PENULIS 1]"
+      given-names: "[NAMA DEPAN PENULIS 1]"
+    - family-names: "[NAMA BELAKANG PENULIS 2]"
+      given-names: "[NAMA DEPAN PENULIS 2]"
+  year: 2026
+  journal: "[JURNAL - BELUM DIPUTUSKAN]"
+  status: submitted

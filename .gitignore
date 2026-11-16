@@ -1,0 +1,42 @@
+# data mentah: TIDAK PERNAH dikomit
+data/
+*.pcap
+*.parquet
+Combined.csv
+*_each_attack_csv/
+cache/
+# artefak build
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+# keluaran besar yang bisa dibangun ulang
+results/**/e8_scenarios.json
+# lingkungan
+.venv/
+venv/
+.env
+
+# v11.1: catatan internal, berkas dari pemilik, PDF dan arsip TIDAK masuk riwayat
+internal/
+owner_supplied/
+*.pdf
+*.zip
+sources/
+build/
+
+# v11.1: catatan internal, berkas dari pemilik, PDF dan arsip TIDAK masuk riwayat
+internal/
+owner_supplied/
+*.pdf
+*.zip
+sources/
+build/
+# ... tetapi figur PDF yang dibutuhkan untuk kompilasi TETAP dilacak:
+!figures/*.pdf
+!paper/figures/*.pdf
