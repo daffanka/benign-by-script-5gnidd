@@ -1,0 +1,24 @@
+{
+  "sumber": "pilot_audit/cache/bs1|bs2 (CSV mentah per-BS, label NaN dibuang)",
+  "aturan_relabel": "Benign & SrcAddr in IP penyerang & DstAddr=korban & Proto=udp & file UDPFlood* -> UDPFlood",
+  "ip_penyerang": [
+    "10.155.15.4",
+    "10.155.15.7"
+  ],
+  "ip_korban": "10.41.150.68",
+  "kunci_dedup": [
+    "StartTime",
+    "SrcAddr",
+    "DstAddr",
+    "Sport",
+    "Dport",
+    "Proto",
+    "TotPkts",
+    "TotBytes"
+  ],
+  "versi_C": "buang baris salah-label + untuk kunci lintas-file simpan hanya occurrence di file pertama (urutan BS1->BS2, nama file terurut)",
+  "n_salah_label": 281529,
+  "n_versi_C": 925573,
+  "n_total": 1215890,
+  "runtime_s": 17.8
+}

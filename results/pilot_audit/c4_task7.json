@@ -1,0 +1,133 @@
+{
+  "aturan": "Benign & SrcAddr\u2208{penyerang UDPFlood} & DstAddr=korban & Proto=udp & file capture UDPFlood",
+  "ip_penyerang": [
+    "10.155.15.4",
+    "10.155.15.7"
+  ],
+  "ip_korban": "10.41.150.68",
+  "n_diubah": 281529,
+  "pct_dari_semua_baris": 23.15,
+  "pct_dari_benign": 58.93,
+  "bayes_42_nonid": {
+    "sebelum": [
+      0.7684,
+      0.9325
+    ],
+    "sesudah": [
+      1.0,
+      1.0
+    ],
+    "format": "(akurasi, macro_f1)"
+  },
+  "acak_tanpa_id": {
+    "sebelum": {
+      "mean": 0.9265,
+      "seeds": [
+        0.9257,
+        0.9266,
+        0.9273
+      ]
+    },
+    "sesudah": {
+      "mean": 0.9953,
+      "seeds": [
+        0.9948,
+        0.9956,
+        0.9955
+      ]
+    }
+  },
+  "lintas_bs": {
+    "42_nonid|BS1->BS2": {
+      "sebelum": {
+        "macro_f1": 0.8084,
+        "recall_UDPFlood": 0.0,
+        "recall_Benign": 0.9973
+      },
+      "sesudah": {
+        "macro_f1": 0.9933,
+        "recall_UDPFlood": 1.0,
+        "recall_Benign": 0.9977
+      }
+    },
+    "42_nonid|BS2->BS1": {
+      "sebelum": {
+        "macro_f1": 0.8608,
+        "recall_UDPFlood": 1.0,
+        "recall_Benign": 0.3077
+      },
+      "sesudah": {
+        "macro_f1": 0.969,
+        "recall_UDPFlood": 1.0,
+        "recall_Benign": 1.0
+      }
+    },
+    "90_mentah_nonid|BS1->BS2": {
+      "sebelum": {
+        "macro_f1": 0.2809,
+        "recall_UDPFlood": 0.0005,
+        "recall_Benign": 0.9998
+      },
+      "sesudah": {
+        "macro_f1": 0.5669,
+        "recall_UDPFlood": 1.0,
+        "recall_Benign": 0.9999
+      }
+    },
+    "90_mentah_nonid|BS2->BS1": {
+      "sebelum": {
+        "macro_f1": 0.6634,
+        "recall_UDPFlood": 0.9994,
+        "recall_Benign": 0.3075
+      },
+      "sesudah": {
+        "macro_f1": 0.7716,
+        "recall_UDPFlood": 0.9994,
+        "recall_Benign": 0.9992
+      }
+    }
+  },
+  "biner_lintas_bs": {
+    "semua_fitur|BS1->BS2": {
+      "sebelum": {
+        "TPR": 0.7583,
+        "FPR": 0.0005
+      },
+      "sesudah": {
+        "TPR": 1.0,
+        "FPR": 0.001
+      }
+    },
+    "semua_fitur|BS2->BS1": {
+      "sebelum": {
+        "TPR": 0.9905,
+        "FPR": 0.6923
+      },
+      "sesudah": {
+        "TPR": 0.995,
+        "FPR": 0.0
+      }
+    },
+    "tanpa_identitas|BS1->BS2": {
+      "sebelum": {
+        "TPR": 0.3245,
+        "FPR": 0.0039
+      },
+      "sesudah": {
+        "TPR": 1.0,
+        "FPR": 0.0029
+      }
+    },
+    "tanpa_identitas|BS2->BS1": {
+      "sebelum": {
+        "TPR": 0.991,
+        "FPR": 0.6923
+      },
+      "sesudah": {
+        "TPR": 0.9952,
+        "FPR": 0.0
+      }
+    }
+  },
+  "runtime_s": 530.4
+}

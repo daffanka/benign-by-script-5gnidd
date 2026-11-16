@@ -1,0 +1,184 @@
+{
+  "unsw": {
+    "n_train": 69994,
+    "n_test": 29999,
+    "n_fitur": 39,
+    "benign": "Normal",
+    "kelas": [
+      "Analysis",
+      "Backdoor",
+      "DoS",
+      "Exploits",
+      "Fuzzers",
+      "Generic",
+      "Normal",
+      "Reconnaissance",
+      "Shellcode",
+      "Worms"
+    ],
+    "n_partisi_train": 3,
+    "n_sumber_train": 32,
+    "kelas_train": {
+      "Exploits": 12056,
+      "Normal": 12056,
+      "Fuzzers": 12056,
+      "Generic": 12056,
+      "DoS": 8448,
+      "Reconnaissance": 8381,
+      "Analysis": 2007,
+      "Backdoor": 1663,
+      "Shellcode": 1140,
+      "Worms": 131
+    },
+    "kelas_test": {
+      "Exploits": 4953,
+      "Fuzzers": 4953,
+      "Normal": 4953,
+      "Generic": 4953,
+      "DoS": 4907,
+      "Reconnaissance": 3530,
+      "Analysis": 670,
+      "Backdoor": 666,
+      "Shellcode": 371,
+      "Worms": 43
+    },
+    "pasangan_R2": [
+      "DoS",
+      "Exploits"
+    ],
+    "aturan_pasangan": "massa konflik vektor identik = 3314",
+    "grup_R1_top5": [
+      {
+        "partisi": "UNSW-NB15_1.csv",
+        "sumber": "175.45.176.1",
+        "kelas": "Generic",
+        "n": 4471
+      },
+      {
+        "partisi": "UNSW-NB15_3.csv",
+        "sumber": "175.45.176.1",
+        "kelas": "DoS",
+        "n": 2486
+      },
+      {
+        "partisi": "UNSW-NB15_2.csv",
+        "sumber": "175.45.176.0",
+        "kelas": "Generic",
+        "n": 2333
+      },
+      {
+        "partisi": "UNSW-NB15_3.csv",
+        "sumber": "175.45.176.3",
+        "kelas": "Generic",
+        "n": 2090
+      },
+      {
+        "partisi": "UNSW-NB15_2.csv",
+        "sumber": "175.45.176.0",
+        "kelas": "DoS",
+        "n": 1914
+      }
+    ],
+    "target_blok": [
+      700,
+      2100,
+      5600
+    ],
+    "kolom_nominal": [
+      "proto",
+      "state",
+      "service"
+    ]
+  },
+  "cse": {
+    "n_train": 69997,
+    "n_test": 30000,
+    "n_fitur": 77,
+    "benign": "Benign",
+    "kelas": [
+      "Benign",
+      "Bot",
+      "Brute Force -Web",
+      "Brute Force -XSS",
+      "DDOS attack-HOIC",
+      "DDOS attack-LOIC-UDP",
+      "DDoS attacks-LOIC-HTTP",
+      "DoS attacks-GoldenEye",
+      "DoS attacks-Hulk",
+      "DoS attacks-SlowHTTPTest",
+      "DoS attacks-Slowloris",
+      "FTP-BruteForce",
+      "Infilteration",
+      "SQL Injection",
+      "SSH-Bruteforce"
+    ],
+    "n_partisi_train": 10,
+    "n_sumber_train": 2723,
+    "kelas_train": {
+      "Benign": 39031,
+      "Infilteration": 7000,
+      "Bot": 3500,
+      "DDoS attacks-LOIC-HTTP": 3500,
+      "SSH-Bruteforce": 3473,
+      "DoS attacks-Hulk": 3472,
+      "DDOS attack-HOIC": 2635,
+      "DoS attacks-Slowloris": 2333,
+      "DoS attacks-GoldenEye": 2333,
+      "DDOS attack-LOIC-UDP": 1730,
+      "Brute Force -Web": 568,
+      "Brute Force -XSS": 229,
+      "SQL Injection": 85,
+      "DoS attacks-SlowHTTPTest": 55,
+      "FTP-BruteForce": 53
+    },
+    "kelas_test": {
+      "Benign": 24000,
+      "Infilteration": 3000,
+      "DDOS attack-HOIC": 1500,
+      "DoS attacks-Hulk": 1500
+    },
+    "pasangan_R2": [
+      "Benign",
+      "Infilteration"
+    ],
+    "aturan_pasangan": "massa konflik vektor identik = 142",
+    "grup_R1_top5": [
+      {
+        "partisi": "Bruteforce-Wednesday-14-02-2018",
+        "sumber": "6|26883|230|32",
+        "kelas": "SSH-Bruteforce",
+        "n": 3464
+      },
+      {
+        "partisi": "Botnet-Friday-02-03-2018",
+        "sumber": "6|8192|219|20",
+        "kelas": "Bot",
+        "n": 3353
+      },
+      {
+        "partisi": "DoS2-Friday-16-02-2018",
+        "sumber": "6|225|-1|32",
+        "kelas": "DoS attacks-Hulk",
+        "n": 2798
+      },
+      {
+        "partisi": "DDoS2-Wednesday-21-02-2018",
+        "sumber": "6|65535|219|20",
+        "kelas": "DDOS attack-HOIC",
+        "n": 2193
+      },
+      {
+        "partisi": "DDoS2-Wednesday-21-02-2018",
+        "sumber": "17|-1|-1|8",
+        "kelas": "DDOS attack-LOIC-UDP",
+        "n": 1730
+      }
+    ],
+    "target_blok": [
+      700,
+      2100,
+      5600
+    ],
+    "kolom_nominal": []
+  }
+}

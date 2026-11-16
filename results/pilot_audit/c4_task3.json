@@ -1,0 +1,31 @@
+{
+  "n_benign_konflik": 281529,
+  "n_udpflood": 457340,
+  "n_fitur_kandidat": 6,
+  "aturan": "|--- IdleTime <= 1663274240.0000\n|   |--- SrcAddr <= 0.5000\n|   |   |--- class: UDPFlood\n|   |--- SrcAddr >  0.5000\n|   |   |--- class: Benign-konflik\n|--- IdleTime >  1663274240.0000\n|   |--- Sport <= 0.5000\n|   |   |--- class: UDPFlood\n|   |--- Sport >  0.5000\n|   |   |--- class: UDPFlood\n",
+  "akurasi_train": 1.0,
+  "leaves": {
+    "2": {
+      "n": 175811,
+      "kelas": "UDPFlood",
+      "kemurnian_pct": 100.0
+    },
+    "3": {
+      "n": 281529,
+      "kelas": "Benign-konflik",
+      "kemurnian_pct": 100.0
+    },
+    "5": {
+      "n": 3,
+      "kelas": "UDPFlood",
+      "kemurnian_pct": 100.0
+    },
+    "6": {
+      "n": 281526,
+      "kelas": "UDPFlood",
+      "kemurnian_pct": 100.0
+    }
+  },
+  "catatan_encoding": "kolom kategorikal (mis. Flgs, Dir, Sport non-numerik) jadi kode kategori integer; ambang pohon pada kolom itu merujuk kode, bukan nilai asli",
+  "runtime_s": 6.2
+}

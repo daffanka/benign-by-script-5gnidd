@@ -1,0 +1,93 @@
+{
+  "unsw": {
+    "n_train": 69994,
+    "n_test": 29999,
+    "n_fitur": 39,
+    "benign": "Normal",
+    "kelas": [
+      "Analysis",
+      "Backdoor",
+      "DoS",
+      "Exploits",
+      "Fuzzers",
+      "Generic",
+      "Normal",
+      "Reconnaissance",
+      "Shellcode",
+      "Worms"
+    ],
+    "n_partisi_train": 3,
+    "n_sumber_train": 32,
+    "kelas_train": {
+      "Exploits": 12056,
+      "Normal": 12056,
+      "Fuzzers": 12056,
+      "Generic": 12056,
+      "DoS": 8448,
+      "Reconnaissance": 8381,
+      "Analysis": 2007,
+      "Backdoor": 1663,
+      "Shellcode": 1140,
+      "Worms": 131
+    },
+    "kelas_test": {
+      "Exploits": 4953,
+      "Fuzzers": 4953,
+      "Normal": 4953,
+      "Generic": 4953,
+      "DoS": 4907,
+      "Reconnaissance": 3530,
+      "Analysis": 670,
+      "Backdoor": 666,
+      "Shellcode": 371,
+      "Worms": 43
+    },
+    "pasangan_R2": [
+      "DoS",
+      "Exploits"
+    ],
+    "aturan_pasangan": "massa konflik vektor identik = 3314",
+    "grup_R1_top5": [
+      {
+        "partisi": "UNSW-NB15_1.csv",
+        "sumber": "175.45.176.1",
+        "kelas": "Generic",
+        "n": 4471
+      },
+      {
+        "partisi": "UNSW-NB15_3.csv",
+        "sumber": "175.45.176.1",
+        "kelas": "DoS",
+        "n": 2486
+      },
+      {
+        "partisi": "UNSW-NB15_2.csv",
+        "sumber": "175.45.176.0",
+        "kelas": "Generic",
+        "n": 2333
+      },
+      {
+        "partisi": "UNSW-NB15_3.csv",
+        "sumber": "175.45.176.3",
+        "kelas": "Generic",
+        "n": 2090
+      },
+      {
+        "partisi": "UNSW-NB15_2.csv",
+        "sumber": "175.45.176.0",
+        "kelas": "DoS",
+        "n": 1914
+      }
+    ],
+    "target_blok": [
+      700,
+      2100,
+      5600
+    ],
+    "kolom_nominal": [
+      "proto",
+      "state",
+      "service"
+    ]
+  }
+}

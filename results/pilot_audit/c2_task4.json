@@ -1,0 +1,143 @@
+{
+  "files_bs1": [
+    "Goldeneye1.csv",
+    "ICMPFlood1.csv",
+    "SSH1.csv",
+    "SYNFlood1.csv",
+    "SYNScan1.csv",
+    "Slowloris1.csv",
+    "TCPConnect1.csv",
+    "Torshammer1.csv",
+    "UDPFlood1.csv",
+    "UDPScan1.csv"
+  ],
+  "files_bs2": [
+    "Goldeneye2.csv",
+    "ICMPFlood2.csv",
+    "SSH2.csv",
+    "SYNFlood2.csv",
+    "SYNScan2.csv",
+    "Slowloris2.csv",
+    "TCPConnect2.csv",
+    "Torshammer2.csv",
+    "UDPFlood2.csv",
+    "UDPScan2.csv"
+  ],
+  "label_na_rows_dropped": {
+    "BS1": 0,
+    "BS2": 0
+  },
+  "directions": {
+    "BS1->BS2|semua_fitur": {
+      "n_train": 299995,
+      "n_test": 299996,
+      "macro_f1_seeds": [
+        0.9205,
+        0.9219,
+        0.9211
+      ],
+      "mean": 0.9212,
+      "sd": 0.0007,
+      "recall_per_class_mean": {
+        "Benign": 0.9994,
+        "HTTPFlood": 0.9652,
+        "ICMPFlood": 0.994,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9983,
+        "SlowrateDoS": 0.9878,
+        "TCPConnectScan": 0.999,
+        "UDPFlood": 0.6398,
+        "UDPScan": 0.9983
+      }
+    },
+    "BS1->BS2|tanpa_identitas": {
+      "n_train": 299995,
+      "n_test": 299996,
+      "macro_f1_seeds": [
+        0.8084,
+        0.8088,
+        0.8079
+      ],
+      "mean": 0.8084,
+      "sd": 0.0005,
+      "recall_per_class_mean": {
+        "Benign": 0.9973,
+        "HTTPFlood": 0.989,
+        "ICMPFlood": 0.994,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9984,
+        "SlowrateDoS": 0.9709,
+        "TCPConnectScan": 0.9991,
+        "UDPFlood": 0.0,
+        "UDPScan": 0.9974
+      }
+    },
+    "BS2->BS1|semua_fitur": {
+      "n_train": 299996,
+      "n_test": 299995,
+      "macro_f1_seeds": [
+        0.8291,
+        0.8285,
+        0.8284
+      ],
+      "mean": 0.8287,
+      "sd": 0.0004,
+      "recall_per_class_mean": {
+        "Benign": 0.3077,
+        "HTTPFlood": 0.9465,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 0.7106,
+        "SYNScan": 0.9989,
+        "SlowrateDoS": 0.7028,
+        "TCPConnectScan": 0.998,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9985
+      }
+    },
+    "BS2->BS1|tanpa_identitas": {
+      "n_train": 299996,
+      "n_test": 299995,
+      "macro_f1_seeds": [
+        0.8608,
+        0.8605,
+        0.8611
+      ],
+      "mean": 0.8608,
+      "sd": 0.0003,
+      "recall_per_class_mean": {
+        "Benign": 0.3077,
+        "HTTPFlood": 0.9921,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 0.7106,
+        "SYNScan": 0.9989,
+        "SlowrateDoS": 0.9699,
+        "TCPConnectScan": 0.9982,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9982
+      }
+    }
+  },
+  "classes_BS1": {
+    "Benign": 406959,
+    "UDPFlood": 175811,
+    "HTTPFlood": 76121,
+    "SlowrateDoS": 36092,
+    "TCPConnectScan": 10022,
+    "SYNScan": 10019,
+    "UDPScan": 7887,
+    "SYNFlood": 4792,
+    "ICMPFlood": 613
+  },
+  "classes_BS2": {
+    "UDPFlood": 281529,
+    "Benign": 70778,
+    "HTTPFlood": 64691,
+    "SlowrateDoS": 37032,
+    "TCPConnectScan": 10030,
+    "SYNScan": 10024,
+    "UDPScan": 8019,
+    "SYNFlood": 4929,
+    "ICMPFlood": 542
+  },
+  "runtime_s": 491.2
+}

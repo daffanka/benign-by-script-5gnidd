@@ -1,0 +1,72 @@
+{
+  "kunci": [
+    "StartTime",
+    "SrcAddr",
+    "DstAddr",
+    "Sport",
+    "Dport",
+    "Proto",
+    "TotPkts",
+    "TotBytes"
+  ],
+  "intra_bs": {
+    "BS1": {
+      "n_kunci_multi_file": 869,
+      "n_baris_terlibat": 7414,
+      "kombinasi_file_top": {
+        "SYNFlood1.csv+TCPConnect1.csv": 516,
+        "ICMPFlood1.csv+Torshammer1.csv": 243,
+        "SYNFlood1.csv+UDPScan1.csv": 64,
+        "SYNFlood1.csv+Slowloris1.csv": 15,
+        "Goldeneye1.csv+SYNFlood1.csv": 13,
+        "Goldeneye1.csv+Slowloris1.csv": 6,
+        "SYNFlood1.csv+UDPFlood1.csv": 3,
+        "SYNFlood1.csv+TCPConnect1.csv+UDPFlood1.csv": 3
+      }
+    },
+    "BS2": {
+      "n_kunci_multi_file": 364,
+      "n_baris_terlibat": 782,
+      "kombinasi_file_top": {
+        "TCPConnect2.csv+UDPFlood2.csv": 351,
+        "SSH2.csv+SYNFlood2.csv": 6,
+        "SSH2.csv+UDPScan2.csv": 1,
+        "ICMPFlood2.csv+SSH2.csv": 1,
+        "SYNScan2.csv+UDPScan2.csv": 1,
+        "ICMPFlood2.csv+TCPConnect2.csv": 1,
+        "ICMPFlood2.csv+Slowloris2.csv": 1,
+        "ICMPFlood2.csv+UDPFlood2.csv": 1
+      }
+    }
+  },
+  "lintas_bs": {
+    "n_kunci_cocok": 286110,
+    "n_baris_bs1": 286197,
+    "n_baris_bs2": 286549,
+    "n_kunci_label_beda": 281505,
+    "per_pasangan_file": [
+      {
+        "file_bs1": "UDPFlood1.csv",
+        "file_bs2": "UDPFlood2.csv",
+        "n_kunci": 285758,
+        "n_label_beda": 281505
+      },
+      {
+        "file_bs1": "UDPFlood1.csv",
+        "file_bs2": "TCPConnect2.csv",
+        "n_kunci": 351,
+        "n_label_beda": 0
+      },
+      {
+        "file_bs1": "UDPFlood1.csv",
+        "file_bs2": "ICMPFlood2.csv",
+        "n_kunci": 1,
+        "n_label_beda": 0
+      }
+    ],
+    "pasangan_label_beda_top": {
+      "Benign (BS1) -> UDPFlood (BS2)": 281505
+    }
+  },
+  "runtime_s": 2.2
+}

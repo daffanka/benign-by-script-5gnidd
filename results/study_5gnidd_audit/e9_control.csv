@@ -1,0 +1,6 @@
+skenario,tipe,bs,prosedur,n_flag,n_kelompok,rank_blok,top1,top3,skor_blok,n_flag_blok,frac_blok,skor_top1,grup_top1,runtime_s
+kontrol_negatif,kontrol,-,a_perfile_id,36,21,22,0,0,0.0,0,0.0,5.0,BS1/UDPFlood1.csv|192.168.255.130|Benign|UDPFlood,1.7
+kontrol_negatif,kontrol,-,b_perfile_noid,26,18,19,0,0,0.0,0,0.0,4.0,BS1/Goldeneye1.csv|10.155.15.3|HTTPFlood|Benign,2.3
+kontrol_negatif,kontrol,-,c_global_noid,2674,30,31,0,0,0.0,0,0.0,550.0,BS2/Slowloris2.csv|10.155.15.6|SlowrateDoS|HTTPFlood,2.8
+kontrol_negatif,kontrol,-,d_lintas_capture,4719,44,45,0,0,0.0,0,0.0,908.0,BS1/SYNFlood1.csv|10.155.15.4|SYNFlood|SYNScan,3.4
+kontrol_negatif,kontrol,-,f_confident,96,8,9,0,0,0.0,0,0.0,3.7,BS1/Torshammer1.csv|10.155.15.4|SlowrateDoS|HTTPFlood,4.1

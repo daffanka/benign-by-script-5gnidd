@@ -1,0 +1,1 @@
+{"ds": "g5c", "regime": "R0", "size": 0.0, "seed": 0, "n_blok": 1, "dibuang": 31, "blok": [{"partisi": "Goldeneye1.csv", "sumber": "74.125.8.137", "label": "Benign", "prediksi": "UDPScan", "n_b": 30, "n_g": 31, "rate": 0.9677, "latar_med": 0.0, "z": null, "dibuang": 31}], "n_dibuang": 31, "n_direlabel": 0, "det_prec": 0.0, "det_rec": null}

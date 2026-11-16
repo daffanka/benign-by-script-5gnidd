@@ -1,0 +1,150 @@
+{
+  "per_file": {
+    "BS1/Goldeneye1.csv": {
+      "label_serangan": "HTTPFlood",
+      "proto_serangan": "tcp",
+      "n_serangan": 76121,
+      "n_benign_file": 17682,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS1/ICMPFlood1.csv": {
+      "label_serangan": "ICMPFlood",
+      "proto_serangan": "icmp",
+      "n_serangan": 613,
+      "n_benign_file": 17666,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS1/SYNFlood1.csv": {
+      "label_serangan": "SYNFlood",
+      "proto_serangan": "tcp",
+      "n_serangan": 4792,
+      "n_benign_file": 39844,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS1/SYNScan1.csv": {
+      "label_serangan": "SYNScan",
+      "proto_serangan": "tcp",
+      "n_serangan": 10019,
+      "n_benign_file": 1431,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS1/Slowloris1.csv": {
+      "label_serangan": "SlowrateDoS",
+      "proto_serangan": "tcp",
+      "n_serangan": 6207,
+      "n_benign_file": 24808,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS1/TCPConnect1.csv": {
+      "label_serangan": "TCPConnectScan",
+      "proto_serangan": "tcp",
+      "n_serangan": 10022,
+      "n_benign_file": 1623,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS1/Torshammer1.csv": {
+      "label_serangan": "SlowrateDoS",
+      "proto_serangan": "tcp",
+      "n_serangan": 29885,
+      "n_benign_file": 8235,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS1/UDPFlood1.csv": {
+      "label_serangan": "UDPFlood",
+      "proto_serangan": "udp",
+      "n_serangan": 175811,
+      "n_benign_file": 291906,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS1/UDPScan1.csv": {
+      "label_serangan": "UDPScan",
+      "proto_serangan": "udp",
+      "n_serangan": 7887,
+      "n_benign_file": 2156,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS2/Goldeneye2.csv": {
+      "label_serangan": "HTTPFlood",
+      "proto_serangan": "tcp",
+      "n_serangan": 64691,
+      "n_benign_file": 28959,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS2/ICMPFlood2.csv": {
+      "label_serangan": "ICMPFlood",
+      "proto_serangan": "icmp",
+      "n_serangan": 542,
+      "n_benign_file": 13910,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS2/SYNFlood2.csv": {
+      "label_serangan": "SYNFlood",
+      "proto_serangan": "tcp",
+      "n_serangan": 4929,
+      "n_benign_file": 9179,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS2/SYNScan2.csv": {
+      "label_serangan": "SYNScan",
+      "proto_serangan": "tcp",
+      "n_serangan": 10024,
+      "n_benign_file": 1502,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS2/Slowloris2.csv": {
+      "label_serangan": "SlowrateDoS",
+      "proto_serangan": "tcp",
+      "n_serangan": 7047,
+      "n_benign_file": 5609,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS2/TCPConnect2.csv": {
+      "label_serangan": "TCPConnectScan",
+      "proto_serangan": "tcp",
+      "n_serangan": 10030,
+      "n_benign_file": 1623,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS2/Torshammer2.csv": {
+      "label_serangan": "SlowrateDoS",
+      "proto_serangan": "tcp",
+      "n_serangan": 29985,
+      "n_benign_file": 1684,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS2/UDPFlood2.csv": {
+      "label_serangan": "UDPFlood",
+      "proto_serangan": "udp",
+      "n_serangan": 281529,
+      "n_benign_file": 4668,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    },
+    "BS2/UDPScan2.csv": {
+      "label_serangan": "UDPScan",
+      "proto_serangan": "udp",
+      "n_serangan": 8019,
+      "n_benign_file": 2286,
+      "n_benign_mencurigakan": 0,
+      "pct_benign_mencurigakan": 0.0
+    }
+  },
+  "definisi": "baris Benign dalam file capture serangan dengan SrcAddr\u2208IP penyerang (\u22651% baris serangan), DstAddr\u2208IP korban (\u22651%), dan Proto = proto modal serangan",
+  "runtime_s": 3.1
+}

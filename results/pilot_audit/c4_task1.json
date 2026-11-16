@@ -1,0 +1,146 @@
+{
+  "n_benign_konflik": 281529,
+  "per_file": {
+    "BS1/Goldeneye1.csv": {
+      "rows": 93803,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS1/ICMPFlood1.csv": {
+      "rows": 18279,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS1/SSH1.csv": {
+      "rows": 1608,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS1/SYNFlood1.csv": {
+      "rows": 44636,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS1/SYNScan1.csv": {
+      "rows": 11450,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS1/Slowloris1.csv": {
+      "rows": 31015,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS1/TCPConnect1.csv": {
+      "rows": 11645,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS1/Torshammer1.csv": {
+      "rows": 38120,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS1/UDPFlood1.csv": {
+      "rows": 467717,
+      "benign_konflik": 281529,
+      "bentuk_flood_total": 427349,
+      "bentuk_flood_label_benign": 281529,
+      "bentuk_flood_label_lain": 145820
+    },
+    "BS1/UDPScan1.csv": {
+      "rows": 10043,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 7681,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 7681
+    },
+    "BS2/Goldeneye2.csv": {
+      "rows": 93650,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS2/ICMPFlood2.csv": {
+      "rows": 14452,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS2/SSH2.csv": {
+      "rows": 1358,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS2/SYNFlood2.csv": {
+      "rows": 14108,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS2/SYNScan2.csv": {
+      "rows": 11526,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS2/Slowloris2.csv": {
+      "rows": 12656,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS2/TCPConnect2.csv": {
+      "rows": 11653,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS2/Torshammer2.csv": {
+      "rows": 31669,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 0,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 0
+    },
+    "BS2/UDPFlood2.csv": {
+      "rows": 286197,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 281529,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 281529
+    },
+    "BS2/UDPScan2.csv": {
+      "rows": 10305,
+      "benign_konflik": 0,
+      "bentuk_flood_total": 7803,
+      "bentuk_flood_label_benign": 0,
+      "bentuk_flood_label_lain": 7803
+    }
+  },
+  "runtime_s": 3.2
+}

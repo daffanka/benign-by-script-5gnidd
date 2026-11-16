@@ -1,0 +1,170 @@
+{
+  "rows_raw_total": 1215890,
+  "n_vektor_konflik_ben_udp": 33708,
+  "n_baris_benign_konflik": 281529,
+  "pct_benign_konflik_dari_semua_benign": 58.93,
+  "benign_konflik_SrcAddr_top": {
+    "10.155.15.7": 100.0
+  },
+  "benign_konflik_DstAddr_top": {
+    "10.41.150.68": 100.0
+  },
+  "benign_konflik_Proto_top": {
+    "udp": 100.0
+  },
+  "benign_konflik_Dport_top": {},
+  "udp_attacker_ips": [
+    "10.155.15.4",
+    "10.155.15.7"
+  ],
+  "udp_victim_ips": [
+    "10.41.150.68"
+  ],
+  "pct_benign_konflik_melibatkan_ip_serangan": 100.0,
+  "jendela_udpflood": {
+    "BS1": {
+      "min_s": 0.9,
+      "max_s": 3599.9,
+      "parse_fail_pct": 0.0
+    },
+    "BS2": {
+      "min_s": 229.0,
+      "max_s": 812.4,
+      "parse_fail_pct": 0.0
+    }
+  },
+  "pct_benign_konflik_dalam_jendela": {
+    "BS1": 100.0,
+    "BS2": NaN
+  },
+  "top5_vektor": [
+    {
+      "n_benign": 111601,
+      "n_udpflood": 159875,
+      "fitur": {
+        "Proto": "udp",
+        "Dur": "0.0",
+        "TotPkts": "1",
+        "SrcPkts": "1",
+        "DstPkts": "0",
+        "TotBytes": "42",
+        "SrcBytes": "42",
+        "DstBytes": "0",
+        "sTtl": "63.0",
+        "dTtl": "nan",
+        "Rate": "0.0",
+        "State": "REQ"
+      },
+      "SrcAddr_top": {
+        "10.155.15.7": 82.22,
+        "10.155.15.4": 17.78
+      },
+      "DstAddr_top": {
+        "10.41.150.68": 100.0
+      },
+      "Dport_top": {}
+    },
+    {
+      "n_benign": 29986,
+      "n_udpflood": 51036,
+      "fitur": {
+        "Proto": "udp",
+        "Dur": "0.0",
+        "TotPkts": "1",
+        "SrcPkts": "1",
+        "DstPkts": "0",
+        "TotBytes": "42",
+        "SrcBytes": "42",
+        "DstBytes": "0",
+        "sTtl": "63.0",
+        "dTtl": "nan",
+        "Rate": "0.0",
+        "State": "INT"
+      },
+      "SrcAddr_top": {
+        "10.155.15.7": 74.02,
+        "10.155.15.4": 25.98
+      },
+      "DstAddr_top": {
+        "10.41.150.68": 100.0
+      },
+      "Dport_top": {}
+    },
+    {
+      "n_benign": 40,
+      "n_udpflood": 40,
+      "fitur": {
+        "Proto": "udp",
+        "Dur": "2.576122",
+        "TotPkts": "2",
+        "SrcPkts": "2",
+        "DstPkts": "0",
+        "TotBytes": "84",
+        "SrcBytes": "84",
+        "DstBytes": "0",
+        "sTtl": "63.0",
+        "dTtl": "nan",
+        "Rate": "0.38818",
+        "State": "REQ"
+      },
+      "SrcAddr_top": {
+        "10.155.15.7": 100.0
+      },
+      "DstAddr_top": {
+        "10.41.150.68": 100.0
+      },
+      "Dport_top": {}
+    },
+    {
+      "n_benign": 39,
+      "n_udpflood": 39,
+      "fitur": {
+        "Proto": "udp",
+        "Dur": "2.579017",
+        "TotPkts": "2",
+        "SrcPkts": "2",
+        "DstPkts": "0",
+        "TotBytes": "84",
+        "SrcBytes": "84",
+        "DstBytes": "0",
+        "sTtl": "63.0",
+        "dTtl": "nan",
+        "Rate": "0.387745",
+        "State": "REQ"
+      },
+      "SrcAddr_top": {
+        "10.155.15.7": 100.0
+      },
+      "DstAddr_top": {
+        "10.41.150.68": 100.0
+      },
+      "Dport_top": {}
+    },
+    {
+      "n_benign": 38,
+      "n_udpflood": 38,
+      "fitur": {
+        "Proto": "udp",
+        "Dur": "2.575058",
+        "TotPkts": "2",
+        "SrcPkts": "2",
+        "DstPkts": "0",
+        "TotBytes": "84",
+        "SrcBytes": "84",
+        "DstBytes": "0",
+        "sTtl": "63.0",
+        "dTtl": "nan",
+        "Rate": "0.388341",
+        "State": "REQ"
+      },
+      "SrcAddr_top": {
+        "10.155.15.7": 100.0
+      },
+      "DstAddr_top": {
+        "10.41.150.68": 100.0
+      },
+      "Dport_top": {}
+    }
+  ],
+  "runtime_s": 8.4
+}

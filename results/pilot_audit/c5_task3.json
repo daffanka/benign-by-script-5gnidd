@@ -1,0 +1,22 @@
+{
+  "n_rows": 299995,
+  "n_features": 48,
+  "multikelas": {
+    "acc_vs_asli": 0.9994,
+    "f1_vs_asli": 0.9977,
+    "acc_vs_koreksi": 0.7672,
+    "f1_vs_koreksi": 0.9249
+  },
+  "biner": {
+    "acc_vs_asli": 0.9997,
+    "f1_vs_asli": 0.9997,
+    "acc_vs_koreksi": 0.7675,
+    "f1_vs_koreksi": 0.7096
+  },
+  "baris_281529_di_test_mean": 13939.3,
+  "diprediksi_benign_multi_mean": 13936.3,
+  "pct_diprediksi_benign_multi": 99.98,
+  "diprediksi_benign_biner_mean": 13936.3,
+  "pct_diprediksi_benign_biner": 99.98,
+  "runtime_s": 53.4
+}

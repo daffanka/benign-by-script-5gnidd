@@ -1,0 +1,46 @@
+{
+  "calibration": "isotonic (CalibratedClassifierCV + FrozenEstimator)",
+  "directions": {
+    "BS1->BS2": {
+      "sebelum": {
+        "macro_f1": 0.8092,
+        "recall_UDPFlood": 0.0,
+        "recall_Benign": 0.9996,
+        "macro_f1_sd": 0.0003
+      },
+      "sesudah_em": {
+        "macro_f1": 0.8092,
+        "recall_UDPFlood": 0.0,
+        "recall_Benign": 0.9995,
+        "macro_f1_sd": 0.0001
+      },
+      "oracle_prior": {
+        "macro_f1": 0.9015,
+        "recall_UDPFlood": 0.5032,
+        "recall_Benign": 0.9977,
+        "macro_f1_sd": 0.0009
+      }
+    },
+    "BS2->BS1": {
+      "sebelum": {
+        "macro_f1": 0.7894,
+        "recall_UDPFlood": 1.0,
+        "recall_Benign": 0.3077,
+        "macro_f1_sd": 0.0002
+      },
+      "sesudah_em": {
+        "macro_f1": 0.7895,
+        "recall_UDPFlood": 1.0,
+        "recall_Benign": 0.3077,
+        "macro_f1_sd": 0.0002
+      },
+      "oracle_prior": {
+        "macro_f1": 0.7894,
+        "recall_UDPFlood": 1.0,
+        "recall_Benign": 0.3077,
+        "macro_f1_sd": 0.0003
+      }
+    }
+  },
+  "runtime_s": 113.7
+}

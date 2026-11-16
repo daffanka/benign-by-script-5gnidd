@@ -1,0 +1,33 @@
+{
+  "dataset": "5gnidd",
+  "rows": 1215890,
+  "cols": 52,
+  "n_classes_multi": 9,
+  "class_counts": {
+    "Benign": 477737,
+    "UDPFlood": 457340,
+    "HTTPFlood": 140812,
+    "SlowrateDoS": 73124,
+    "TCPConnectScan": 20052,
+    "SYNScan": 20043,
+    "UDPScan": 15906,
+    "SYNFlood": 9721,
+    "ICMPFlood": 1155
+  },
+  "dup_exact_pct": 0.0017,
+  "same_feat_diff_label_pct": 0.0,
+  "dup_exact_pct_no_id": 68.801,
+  "same_feat_diff_label_pct_no_id": 52.0142,
+  "constant_cols": [],
+  "identity_cols": [
+    "row_id",
+    "Seq",
+    "Offset",
+    "sVid",
+    "dVid",
+    "SrcTCPBase",
+    "DstTCPBase"
+  ],
+  "identity_cols_note": "row_id = indeks ekspor CSV (kolom pertama tanpa nama); Seq = nomor urut record Argus; Offset = byte offset record; sVid/dVid = VLAN id; SrcTCPBase/DstTCPBase = TCP seq awal. Tidak ada kolom IP/port/timestamp di Combined.csv.",
+  "runtime_s": 5.3
+}

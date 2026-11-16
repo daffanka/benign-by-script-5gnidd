@@ -1,0 +1,56 @@
+{
+  "dedup_aware_split": {
+    "macro_f1_seeds": [
+      0.9179,
+      0.9484,
+      0.9262
+    ],
+    "mean": 0.9308,
+    "sd": 0.0158,
+    "n_features": 42
+  },
+  "bayes_upper_bound_full": {
+    "rows": 1215890,
+    "macro_f1": 0.9323,
+    "accuracy": 0.7684
+  },
+  "top10_shared_class_pairs": [
+    {
+      "kelas_1": "Benign",
+      "kelas_2": "UDPFlood",
+      "n_vektor_bersama": 33708,
+      "n_baris_terlibat": 632382
+    },
+    {
+      "kelas_1": "HTTPFlood",
+      "kelas_2": "SlowrateDoS",
+      "n_vektor_bersama": 12,
+      "n_baris_terlibat": 24
+    },
+    {
+      "kelas_1": "Benign",
+      "kelas_2": "HTTPFlood",
+      "n_vektor_bersama": 1,
+      "n_baris_terlibat": 20
+    },
+    {
+      "kelas_1": "SYNScan",
+      "kelas_2": "TCPConnectScan",
+      "n_vektor_bersama": 2,
+      "n_baris_terlibat": 4
+    },
+    {
+      "kelas_1": "SYNScan",
+      "kelas_2": "UDPScan",
+      "n_vektor_bersama": 1,
+      "n_baris_terlibat": 3
+    },
+    {
+      "kelas_1": "TCPConnectScan",
+      "kelas_2": "UDPScan",
+      "n_vektor_bersama": 1,
+      "n_baris_terlibat": 2
+    }
+  ],
+  "runtime_s": 54.3
+}

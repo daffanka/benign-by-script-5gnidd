@@ -1,0 +1,13 @@
+\begin{tabular}{l rrrr}
+\toprule
+Audit procedure & Flagged & Correct & Precision & Recall\\
+\midrule
+(a) Per-file OOF, with identity columns & 306 & 187 & 0.6111 & 0.0007\\
+(b) Per-file OOF, without identity columns & 69\,562 & 114 & 0.0016 & 0.0004\\
+(c) Global OOF, without identity columns & 291\,611 & 217\,455 & 0.7457 & 0.7724\\
+(c$'$) Global OOF, confidence $\geq 0.95$ & 407 & 0 & 0.0000 & 0.0000\\
+(d) Cross-capture: train BS2, flag Benign in BS1 & 281\,538 & 281\,529 & 1.0000 & 1.0000\\
+(d$'$) Cross-capture: train BS1, flag Benign in BS2 & 13 & 0 & 0.0000 & 0.0000\\
+(e) Cross-file 8-column key match (both sides flagged) & 563\,058 & 281\,529 & 0.5000 & 1.0000\\
+\bottomrule
+\end{tabular}

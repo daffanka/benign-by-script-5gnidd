@@ -1,0 +1,12 @@
+{
+  "n_vektor_seimbang": 33706,
+  "n_baris_benign_vektor_seimbang": 139942,
+  "pct_benign_punya_kembar_identik": 100.0,
+  "kunci_kembar": [
+    "StartTime",
+    "Sport",
+    "SrcAddr",
+    "DstAddr"
+  ],
+  "runtime_s": 1.8
+}

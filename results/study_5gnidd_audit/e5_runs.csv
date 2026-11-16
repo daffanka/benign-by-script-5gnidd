@@ -1,0 +1,9 @@
+prosedur,deskripsi,n_flag,n_benar,precision,recall,runtime_s
+a_perfile_id,"OOF 5-fold dalam tiap file capture, DENGAN kolom identitas,306",187,0.6111,0.0007,117.0
+b_perfile_noid,"OOF 5-fold dalam tiap file capture, tanpa kolom identitas,69562",114,0.0016,0.0004,100.4
+c_global_noid,"OOF 5-fold seluruh data, tanpa kolom identitas,291611",217455,0.7457,0.7724,373.1
+c_global_noid_conf95,"sama, hanya ketidakcocokan keyakinan >= 0,95,407",0,0.0,0.0,373.1
+d_latihBS2_tandaiBS1,"latih BS2 (label asli, 42 non-ID), tandai Benign BS1 yang diprediksi serangan,281538",281529,1.0,1.0,50.6
+d_latihBS1_tandaiBS2,"latih BS1 (label asli, 42 non-ID), tandai Benign BS2 yang diprediksi serangan,13",0,0.0,0.0,71.8
+d_gabungan,"gabungan dua arah prosedur d,281551",281529,0.9999,1.0,0.0
+e_kunci8,"baris dengan kunci 8 kolom yang muncul di >1 file dengan >1 label (kedua sisi ditandai),563058",281529,0.5,1.0,2.0

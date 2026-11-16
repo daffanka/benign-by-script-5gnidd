@@ -1,0 +1,15 @@
+\begin{tabular}{l rrr r rrr}
+\toprule
+& \multicolumn{3}{c}{Clean control (no injection)} & \multicolumn{4}{c}{Injected cells ($n$ = 54)}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-8}
+Corrector & $\Delta$macro-F1 & $\Delta$FPR & Dropped (\%) & Recovery ($n$ = 13) & $\Delta$F1 (CPLA$-$X) & W/T/L & $p$\\
+\midrule
+No correction & +0.0000 & +0.0000 & 0.00 & 0.00 & +0.0000 & 24/4/26 & 0.7139\\
+Confident learning (global OOF) & +0.0005 & +0.0000 & 6.09 & 0.22 & $-$0.0006 & 20/0/34 & 0.9925\\
+Confident learning (cross-partition OOF) & +0.0000 & +0.0000 & 8.28 & 0.47 & $-$0.0002 & 25/1/28 & 0.8609\\
+Global OOF filter & +0.0002 & $-$0.0002 & 9.97 & 0.18 & $-$0.0003 & 23/0/31 & 0.6775\\
+Cross-partition OOF filter & $-$0.0109 & +0.0006 & 13.34 & 0.21 & +0.0069 & 45/0/9 & 0.0004\\
+\midrule
+CPLA (cross-partition block audit) & +0.0006 & +0.0001 & 2.52 & 0.33 & -- & -- & --\\
+\bottomrule
+\end{tabular}

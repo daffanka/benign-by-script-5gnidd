@@ -1,0 +1,35 @@
+{
+  "n_rows": 299997,
+  "n_features": 46,
+  "tasks": {
+    "multikelas": {
+      "accuracy_seeds": [
+        0.9994,
+        0.9995,
+        0.9995
+      ],
+      "accuracy_mean": 0.9995,
+      "macro_f1_seeds": [
+        0.9969,
+        0.9993,
+        0.9995
+      ],
+      "macro_f1_mean": 0.9986
+    },
+    "biner": {
+      "accuracy_seeds": [
+        0.9997,
+        0.9997,
+        0.9998
+      ],
+      "accuracy_mean": 0.9997,
+      "macro_f1_seeds": [
+        0.9997,
+        0.9997,
+        0.9998
+      ],
+      "macro_f1_mean": 0.9997
+    }
+  },
+  "runtime_s": 53.9
+}

@@ -1,0 +1,123 @@
+{
+  "setup": "versi B (label terkoreksi), 42 fitur non-ID, HGB seed 0-2; latih seluruh BS2, prediksi baris SYNFlood BS1 (n=4792)",
+  "prediksi_synflood_bs1_mean": {
+    "SYNFlood": 0.711,
+    "TCPConnectScan": 0.2139,
+    "SYNScan": 0.0632,
+    "Benign": 0.012
+  },
+  "top10_fitur_beda": [
+    {
+      "fitur": "Load",
+      "mean_BS1": 9105.2568,
+      "mean_BS2": 26171.8711,
+      "sd_BS1": 7924.7378,
+      "sd_BS2": 3165.7014,
+      "nan_BS1_pct": 0.0,
+      "nan_BS2_pct": 0.0,
+      "cohen_d": -2.8283,
+      "abs_d": 2.8283
+    },
+    {
+      "fitur": "SrcLoad",
+      "mean_BS1": 9104.7295,
+      "mean_BS2": 26171.8711,
+      "sd_BS1": 7925.3052,
+      "sd_BS2": 3165.7014,
+      "nan_BS1_pct": 0.0,
+      "nan_BS2_pct": 0.0,
+      "cohen_d": -2.8282,
+      "abs_d": 2.8282
+    },
+    {
+      "fitur": "SrcRate",
+      "mean_BS1": 21.0758,
+      "mean_BS2": 60.583,
+      "sd_BS1": 18.3456,
+      "sd_BS2": 7.328,
+      "nan_BS1_pct": 0.0,
+      "nan_BS2_pct": 0.0,
+      "cohen_d": -2.8282,
+      "abs_d": 2.8282
+    },
+    {
+      "fitur": "Rate",
+      "mean_BS1": 42.1481,
+      "mean_BS2": 121.1661,
+      "sd_BS1": 36.6952,
+      "sd_BS2": 14.656,
+      "nan_BS1_pct": 0.0,
+      "nan_BS2_pct": 0.0,
+      "cohen_d": -2.8281,
+      "abs_d": 2.8281
+    },
+    {
+      "fitur": "sHops",
+      "mean_BS1": 0.4019,
+      "mean_BS2": 1.0,
+      "sd_BS1": 0.4903,
+      "sd_BS2": 0.0,
+      "nan_BS1_pct": 0.0,
+      "nan_BS2_pct": 0.0,
+      "cohen_d": -1.7251,
+      "abs_d": 1.7251
+    },
+    {
+      "fitur": "DstWin",
+      "mean_BS1": 64240.0,
+      "mean_BS2": 64240.0039,
+      "sd_BS1": 0.0,
+      "sd_BS2": 0.0039,
+      "nan_BS1_pct": 28.9,
+      "nan_BS2_pct": 0.0,
+      "cohen_d": -1.4142,
+      "abs_d": 1.4142
+    },
+    {
+      "fitur": "dMeanPktSz",
+      "mean_BS1": 41.2366,
+      "mean_BS2": 58.0,
+      "sd_BS1": 26.2919,
+      "sd_BS2": 0.0,
+      "nan_BS1_pct": 0.0,
+      "nan_BS2_pct": 0.0,
+      "cohen_d": -0.9017,
+      "abs_d": 0.9017
+    },
+    {
+      "fitur": "State",
+      "mean_BS1": 7.422,
+      "mean_BS2": 8.0,
+      "sd_BS1": 0.9066,
+      "sd_BS2": 0.0,
+      "nan_BS1_pct": 0.0,
+      "nan_BS2_pct": 0.0,
+      "cohen_d": -0.9017,
+      "abs_d": 0.9017
+    },
+    {
+      "fitur": "DstBytes",
+      "mean_BS1": 41.3214,
+      "mean_BS2": 58.0,
+      "sd_BS1": 26.4388,
+      "sd_BS2": 0.0,
+      "nan_BS1_pct": 0.0,
+      "nan_BS2_pct": 0.0,
+      "cohen_d": -0.8921,
+      "abs_d": 0.8921
+    },
+    {
+      "fitur": "DstPkts",
+      "mean_BS1": 0.7124,
+      "mean_BS2": 1.0,
+      "sd_BS1": 0.4558,
+      "sd_BS2": 0.0,
+      "nan_BS1_pct": 0.0,
+      "nan_BS2_pct": 0.0,
+      "cohen_d": -0.8921,
+      "abs_d": 0.8921
+    }
+  ],
+  "catatan": "cohen_d dihitung pada fitur ter-encode (kolom kategorikal = kode kategori); NaN diabaikan dalam mean/sd",
+  "runtime_s": 112.6
+}

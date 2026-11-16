@@ -1,0 +1,46 @@
+{
+  "baseline_acc": 0.999552,
+  "baseline_recall": {
+    "Benign": 0.999665,
+    "HTTPFlood": 0.999645,
+    "ICMPFlood": 0.995671,
+    "SYNFlood": 1.0,
+    "SYNScan": 0.997755,
+    "SlowrateDoS": 0.999043,
+    "TCPConnectScan": 0.998504,
+    "UDPFlood": 0.999606,
+    "UDPScan": 0.999686
+  },
+  "n_repeats": 5,
+  "per_kolom": {
+    "Seq": {
+      "drop_acc_mean": 0.301175,
+      "drop_recall_per_kelas": {
+        "Benign": 0.450716,
+        "HTTPFlood": 0.011228,
+        "ICMPFlood": 0.0,
+        "SYNFlood": 0.000617,
+        "SYNScan": 0.00015,
+        "SlowrateDoS": 0.699583,
+        "TCPConnectScan": 0.003142,
+        "UDPFlood": 0.214372,
+        "UDPScan": 0.001257
+      }
+    },
+    "Offset": {
+      "drop_acc_mean": 0.018619,
+      "drop_recall_per_kelas": {
+        "Benign": 0.035021,
+        "HTTPFlood": 0.014601,
+        "ICMPFlood": 0.0,
+        "SYNFlood": 0.0,
+        "SYNScan": -0.001098,
+        "SlowrateDoS": 0.039562,
+        "TCPConnectScan": 0.050125,
+        "UDPFlood": -0.000131,
+        "UDPScan": 0.002263
+      }
+    }
+  },
+  "runtime_s": 249.3
+}

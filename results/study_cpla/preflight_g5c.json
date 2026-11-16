@@ -1,0 +1,92 @@
+{
+  "g5c": {
+    "n_train": 64607,
+    "n_test": 28355,
+    "n_fitur": 42,
+    "benign": "Benign",
+    "kelas": [
+      "Benign",
+      "HTTPFlood",
+      "ICMPFlood",
+      "SYNFlood",
+      "SYNScan",
+      "SlowrateDoS",
+      "TCPConnectScan",
+      "UDPFlood",
+      "UDPScan"
+    ],
+    "n_partisi_train": 10,
+    "n_sumber_train": 79,
+    "kelas_train": {
+      "Benign": 30121,
+      "SlowrateDoS": 7000,
+      "TCPConnectScan": 5896,
+      "SYNScan": 5569,
+      "UDPScan": 4908,
+      "HTTPFlood": 3500,
+      "SYNFlood": 3500,
+      "UDPFlood": 3500,
+      "ICMPFlood": 613
+    },
+    "kelas_test": {
+      "Benign": 14084,
+      "UDPFlood": 3000,
+      "SlowrateDoS": 3000,
+      "TCPConnectScan": 1729,
+      "HTTPFlood": 1500,
+      "SYNFlood": 1500,
+      "SYNScan": 1500,
+      "UDPScan": 1500,
+      "ICMPFlood": 542
+    },
+    "pasangan_R2": [
+      "SYNScan",
+      "UDPScan"
+    ],
+    "aturan_pasangan": "cadangan: kebingungan OOF lintas-partisi = 9996",
+    "grup_R1_top5": [
+      {
+        "partisi": "TCPConnect1.csv",
+        "sumber": "10.155.15.1",
+        "kelas": "TCPConnectScan",
+        "n": 5896
+      },
+      {
+        "partisi": "SYNScan1.csv",
+        "sumber": "10.155.15.1",
+        "kelas": "SYNScan",
+        "n": 5569
+      },
+      {
+        "partisi": "UDPScan1.csv",
+        "sumber": "10.155.15.9",
+        "kelas": "UDPScan",
+        "n": 4908
+      },
+      {
+        "partisi": "Slowloris1.csv",
+        "sumber": "10.155.15.0",
+        "kelas": "SlowrateDoS",
+        "n": 3500
+      },
+      {
+        "partisi": "Goldeneye1.csv",
+        "sumber": "10.155.15.3",
+        "kelas": "HTTPFlood",
+        "n": 3500
+      }
+    ],
+    "target_blok": [
+      646,
+      1938,
+      5169
+    ],
+    "kolom_nominal": [
+      "Proto",
+      "sDSb",
+      "dDSb",
+      "Cause",
+      "State"
+    ]
+  }
+}

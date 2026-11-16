@@ -1,0 +1,124 @@
+{
+  "rows": 1215890,
+  "per_class": {
+    "Seq": {
+      "Benign": {
+        "n": 477737,
+        "min": 1.0,
+        "max": 137210.0
+      },
+      "HTTPFlood": {
+        "n": 140812,
+        "min": 844.0,
+        "max": 38074.0
+      },
+      "ICMPFlood": {
+        "n": 1155,
+        "min": 885.0,
+        "max": 3074.0
+      },
+      "SYNFlood": {
+        "n": 9721,
+        "min": 1851.0,
+        "max": 30125.0
+      },
+      "SYNScan": {
+        "n": 20043,
+        "min": 35.0,
+        "max": 10588.0
+      },
+      "SlowrateDoS": {
+        "n": 73124,
+        "min": 135.0,
+        "max": 10882.0
+      },
+      "TCPConnectScan": {
+        "n": 20052,
+        "min": 47.0,
+        "max": 10622.0
+      },
+      "UDPFlood": {
+        "n": 457340,
+        "min": 1236.0,
+        "max": 135351.0
+      },
+      "UDPScan": {
+        "n": 15906,
+        "min": 46.0,
+        "max": 9278.0
+      }
+    },
+    "Offset": {
+      "Benign": {
+        "n": 477737,
+        "min": 128.0,
+        "max": 39692164.0
+      },
+      "HTTPFlood": {
+        "n": 140812,
+        "min": 150960.0,
+        "max": 16176844.0
+      },
+      "ICMPFlood": {
+        "n": 1155,
+        "min": 148844.0,
+        "max": 633652.0
+      },
+      "SYNFlood": {
+        "n": 9721,
+        "min": 298284.0,
+        "max": 4573984.0
+      },
+      "SYNScan": {
+        "n": 20043,
+        "min": 4600.0,
+        "max": 1090936.0
+      },
+      "SlowrateDoS": {
+        "n": 73124,
+        "min": 52588.0,
+        "max": 6776116.0
+      },
+      "TCPConnectScan": {
+        "n": 20052,
+        "min": 6864.0,
+        "max": 1105072.0
+      },
+      "UDPFlood": {
+        "n": 457340,
+        "min": 256940.0,
+        "max": 39311412.0
+      },
+      "UDPScan": {
+        "n": 15906,
+        "min": 6264.0,
+        "max": 937016.0
+      }
+    }
+  },
+  "overlap": {
+    "Seq": {
+      "Benign": 94.72,
+      "HTTPFlood": 100.0,
+      "ICMPFlood": 100.0,
+      "SYNFlood": 100.0,
+      "SYNScan": 100.0,
+      "SlowrateDoS": 100.0,
+      "TCPConnectScan": 100.0,
+      "UDPFlood": 100.0,
+      "UDPScan": 100.0
+    },
+    "Offset": {
+      "Benign": 99.08,
+      "HTTPFlood": 100.0,
+      "ICMPFlood": 100.0,
+      "SYNFlood": 100.0,
+      "SYNScan": 100.0,
+      "SlowrateDoS": 100.0,
+      "TCPConnectScan": 100.0,
+      "UDPFlood": 100.0,
+      "UDPScan": 100.0
+    }
+  },
+  "runtime_s": 3.5
+}

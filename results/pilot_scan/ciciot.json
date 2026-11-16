@@ -1,0 +1,1065 @@
+{
+ "dataset": "ciciot",
+ "judul": "CICIoT2023 (MERGED_CSV)",
+ "uji_asap": false,
+ "kolom": {
+  "fitur": [
+   "Header_Length",
+   "Protocol Type",
+   "Time_To_Live",
+   "Rate",
+   "fin_flag_number",
+   "syn_flag_number",
+   "rst_flag_number",
+   "psh_flag_number",
+   "ack_flag_number",
+   "ece_flag_number",
+   "cwr_flag_number",
+   "ack_count",
+   "syn_count",
+   "fin_count",
+   "rst_count",
+   "HTTP",
+   "HTTPS",
+   "DNS",
+   "Telnet",
+   "SMTP",
+   "SSH",
+   "IRC",
+   "TCP",
+   "UDP",
+   "DHCP",
+   "ARP",
+   "ICMP",
+   "IGMP",
+   "IPv",
+   "LLC",
+   "Tot sum",
+   "Min",
+   "Max",
+   "AVG",
+   "Std",
+   "Tot size",
+   "IAT",
+   "Number",
+   "Variance"
+  ],
+  "nominal": [],
+  "identitas_lokal": []
+ },
+ "label_benign": "BENIGN",
+ "distribusi_label": {
+  "DDOS-ICMP_FLOOD": 6893259,
+  "DDOS-UDP_FLOOD": 5181027,
+  "DDOS-TCP_FLOOD": 4306086,
+  "DDOS-PSHACK_FLOOD": 3920372,
+  "DDOS-SYN_FLOOD": 3886130,
+  "DDOS-RSTFINFLOOD": 3872808,
+  "DDOS-SYNONYMOUSIP_FLOOD": 3445659,
+  "DOS-UDP_FLOOD": 3177323,
+  "DOS-TCP_FLOOD": 2558256,
+  "DOS-SYN_FLOOD": 1942176,
+  "BENIGN": 1051373,
+  "MIRAI-GREETH_FLOOD": 949381,
+  "MIRAI-UDPPLAIN": 852695,
+  "MIRAI-GREIP_FLOOD": 719655,
+  "DDOS-ICMP_FRAGMENTATION": 433157,
+  "VULNERABILITYSCAN": 357583,
+  "MITM-ARPSPOOFING": 294469,
+  "DDOS-UDP_FRAGMENTATION": 274909,
+  "DDOS-ACK_FRAGMENTATION": 272793,
+  "DNS_SPOOFING": 171468,
+  "RECON-HOSTDISCOVERY": 128677,
+  "RECON-OSSCAN": 93970,
+  "RECON-PORTSCAN": 78730,
+  "DOS-HTTP_FLOOD": 68799,
+  "DDOS-HTTP_FLOOD": 27597,
+  "DDOS-SLOWLORIS": 22400,
+  "DICTIONARYBRUTEFORCE": 12522,
+  "BROWSERHIJACKING": 5630,
+  "COMMANDINJECTION": 5168,
+  "SQLINJECTION": 5022,
+  "XSS": 3705,
+  "BACKDOOR_MALWARE": 3078,
+  "RECON-PINGSWEEP": 2161,
+  "UPLOADING_ATTACK": 1196
+ },
+ "catatan_ekstra": {
+  "label_nan_dibuang": 9
+ },
+ "ringkasan": {
+  "n_baris": 45019234,
+  "n_vektor_unik": 20009450,
+  "pct_baris_duplikat": 55.5536,
+  "n_vektor_konflik": 598086,
+  "pct_baris_konflik_label": 31.2043,
+  "bayes_akurasi": 0.896718,
+  "bayes_macro_f1": 0.954688,
+  "catatan_mayoritas": "seri mayoritas dipecah deterministik (kode label terbesar)"
+ },
+ "pasangan_top10": [
+  {
+   "kelas_a": "DDOS-SYN_FLOOD",
+   "kelas_b": "DDOS-SYNONYMOUSIP_FLOOD",
+   "vektor": 177671,
+   "baris": 4501002
+  },
+  {
+   "kelas_a": "DDOS-TCP_FLOOD",
+   "kelas_b": "DOS-TCP_FLOOD",
+   "vektor": 183800,
+   "baris": 4352499
+  },
+  {
+   "kelas_a": "DOS-UDP_FLOOD",
+   "kelas_b": "DDOS-UDP_FLOOD",
+   "vektor": 150766,
+   "baris": 4057116
+  },
+  {
+   "kelas_a": "DDOS-SYN_FLOOD",
+   "kelas_b": "DOS-SYN_FLOOD",
+   "vektor": 157022,
+   "baris": 3036837
+  },
+  {
+   "kelas_a": "DDOS-SYNONYMOUSIP_FLOOD",
+   "kelas_b": "DOS-SYN_FLOOD",
+   "vektor": 112727,
+   "baris": 2911113
+  },
+  {
+   "kelas_a": "MITM-ARPSPOOFING",
+   "kelas_b": "BENIGN",
+   "vektor": 549,
+   "baris": 21623
+  },
+  {
+   "kelas_a": "DNS_SPOOFING",
+   "kelas_b": "MITM-ARPSPOOFING",
+   "vektor": 408,
+   "baris": 17208
+  },
+  {
+   "kelas_a": "MITM-ARPSPOOFING",
+   "kelas_b": "RECON-HOSTDISCOVERY",
+   "vektor": 241,
+   "baris": 14163
+  },
+  {
+   "kelas_a": "MITM-ARPSPOOFING",
+   "kelas_b": "VULNERABILITYSCAN",
+   "vektor": 239,
+   "baris": 11171
+  },
+  {
+   "kelas_a": "MITM-ARPSPOOFING",
+   "kelas_b": "BROWSERHIJACKING",
+   "vektor": 74,
+   "baris": 8531
+  }
+ ],
+ "pasangan_top3_detail": [
+  {
+   "kelas_a": "DDOS-SYN_FLOOD",
+   "kelas_b": "DDOS-SYNONYMOUSIP_FLOOD",
+   "vektor": [
+    {
+     "hash": "b2a379fdfc8d0929",
+     "baris_pasangan": 831,
+     "baris_vektor": 870,
+     "label_baris": {
+      "DDOS-SYN_FLOOD": 502,
+      "DDOS-SYNONYMOUSIP_FLOOD": 329,
+      "DOS-SYN_FLOOD": 39
+     },
+     "sebaran": {
+      "file": {
+       "DDOS-SYN_FLOOD": {
+        "Merged16.csv": 14,
+        "Merged02.csv": 13,
+        "Merged12.csv": 13,
+        "Merged07.csv": 12,
+        "Merged25.csv": 12
+       },
+       "DDOS-SYNONYMOUSIP_FLOOD": {
+        "Merged42.csv": 14,
+        "Merged56.csv": 11,
+        "Merged27.csv": 10,
+        "Merged01.csv": 9,
+        "Merged33.csv": 9
+       },
+       "DOS-SYN_FLOOD": {
+        "Merged14.csv": 3,
+        "Merged35.csv": 3,
+        "Merged24.csv": 2,
+        "Merged06.csv": 2,
+        "Merged15.csv": 1
+       }
+      }
+     },
+     "contoh_fitur": {
+      "Header_Length": 20.0,
+      "Protocol Type": 6.0,
+      "Time_To_Live": 64.0,
+      "Rate": 43084.78515625,
+      "fin_flag_number": 0.0,
+      "syn_flag_number": 1.0,
+      "rst_flag_number": 0.0,
+      "psh_flag_number": 0.0,
+      "ack_flag_number": 0.0,
+      "ece_flag_number": 0.0,
+      "cwr_flag_number": 0.0,
+      "ack_count": 0.0,
+      "syn_count": 100.0,
+      "fin_count": 0.0,
+      "rst_count": 0.0,
+      "HTTP": 0.0,
+      "HTTPS": 0.0,
+      "DNS": 0.0,
+      "Telnet": 0.0,
+      "SMTP": 0.0,
+      "SSH": 0.0,
+      "IRC": 0.0,
+      "TCP": 1.0,
+      "UDP": 0.0,
+      "DHCP": 0.0,
+      "ARP": 0.0,
+      "ICMP": 0.0,
+      "IGMP": 0.0,
+      "IPv": 1.0,
+      "LLC": 1.0,
+      "Tot sum": 6000.0,
+      "Min": 60.0,
+      "Max": 60.0,
+      "AVG": 60.0,
+      "Std": 0.0,
+      "Tot size": 60.0,
+      "IAT": 2.321004831173923e-05,
+      "Number": 100.0,
+      "Variance": 0.0
+     }
+    },
+    {
+     "hash": "9dfb77e833fd55e5",
+     "baris_pasangan": 818,
+     "baris_vektor": 885,
+     "label_baris": {
+      "DDOS-SYN_FLOOD": 503,
+      "DDOS-SYNONYMOUSIP_FLOOD": 315,
+      "DOS-SYN_FLOOD": 67
+     },
+     "sebaran": {
+      "file": {
+       "DDOS-SYN_FLOOD": {
+        "Merged16.csv": 14,
+        "Merged44.csv": 14,
+        "Merged42.csv": 14,
+        "Merged18.csv": 13,
+        "Merged33.csv": 13
+       },
+       "DDOS-SYNONYMOUSIP_FLOOD": {
+        "Merged14.csv": 12,
+        "Merged04.csv": 11,
+        "Merged26.csv": 11,
+        "Merged35.csv": 10,
+        "Merged61.csv": 9
+       },
+       "DOS-SYN_FLOOD": {
+        "Merged12.csv": 5,
+        "Merged53.csv": 4,
+        "Merged25.csv": 3,
+        "Merged10.csv": 3,
+        "Merged45.csv": 3
+       }
+      }
+     },
+     "contoh_fitur": {
+      "Header_Length": 20.0,
+      "Protocol Type": 6.0,
+      "Time_To_Live": 64.0,
+      "Rate": 41876.0390625,
+      "fin_flag_number": 0.0,
+      "syn_flag_number": 1.0,
+      "rst_flag_number": 0.0,
+      "psh_flag_number": 0.0,
+      "ack_flag_number": 0.0,
+      "ece_flag_number": 0.0,
+      "cwr_flag_number": 0.0,
+      "ack_count": 0.0,
+      "syn_count": 100.0,
+      "fin_count": 0.0,
+      "rst_count": 0.0,
+      "HTTP": 0.0,
+      "HTTPS": 0.0,
+      "DNS": 0.0,
+      "Telnet": 0.0,
+      "SMTP": 0.0,
+      "SSH": 0.0,
+      "IRC": 0.0,
+      "TCP": 1.0,
+      "UDP": 0.0,
+      "DHCP": 0.0,
+      "ARP": 0.0,
+      "ICMP": 0.0,
+      "IGMP": 0.0,
+      "IPv": 1.0,
+      "LLC": 1.0,
+      "Tot sum": 6000.0,
+      "Min": 60.0,
+      "Max": 60.0,
+      "AVG": 60.0,
+      "Std": 0.0,
+      "Tot size": 60.0,
+      "IAT": 2.3880005755927414e-05,
+      "Number": 100.0,
+      "Variance": 0.0
+     }
+    },
+    {
+     "hash": "0899f6a1e17fb208",
+     "baris_pasangan": 809,
+     "baris_vektor": 853,
+     "label_baris": {
+      "DDOS-SYN_FLOOD": 450,
+      "DDOS-SYNONYMOUSIP_FLOOD": 359,
+      "DOS-SYN_FLOOD": 44
+     },
+     "sebaran": {
+      "file": {
+       "DDOS-SYN_FLOOD": {
+        "Merged02.csv": 13,
+        "Merged12.csv": 13,
+        "Merged26.csv": 13,
+        "Merged08.csv": 12,
+        "Merged53.csv": 12
+       },
+       "DDOS-SYNONYMOUSIP_FLOOD": {
+        "Merged42.csv": 12,
+        "Merged31.csv": 11,
+        "Merged27.csv": 10,
+        "Merged21.csv": 10,
+        "Merged33.csv": 10
+       },
+       "DOS-SYN_FLOOD": {
+        "Merged03.csv": 3,
+        "Merged11.csv": 2,
+        "Merged13.csv": 2,
+        "Merged17.csv": 2,
+        "Merged25.csv": 2
+       }
+      }
+     },
+     "contoh_fitur": {
+      "Header_Length": 20.0,
+      "Protocol Type": 6.0,
+      "Time_To_Live": 64.0,
+      "Rate": 41964.0234375,
+      "fin_flag_number": 0.0,
+      "syn_flag_number": 1.0,
+      "rst_flag_number": 0.0,
+      "psh_flag_number": 0.0,
+      "ack_flag_number": 0.0,
+      "ece_flag_number": 0.0,
+      "cwr_flag_number": 0.0,
+      "ack_count": 0.0,
+      "syn_count": 100.0,
+      "fin_count": 0.0,
+      "rst_count": 0.0,
+      "HTTP": 0.0,
+      "HTTPS": 0.0,
+      "DNS": 0.0,
+      "Telnet": 0.0,
+      "SMTP": 0.0,
+      "SSH": 0.0,
+      "IRC": 0.0,
+      "TCP": 1.0,
+      "UDP": 0.0,
+      "DHCP": 0.0,
+      "ARP": 0.0,
+      "ICMP": 0.0,
+      "IGMP": 0.0,
+      "IPv": 1.0,
+      "LLC": 1.0,
+      "Tot sum": 6000.0,
+      "Min": 60.0,
+      "Max": 60.0,
+      "AVG": 60.0,
+      "Std": 0.0,
+      "Tot size": 60.0,
+      "IAT": 2.382993625360541e-05,
+      "Number": 100.0,
+      "Variance": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "kelas_a": "DDOS-TCP_FLOOD",
+   "kelas_b": "DOS-TCP_FLOOD",
+   "vektor": [
+    {
+     "hash": "8450cecdc5f0de78",
+     "baris_pasangan": 914,
+     "baris_vektor": 914,
+     "label_baris": {
+      "DDOS-TCP_FLOOD": 782,
+      "DOS-TCP_FLOOD": 132
+     },
+     "sebaran": {
+      "file": {
+       "DDOS-TCP_FLOOD": {
+        "Merged15.csv": 25,
+        "Merged24.csv": 21,
+        "Merged57.csv": 21,
+        "Merged19.csv": 19,
+        "Merged33.csv": 18
+       },
+       "DOS-TCP_FLOOD": {
+        "Merged29.csv": 6,
+        "Merged11.csv": 5,
+        "Merged48.csv": 5,
+        "Merged35.csv": 5,
+        "Merged54.csv": 5
+       }
+      }
+     },
+     "contoh_fitur": {
+      "Header_Length": 20.0,
+      "Protocol Type": 6.0,
+      "Time_To_Live": 64.0,
+      "Rate": 40733.26171875,
+      "fin_flag_number": 0.0,
+      "syn_flag_number": 0.0,
+      "rst_flag_number": 0.0,
+      "psh_flag_number": 0.0,
+      "ack_flag_number": 0.0,
+      "ece_flag_number": 0.0,
+      "cwr_flag_number": 0.0,
+      "ack_count": 0.0,
+      "syn_count": 0.0,
+      "fin_count": 0.0,
+      "rst_count": 0.0,
+      "HTTP": 0.0,
+      "HTTPS": 0.0,
+      "DNS": 0.0,
+      "Telnet": 0.0,
+      "SMTP": 0.0,
+      "SSH": 0.0,
+      "IRC": 0.0,
+      "TCP": 1.0,
+      "UDP": 0.0,
+      "DHCP": 0.0,
+      "ARP": 0.0,
+      "ICMP": 0.0,
+      "IGMP": 0.0,
+      "IPv": 1.0,
+      "LLC": 1.0,
+      "Tot sum": 6000.0,
+      "Min": 60.0,
+      "Max": 60.0,
+      "AVG": 60.0,
+      "Std": 0.0,
+      "Tot size": 60.0,
+      "IAT": 2.4549961381126195e-05,
+      "Number": 100.0,
+      "Variance": 0.0
+     }
+    },
+    {
+     "hash": "c9693fa6a7495731",
+     "baris_pasangan": 904,
+     "baris_vektor": 904,
+     "label_baris": {
+      "DDOS-TCP_FLOOD": 444,
+      "DOS-TCP_FLOOD": 460
+     },
+     "sebaran": {
+      "file": {
+       "DDOS-TCP_FLOOD": {
+        "Merged12.csv": 13,
+        "Merged02.csv": 12,
+        "Merged05.csv": 12,
+        "Merged61.csv": 12,
+        "Merged36.csv": 11
+       },
+       "DOS-TCP_FLOOD": {
+        "Merged26.csv": 16,
+        "Merged12.csv": 15,
+        "Merged24.csv": 14,
+        "Merged05.csv": 14,
+        "Merged20.csv": 13
+       }
+      }
+     },
+     "contoh_fitur": {
+      "Header_Length": 20.0,
+      "Protocol Type": 6.0,
+      "Time_To_Live": 64.0,
+      "Rate": 31289.1015625,
+      "fin_flag_number": 0.0,
+      "syn_flag_number": 0.0,
+      "rst_flag_number": 0.0,
+      "psh_flag_number": 0.0,
+      "ack_flag_number": 0.0,
+      "ece_flag_number": 0.0,
+      "cwr_flag_number": 0.0,
+      "ack_count": 0.0,
+      "syn_count": 0.0,
+      "fin_count": 0.0,
+      "rst_count": 0.0,
+      "HTTP": 0.0,
+      "HTTPS": 0.0,
+      "DNS": 0.0,
+      "Telnet": 0.0,
+      "SMTP": 0.0,
+      "SSH": 0.0,
+      "IRC": 0.0,
+      "TCP": 1.0,
+      "UDP": 0.0,
+      "DHCP": 0.0,
+      "ARP": 0.0,
+      "ICMP": 0.0,
+      "IGMP": 0.0,
+      "IPv": 1.0,
+      "LLC": 1.0,
+      "Tot sum": 6000.0,
+      "Min": 60.0,
+      "Max": 60.0,
+      "AVG": 60.0,
+      "Std": 0.0,
+      "Tot size": 60.0,
+      "IAT": 3.1960011256160215e-05,
+      "Number": 100.0,
+      "Variance": 0.0
+     }
+    },
+    {
+     "hash": "158b73025927404d",
+     "baris_pasangan": 885,
+     "baris_vektor": 885,
+     "label_baris": {
+      "DDOS-TCP_FLOOD": 640,
+      "DOS-TCP_FLOOD": 245
+     },
+     "sebaran": {
+      "file": {
+       "DDOS-TCP_FLOOD": {
+        "Merged34.csv": 20,
+        "Merged11.csv": 16,
+        "Merged27.csv": 16,
+        "Merged20.csv": 15,
+        "Merged24.csv": 15
+       },
+       "DOS-TCP_FLOOD": {
+        "Merged62.csv": 9,
+        "Merged11.csv": 8,
+        "Merged05.csv": 7,
+        "Merged01.csv": 7,
+        "Merged40.csv": 7
+       }
+      }
+     },
+     "contoh_fitur": {
+      "Header_Length": 20.0,
+      "Protocol Type": 6.0,
+      "Time_To_Live": 64.0,
+      "Rate": 36589.93359375,
+      "fin_flag_number": 0.0,
+      "syn_flag_number": 0.0,
+      "rst_flag_number": 0.0,
+      "psh_flag_number": 0.0,
+      "ack_flag_number": 0.0,
+      "ece_flag_number": 0.0,
+      "cwr_flag_number": 0.0,
+      "ack_count": 0.0,
+      "syn_count": 0.0,
+      "fin_count": 0.0,
+      "rst_count": 0.0,
+      "HTTP": 0.0,
+      "HTTPS": 0.0,
+      "DNS": 0.0,
+      "Telnet": 0.0,
+      "SMTP": 0.0,
+      "SSH": 0.0,
+      "IRC": 0.0,
+      "TCP": 1.0,
+      "UDP": 0.0,
+      "DHCP": 0.0,
+      "ARP": 0.0,
+      "ICMP": 0.0,
+      "IGMP": 0.0,
+      "IPv": 1.0,
+      "LLC": 1.0,
+      "Tot sum": 6000.0,
+      "Min": 60.0,
+      "Max": 60.0,
+      "AVG": 60.0,
+      "Std": 0.0,
+      "Tot size": 60.0,
+      "IAT": 2.7329921067575924e-05,
+      "Number": 100.0,
+      "Variance": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "kelas_a": "DOS-UDP_FLOOD",
+   "kelas_b": "DDOS-UDP_FLOOD",
+   "vektor": [
+    {
+     "hash": "47deb27422da36cf",
+     "baris_pasangan": 654,
+     "baris_vektor": 654,
+     "label_baris": {
+      "DOS-UDP_FLOOD": 430,
+      "DDOS-UDP_FLOOD": 224
+     },
+     "sebaran": {
+      "file": {
+       "DOS-UDP_FLOOD": {
+        "Merged21.csv": 13,
+        "Merged09.csv": 12,
+        "Merged22.csv": 12,
+        "Merged32.csv": 12,
+        "Merged27.csv": 12
+       },
+       "DDOS-UDP_FLOOD": {
+        "Merged56.csv": 10,
+        "Merged02.csv": 8,
+        "Merged45.csv": 8,
+        "Merged53.csv": 8,
+        "Merged20.csv": 6
+       }
+      }
+     },
+     "contoh_fitur": {
+      "Header_Length": 8.0,
+      "Protocol Type": 17.0,
+      "Time_To_Live": 64.0,
+      "Rate": 29985.015625,
+      "fin_flag_number": 0.0,
+      "syn_flag_number": 0.0,
+      "rst_flag_number": 0.0,
+      "psh_flag_number": 0.0,
+      "ack_flag_number": 0.0,
+      "ece_flag_number": 0.0,
+      "cwr_flag_number": 0.0,
+      "ack_count": 0.0,
+      "syn_count": 0.0,
+      "fin_count": 0.0,
+      "rst_count": 0.0,
+      "HTTP": 0.0,
+      "HTTPS": 0.0,
+      "DNS": 0.0,
+      "Telnet": 0.0,
+      "SMTP": 0.0,
+      "SSH": 0.0,
+      "IRC": 0.0,
+      "TCP": 0.0,
+      "UDP": 1.0,
+      "DHCP": 0.0,
+      "ARP": 0.0,
+      "ICMP": 0.0,
+      "IGMP": 0.0,
+      "IPv": 1.0,
+      "LLC": 1.0,
+      "Tot sum": 6000.0,
+      "Min": 60.0,
+      "Max": 60.0,
+      "AVG": 60.0,
+      "Std": 0.0,
+      "Tot size": 60.0,
+      "IAT": 3.334999200887978e-05,
+      "Number": 100.0,
+      "Variance": 0.0
+     }
+    },
+    {
+     "hash": "5d0290dd3839b0a9",
+     "baris_pasangan": 619,
+     "baris_vektor": 619,
+     "label_baris": {
+      "DOS-UDP_FLOOD": 418,
+      "DDOS-UDP_FLOOD": 201
+     },
+     "sebaran": {
+      "file": {
+       "DOS-UDP_FLOOD": {
+        "Merged13.csv": 12,
+        "Merged12.csv": 11,
+        "Merged15.csv": 10,
+        "Merged28.csv": 10,
+        "Merged54.csv": 10
+       },
+       "DDOS-UDP_FLOOD": {
+        "Merged43.csv": 8,
+        "Merged55.csv": 7,
+        "Merged29.csv": 6,
+        "Merged37.csv": 6,
+        "Merged33.csv": 6
+       }
+      }
+     },
+     "contoh_fitur": {
+      "Header_Length": 8.0,
+      "Protocol Type": 17.0,
+      "Time_To_Live": 64.0,
+      "Rate": 30266.30078125,
+      "fin_flag_number": 0.0,
+      "syn_flag_number": 0.0,
+      "rst_flag_number": 0.0,
+      "psh_flag_number": 0.0,
+      "ack_flag_number": 0.0,
+      "ece_flag_number": 0.0,
+      "cwr_flag_number": 0.0,
+      "ack_count": 0.0,
+      "syn_count": 0.0,
+      "fin_count": 0.0,
+      "rst_count": 0.0,
+      "HTTP": 0.0,
+      "HTTPS": 0.0,
+      "DNS": 0.0,
+      "Telnet": 0.0,
+      "SMTP": 0.0,
+      "SSH": 0.0,
+      "IRC": 0.0,
+      "TCP": 0.0,
+      "UDP": 1.0,
+      "DHCP": 0.0,
+      "ARP": 0.0,
+      "ICMP": 0.0,
+      "IGMP": 0.0,
+      "IPv": 1.0,
+      "LLC": 1.0,
+      "Tot sum": 6000.0,
+      "Min": 60.0,
+      "Max": 60.0,
+      "AVG": 60.0,
+      "Std": 0.0,
+      "Tot size": 60.0,
+      "IAT": 3.304004712845199e-05,
+      "Number": 100.0,
+      "Variance": 0.0
+     }
+    },
+    {
+     "hash": "bc346be2ea6f524e",
+     "baris_pasangan": 610,
+     "baris_vektor": 610,
+     "label_baris": {
+      "DOS-UDP_FLOOD": 12,
+      "DDOS-UDP_FLOOD": 598
+     },
+     "sebaran": {
+      "file": {
+       "DOS-UDP_FLOOD": {
+        "Merged01.csv": 1,
+        "Merged10.csv": 1,
+        "Merged29.csv": 1,
+        "Merged24.csv": 1,
+        "Merged30.csv": 1
+       },
+       "DDOS-UDP_FLOOD": {
+        "Merged11.csv": 20,
+        "Merged32.csv": 16,
+        "Merged42.csv": 16,
+        "Merged54.csv": 15,
+        "Merged17.csv": 14
+       }
+      }
+     },
+     "contoh_fitur": {
+      "Header_Length": 8.0,
+      "Protocol Type": 17.0,
+      "Time_To_Live": 64.0,
+      "Rate": 42992.046875,
+      "fin_flag_number": 0.0,
+      "syn_flag_number": 0.0,
+      "rst_flag_number": 0.0,
+      "psh_flag_number": 0.0,
+      "ack_flag_number": 0.0,
+      "ece_flag_number": 0.0,
+      "cwr_flag_number": 0.0,
+      "ack_count": 0.0,
+      "syn_count": 0.0,
+      "fin_count": 0.0,
+      "rst_count": 0.0,
+      "HTTP": 0.0,
+      "HTTPS": 0.0,
+      "DNS": 0.0,
+      "Telnet": 0.0,
+      "SMTP": 0.0,
+      "SSH": 0.0,
+      "IRC": 0.0,
+      "TCP": 0.0,
+      "UDP": 1.0,
+      "DHCP": 0.0,
+      "ARP": 0.0,
+      "ICMP": 0.0,
+      "IGMP": 0.0,
+      "IPv": 1.0,
+      "LLC": 1.0,
+      "Tot sum": 6000.0,
+      "Min": 60.0,
+      "Max": 60.0,
+      "AVG": 60.0,
+      "Std": 0.0,
+      "Tot size": 60.0,
+      "IAT": 2.326965295651462e-05,
+      "Number": 100.0,
+      "Variance": 0.0
+     }
+    }
+   ]
+  }
+ ],
+ "model_satu_fitur": {
+  "n_sampel": 200000,
+  "latih": 100000,
+  "uji": 100000,
+  "hasil": [
+   {
+    "kolom": "Header_Length",
+    "jenis": "fitur",
+    "auc_biner": 0.9146,
+    "macro_f1_multikelas": 0.0929
+   },
+   {
+    "kolom": "Protocol Type",
+    "jenis": "fitur",
+    "auc_biner": 0.6794,
+    "macro_f1_multikelas": 0.0786
+   },
+   {
+    "kolom": "Time_To_Live",
+    "jenis": "fitur",
+    "auc_biner": 0.8922,
+    "macro_f1_multikelas": 0.0316
+   },
+   {
+    "kolom": "Rate",
+    "jenis": "fitur",
+    "auc_biner": 0.9492,
+    "macro_f1_multikelas": 0.0417
+   },
+   {
+    "kolom": "fin_flag_number",
+    "jenis": "fitur",
+    "auc_biner": 0.5929,
+    "macro_f1_multikelas": 0.0489
+   },
+   {
+    "kolom": "syn_flag_number",
+    "jenis": "fitur",
+    "auc_biner": 0.6671,
+    "macro_f1_multikelas": 0.0553
+   },
+   {
+    "kolom": "rst_flag_number",
+    "jenis": "fitur",
+    "auc_biner": 0.5616,
+    "macro_f1_multikelas": 0.0449
+   },
+   {
+    "kolom": "psh_flag_number",
+    "jenis": "fitur",
+    "auc_biner": 0.8591,
+    "macro_f1_multikelas": 0.0568
+   },
+   {
+    "kolom": "ack_flag_number",
+    "jenis": "fitur",
+    "auc_biner": 0.9584,
+    "macro_f1_multikelas": 0.0633
+   },
+   {
+    "kolom": "ece_flag_number",
+    "jenis": "fitur",
+    "auc_biner": 0.5021,
+    "macro_f1_multikelas": 0.0078
+   },
+   {
+    "kolom": "cwr_flag_number",
+    "jenis": "fitur",
+    "auc_biner": 0.5013,
+    "macro_f1_multikelas": 0.0078
+   },
+   {
+    "kolom": "ack_count",
+    "jenis": "fitur",
+    "auc_biner": 0.9811,
+    "macro_f1_multikelas": 0.0736
+   },
+   {
+    "kolom": "syn_count",
+    "jenis": "fitur",
+    "auc_biner": 0.6309,
+    "macro_f1_multikelas": 0.0484
+   },
+   {
+    "kolom": "fin_count",
+    "jenis": "fitur",
+    "auc_biner": 0.5734,
+    "macro_f1_multikelas": 0.055
+   },
+   {
+    "kolom": "rst_count",
+    "jenis": "fitur",
+    "auc_biner": 0.558,
+    "macro_f1_multikelas": 0.045
+   },
+   {
+    "kolom": "HTTP",
+    "jenis": "fitur",
+    "auc_biner": 0.5681,
+    "macro_f1_multikelas": 0.0302
+   },
+   {
+    "kolom": "HTTPS",
+    "jenis": "fitur",
+    "auc_biner": 0.9649,
+    "macro_f1_multikelas": 0.0271
+   },
+   {
+    "kolom": "DNS",
+    "jenis": "fitur",
+    "auc_biner": 0.5983,
+    "macro_f1_multikelas": 0.0224
+   },
+   {
+    "kolom": "Telnet",
+    "jenis": "fitur",
+    "auc_biner": 0.5005,
+    "macro_f1_multikelas": 0.0079
+   },
+   {
+    "kolom": "SMTP",
+    "jenis": "fitur",
+    "auc_biner": 0.5005,
+    "macro_f1_multikelas": 0.0079
+   },
+   {
+    "kolom": "SSH",
+    "jenis": "fitur",
+    "auc_biner": 0.5131,
+    "macro_f1_multikelas": 0.0185
+   },
+   {
+    "kolom": "IRC",
+    "jenis": "fitur",
+    "auc_biner": 0.5001,
+    "macro_f1_multikelas": 0.0079
+   },
+   {
+    "kolom": "TCP",
+    "jenis": "fitur",
+    "auc_biner": 0.8886,
+    "macro_f1_multikelas": 0.065
+   },
+   {
+    "kolom": "UDP",
+    "jenis": "fitur",
+    "auc_biner": 0.8176,
+    "macro_f1_multikelas": 0.073
+   },
+   {
+    "kolom": "DHCP",
+    "jenis": "fitur",
+    "auc_biner": 0.5076,
+    "macro_f1_multikelas": 0.0093
+   },
+   {
+    "kolom": "ARP",
+    "jenis": "fitur",
+    "auc_biner": 0.6175,
+    "macro_f1_multikelas": 0.0205
+   },
+   {
+    "kolom": "ICMP",
+    "jenis": "fitur",
+    "auc_biner": 0.6329,
+    "macro_f1_multikelas": 0.0574
+   },
+   {
+    "kolom": "IGMP",
+    "jenis": "fitur",
+    "auc_biner": 0.5013,
+    "macro_f1_multikelas": 0.008
+   },
+   {
+    "kolom": "IPv",
+    "jenis": "fitur",
+    "auc_biner": 0.6175,
+    "macro_f1_multikelas": 0.0205
+   },
+   {
+    "kolom": "LLC",
+    "jenis": "fitur",
+    "auc_biner": 0.6175,
+    "macro_f1_multikelas": 0.0205
+   },
+   {
+    "kolom": "Tot sum",
+    "jenis": "fitur",
+    "auc_biner": 0.9763,
+    "macro_f1_multikelas": 0.1097
+   },
+   {
+    "kolom": "Min",
+    "jenis": "fitur",
+    "auc_biner": 0.7842,
+    "macro_f1_multikelas": 0.0687
+   },
+   {
+    "kolom": "Max",
+    "jenis": "fitur",
+    "auc_biner": 0.9276,
+    "macro_f1_multikelas": 0.0903
+   },
+   {
+    "kolom": "AVG",
+    "jenis": "fitur",
+    "auc_biner": 0.9617,
+    "macro_f1_multikelas": 0.0739
+   },
+   {
+    "kolom": "Std",
+    "jenis": "fitur",
+    "auc_biner": 0.9353,
+    "macro_f1_multikelas": 0.059
+   },
+   {
+    "kolom": "Tot size",
+    "jenis": "fitur",
+    "auc_biner": 0.9617,
+    "macro_f1_multikelas": 0.0739
+   },
+   {
+    "kolom": "IAT",
+    "jenis": "fitur",
+    "auc_biner": 0.953,
+    "macro_f1_multikelas": 0.0419
+   },
+   {
+    "kolom": "Number",
+    "jenis": "fitur",
+    "auc_biner": 0.9868,
+    "macro_f1_multikelas": 0.0272
+   },
+   {
+    "kolom": "Variance",
+    "jenis": "fitur",
+    "auc_biner": 0.9353,
+    "macro_f1_multikelas": 0.059
+   }
+  ]
+ },
+ "waktu_detik": {
+  "pass_a": 1901.2,
+  "statistik": 1344.1,
+  "pass_b": 649.0,
+  "task5": 19.9
+ }
+}

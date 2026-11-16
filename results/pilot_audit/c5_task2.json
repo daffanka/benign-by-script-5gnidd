@@ -1,0 +1,388 @@
+{
+  "ukuran": {
+    "A": {
+      "total": 1215890,
+      "BS1": 728316,
+      "BS2": 487574
+    },
+    "B": {
+      "total": 1215890,
+      "BS1": 728316,
+      "BS2": 487574
+    },
+    "C": {
+      "total": 925573,
+      "BS1": 443071,
+      "BS2": 482502
+    }
+  },
+  "hasil": {
+    "A|acak|HGB": {
+      "macro_f1": 0.9265,
+      "seeds": [
+        0.9257,
+        0.9266,
+        0.9273
+      ],
+      "recall_per_class": {
+        "Benign": 0.548,
+        "HTTPFlood": 0.991,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 0.9991,
+        "SYNScan": 0.9973,
+        "SlowrateDoS": 0.9797,
+        "TCPConnectScan": 0.9982,
+        "UDPFlood": 0.8514,
+        "UDPScan": 0.9977
+      }
+    },
+    "A|acak|RF": {
+      "macro_f1": 0.9249,
+      "seeds": [
+        0.9247,
+        0.9251,
+        0.9249
+      ],
+      "recall_per_class": {
+        "Benign": 0.543,
+        "HTTPFlood": 0.9918,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9966,
+        "SlowrateDoS": 0.9796,
+        "TCPConnectScan": 0.9987,
+        "UDPFlood": 0.8333,
+        "UDPScan": 0.9977
+      }
+    },
+    "A|BS1->BS2|HGB": {
+      "macro_f1": 0.8084,
+      "seeds": [
+        0.8084,
+        0.8088,
+        0.8079
+      ],
+      "recall_per_class": {
+        "Benign": 0.9973,
+        "HTTPFlood": 0.989,
+        "ICMPFlood": 0.994,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9984,
+        "SlowrateDoS": 0.9709,
+        "TCPConnectScan": 0.9991,
+        "UDPFlood": 0.0,
+        "UDPScan": 0.9974
+      },
+      "TPR": 0.3245,
+      "FPR": 0.0039
+    },
+    "A|BS1->BS2|RF": {
+      "macro_f1": 0.8102,
+      "seeds": [
+        0.8101,
+        0.8102,
+        0.8104
+      ],
+      "recall_per_class": {
+        "Benign": 0.9997,
+        "HTTPFlood": 0.9904,
+        "ICMPFlood": 0.997,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9976,
+        "SlowrateDoS": 0.9731,
+        "TCPConnectScan": 0.9992,
+        "UDPFlood": 0.0,
+        "UDPScan": 0.9976
+      },
+      "TPR": 0.3245,
+      "FPR": 0.0002
+    },
+    "A|BS2->BS1|HGB": {
+      "macro_f1": 0.8608,
+      "seeds": [
+        0.8608,
+        0.8605,
+        0.8611
+      ],
+      "recall_per_class": {
+        "Benign": 0.3077,
+        "HTTPFlood": 0.992,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 0.7106,
+        "SYNScan": 0.9989,
+        "SlowrateDoS": 0.9699,
+        "TCPConnectScan": 0.9981,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9982
+      },
+      "TPR": 0.991,
+      "FPR": 0.6923
+    },
+    "A|BS2->BS1|RF": {
+      "macro_f1": 0.8614,
+      "seeds": [
+        0.8661,
+        0.8565,
+        0.8617
+      ],
+      "recall_per_class": {
+        "Benign": 0.3077,
+        "HTTPFlood": 0.9923,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 0.7086,
+        "SYNScan": 0.9993,
+        "SlowrateDoS": 0.9691,
+        "TCPConnectScan": 0.9981,
+        "UDPFlood": 0.9742,
+        "UDPScan": 0.9984
+      },
+      "TPR": 0.991,
+      "FPR": 0.6928
+    },
+    "B|acak|HGB": {
+      "macro_f1": 0.9957,
+      "seeds": [
+        0.9959,
+        0.9954,
+        0.9958
+      ],
+      "recall_per_class": {
+        "Benign": 0.9999,
+        "HTTPFlood": 0.994,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9978,
+        "SlowrateDoS": 0.9728,
+        "TCPConnectScan": 0.9984,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9975
+      }
+    },
+    "B|acak|RF": {
+      "macro_f1": 0.9963,
+      "seeds": [
+        0.9964,
+        0.9964,
+        0.996
+      ],
+      "recall_per_class": {
+        "Benign": 0.9998,
+        "HTTPFlood": 0.9941,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9975,
+        "SlowrateDoS": 0.9756,
+        "TCPConnectScan": 0.9987,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.998
+      }
+    },
+    "B|BS1->BS2|HGB": {
+      "macro_f1": 0.9935,
+      "seeds": [
+        0.9935,
+        0.9935,
+        0.9936
+      ],
+      "recall_per_class": {
+        "Benign": 0.9998,
+        "HTTPFlood": 0.9884,
+        "ICMPFlood": 0.994,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9985,
+        "SlowrateDoS": 0.9716,
+        "TCPConnectScan": 0.9987,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9971
+      },
+      "TPR": 1.0,
+      "FPR": 0.003
+    },
+    "B|BS1->BS2|RF": {
+      "macro_f1": 0.9948,
+      "seeds": [
+        0.9946,
+        0.9951,
+        0.9946
+      ],
+      "recall_per_class": {
+        "Benign": 0.9999,
+        "HTTPFlood": 0.9916,
+        "ICMPFlood": 0.997,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9981,
+        "SlowrateDoS": 0.9731,
+        "TCPConnectScan": 0.9992,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9966
+      },
+      "TPR": 1.0,
+      "FPR": 0.0001
+    },
+    "B|BS2->BS1|HGB": {
+      "macro_f1": 0.9698,
+      "seeds": [
+        0.9698,
+        0.9695,
+        0.9702
+      ],
+      "recall_per_class": {
+        "Benign": 0.9999,
+        "HTTPFlood": 0.9922,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 0.7167,
+        "SYNScan": 0.9993,
+        "SlowrateDoS": 0.9716,
+        "TCPConnectScan": 0.9974,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9991
+      },
+      "TPR": 0.9952,
+      "FPR": 0.0
+    },
+    "B|BS2->BS1|RF": {
+      "macro_f1": 0.9694,
+      "seeds": [
+        0.9747,
+        0.963,
+        0.9706
+      ],
+      "recall_per_class": {
+        "Benign": 0.9998,
+        "HTTPFlood": 0.9927,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 0.7157,
+        "SYNScan": 0.9989,
+        "SlowrateDoS": 0.9702,
+        "TCPConnectScan": 0.9975,
+        "UDPFlood": 0.9903,
+        "UDPScan": 0.9991
+      },
+      "TPR": 0.9952,
+      "FPR": 0.0015
+    },
+    "C|acak|HGB": {
+      "macro_f1": 0.9956,
+      "seeds": [
+        0.9964,
+        0.9945,
+        0.9959
+      ],
+      "recall_per_class": {
+        "Benign": 0.9999,
+        "HTTPFlood": 0.9921,
+        "ICMPFlood": 0.997,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9983,
+        "SlowrateDoS": 0.9762,
+        "TCPConnectScan": 0.9995,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9974
+      }
+    },
+    "C|acak|RF": {
+      "macro_f1": 0.9959,
+      "seeds": [
+        0.9961,
+        0.9955,
+        0.996
+      ],
+      "recall_per_class": {
+        "Benign": 0.9999,
+        "HTTPFlood": 0.9914,
+        "ICMPFlood": 0.997,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9979,
+        "SlowrateDoS": 0.9766,
+        "TCPConnectScan": 0.999,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9981
+      }
+    },
+    "C|BS1->BS2|HGB": {
+      "macro_f1": 0.995,
+      "seeds": [
+        0.995,
+        0.995,
+        0.9949
+      ],
+      "recall_per_class": {
+        "Benign": 0.9996,
+        "HTTPFlood": 0.9907,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9983,
+        "SlowrateDoS": 0.9695,
+        "TCPConnectScan": 0.9982,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9982
+      },
+      "TPR": 1.0,
+      "FPR": 0.0002
+    },
+    "C|BS1->BS2|RF": {
+      "macro_f1": 0.9952,
+      "seeds": [
+        0.9953,
+        0.9951,
+        0.9952
+      ],
+      "recall_per_class": {
+        "Benign": 0.9999,
+        "HTTPFlood": 0.991,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 1.0,
+        "SYNScan": 0.9971,
+        "SlowrateDoS": 0.9711,
+        "TCPConnectScan": 0.9985,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9988
+      },
+      "TPR": 1.0,
+      "FPR": 0.0001
+    },
+    "C|BS2->BS1|HGB": {
+      "macro_f1": 0.9677,
+      "seeds": [
+        0.9681,
+        0.9679,
+        0.9672
+      ],
+      "recall_per_class": {
+        "Benign": 0.9999,
+        "HTTPFlood": 0.9914,
+        "ICMPFlood": 0.9976,
+        "SYNFlood": 0.7075,
+        "SYNScan": 0.9977,
+        "SlowrateDoS": 0.9721,
+        "TCPConnectScan": 0.9979,
+        "UDPFlood": 1.0,
+        "UDPScan": 0.9976
+      },
+      "TPR": 0.9912,
+      "FPR": 0.0
+    },
+    "C|BS2->BS1|RF": {
+      "macro_f1": 0.9613,
+      "seeds": [
+        0.9462,
+        0.9688,
+        0.9689
+      ],
+      "recall_per_class": {
+        "Benign": 0.9994,
+        "HTTPFlood": 0.9911,
+        "ICMPFlood": 1.0,
+        "SYNFlood": 0.7068,
+        "SYNScan": 0.9971,
+        "SlowrateDoS": 0.9712,
+        "TCPConnectScan": 0.9982,
+        "UDPFlood": 0.9433,
+        "UDPScan": 0.9973
+      },
+      "TPR": 0.9912,
+      "FPR": 0.0015
+    }
+  },
+  "runtime_s": 728.1
+}

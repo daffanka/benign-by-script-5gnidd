@@ -1,0 +1,429 @@
+{
+  "dataset": "5gnidd",
+  "n_rows_probe": 199995,
+  "top10_auc_bin": [
+    {
+      "feature": "Seq",
+      "is_identity": true,
+      "auc_bin": 0.8627,
+      "f1_multi": 0.1644
+    },
+    {
+      "feature": "Offset",
+      "is_identity": true,
+      "auc_bin": 0.8569,
+      "f1_multi": 0.148
+    },
+    {
+      "feature": "sMeanPktSz",
+      "is_identity": false,
+      "auc_bin": 0.7435,
+      "f1_multi": 0.2996
+    },
+    {
+      "feature": "TotBytes",
+      "is_identity": false,
+      "auc_bin": 0.7262,
+      "f1_multi": 0.2742
+    },
+    {
+      "feature": "sTtl",
+      "is_identity": false,
+      "auc_bin": 0.7152,
+      "f1_multi": 0.2113
+    },
+    {
+      "feature": "sHops",
+      "is_identity": false,
+      "auc_bin": 0.7024,
+      "f1_multi": 0.2012
+    },
+    {
+      "feature": "SrcBytes",
+      "is_identity": false,
+      "auc_bin": 0.6905,
+      "f1_multi": 0.2215
+    },
+    {
+      "feature": "dTtl",
+      "is_identity": false,
+      "auc_bin": 0.6862,
+      "f1_multi": 0.1787
+    },
+    {
+      "feature": "dHops",
+      "is_identity": false,
+      "auc_bin": 0.6862,
+      "f1_multi": 0.1787
+    },
+    {
+      "feature": "Proto",
+      "is_identity": false,
+      "auc_bin": 0.6838,
+      "f1_multi": 0.1634
+    }
+  ],
+  "top10_f1_multi": [
+    {
+      "feature": "DstBytes",
+      "is_identity": false,
+      "auc_bin": 0.6082,
+      "f1_multi": 0.4602
+    },
+    {
+      "feature": "TcpRtt",
+      "is_identity": false,
+      "auc_bin": 0.6459,
+      "f1_multi": 0.3603
+    },
+    {
+      "feature": "DstWin",
+      "is_identity": false,
+      "auc_bin": 0.6205,
+      "f1_multi": 0.3344
+    },
+    {
+      "feature": "SrcWin",
+      "is_identity": false,
+      "auc_bin": 0.6604,
+      "f1_multi": 0.3291
+    },
+    {
+      "feature": "sMeanPktSz",
+      "is_identity": false,
+      "auc_bin": 0.7435,
+      "f1_multi": 0.2996
+    },
+    {
+      "feature": "dMeanPktSz",
+      "is_identity": false,
+      "auc_bin": 0.6186,
+      "f1_multi": 0.2852
+    },
+    {
+      "feature": "TotBytes",
+      "is_identity": false,
+      "auc_bin": 0.7262,
+      "f1_multi": 0.2742
+    },
+    {
+      "feature": "Load",
+      "is_identity": false,
+      "auc_bin": 0.6664,
+      "f1_multi": 0.27
+    },
+    {
+      "feature": "AckDat",
+      "is_identity": false,
+      "auc_bin": 0.6398,
+      "f1_multi": 0.2585
+    },
+    {
+      "feature": "SrcPkts",
+      "is_identity": false,
+      "auc_bin": 0.6168,
+      "f1_multi": 0.2398
+    }
+  ],
+  "all_features": [
+    {
+      "feature": "Seq",
+      "is_identity": true,
+      "auc_bin": 0.8627,
+      "f1_multi": 0.1644
+    },
+    {
+      "feature": "Dur",
+      "is_identity": false,
+      "auc_bin": 0.6406,
+      "f1_multi": 0.1707
+    },
+    {
+      "feature": "RunTime",
+      "is_identity": false,
+      "auc_bin": 0.6406,
+      "f1_multi": 0.1707
+    },
+    {
+      "feature": "Mean",
+      "is_identity": false,
+      "auc_bin": 0.6406,
+      "f1_multi": 0.1707
+    },
+    {
+      "feature": "Sum",
+      "is_identity": false,
+      "auc_bin": 0.6406,
+      "f1_multi": 0.1707
+    },
+    {
+      "feature": "Min",
+      "is_identity": false,
+      "auc_bin": 0.6406,
+      "f1_multi": 0.1707
+    },
+    {
+      "feature": "Max",
+      "is_identity": false,
+      "auc_bin": 0.6406,
+      "f1_multi": 0.1707
+    },
+    {
+      "feature": "Proto",
+      "is_identity": false,
+      "auc_bin": 0.6838,
+      "f1_multi": 0.1634
+    },
+    {
+      "feature": "sTos",
+      "is_identity": false,
+      "auc_bin": 0.5071,
+      "f1_multi": 0.0627
+    },
+    {
+      "feature": "dTos",
+      "is_identity": false,
+      "auc_bin": 0.6105,
+      "f1_multi": 0.1519
+    },
+    {
+      "feature": "sDSb",
+      "is_identity": false,
+      "auc_bin": 0.5071,
+      "f1_multi": 0.0627
+    },
+    {
+      "feature": "dDSb",
+      "is_identity": false,
+      "auc_bin": 0.6105,
+      "f1_multi": 0.1519
+    },
+    {
+      "feature": "sTtl",
+      "is_identity": false,
+      "auc_bin": 0.7152,
+      "f1_multi": 0.2113
+    },
+    {
+      "feature": "dTtl",
+      "is_identity": false,
+      "auc_bin": 0.6862,
+      "f1_multi": 0.1787
+    },
+    {
+      "feature": "sHops",
+      "is_identity": false,
+      "auc_bin": 0.7024,
+      "f1_multi": 0.2012
+    },
+    {
+      "feature": "dHops",
+      "is_identity": false,
+      "auc_bin": 0.6862,
+      "f1_multi": 0.1787
+    },
+    {
+      "feature": "Cause",
+      "is_identity": false,
+      "auc_bin": 0.5531,
+      "f1_multi": 0.1121
+    },
+    {
+      "feature": "TotPkts",
+      "is_identity": false,
+      "auc_bin": 0.6373,
+      "f1_multi": 0.2333
+    },
+    {
+      "feature": "SrcPkts",
+      "is_identity": false,
+      "auc_bin": 0.6168,
+      "f1_multi": 0.2398
+    },
+    {
+      "feature": "DstPkts",
+      "is_identity": false,
+      "auc_bin": 0.6167,
+      "f1_multi": 0.2309
+    },
+    {
+      "feature": "TotBytes",
+      "is_identity": false,
+      "auc_bin": 0.7262,
+      "f1_multi": 0.2742
+    },
+    {
+      "feature": "SrcBytes",
+      "is_identity": false,
+      "auc_bin": 0.6905,
+      "f1_multi": 0.2215
+    },
+    {
+      "feature": "DstBytes",
+      "is_identity": false,
+      "auc_bin": 0.6082,
+      "f1_multi": 0.4602
+    },
+    {
+      "feature": "Offset",
+      "is_identity": true,
+      "auc_bin": 0.8569,
+      "f1_multi": 0.148
+    },
+    {
+      "feature": "sMeanPktSz",
+      "is_identity": false,
+      "auc_bin": 0.7435,
+      "f1_multi": 0.2996
+    },
+    {
+      "feature": "dMeanPktSz",
+      "is_identity": false,
+      "auc_bin": 0.6186,
+      "f1_multi": 0.2852
+    },
+    {
+      "feature": "Load",
+      "is_identity": false,
+      "auc_bin": 0.6664,
+      "f1_multi": 0.27
+    },
+    {
+      "feature": "SrcLoad",
+      "is_identity": false,
+      "auc_bin": 0.6597,
+      "f1_multi": 0.2378
+    },
+    {
+      "feature": "DstLoad",
+      "is_identity": false,
+      "auc_bin": 0.5603,
+      "f1_multi": 0.2198
+    },
+    {
+      "feature": "Loss",
+      "is_identity": false,
+      "auc_bin": 0.5029,
+      "f1_multi": 0.0718
+    },
+    {
+      "feature": "SrcLoss",
+      "is_identity": false,
+      "auc_bin": 0.5064,
+      "f1_multi": 0.0635
+    },
+    {
+      "feature": "DstLoss",
+      "is_identity": false,
+      "auc_bin": 0.5043,
+      "f1_multi": 0.0727
+    },
+    {
+      "feature": "pLoss",
+      "is_identity": false,
+      "auc_bin": 0.5133,
+      "f1_multi": 0.0756
+    },
+    {
+      "feature": "SrcGap",
+      "is_identity": false,
+      "auc_bin": 0.6627,
+      "f1_multi": 0.1472
+    },
+    {
+      "feature": "DstGap",
+      "is_identity": false,
+      "auc_bin": 0.6626,
+      "f1_multi": 0.1472
+    },
+    {
+      "feature": "Rate",
+      "is_identity": false,
+      "auc_bin": 0.6748,
+      "f1_multi": 0.2372
+    },
+    {
+      "feature": "SrcRate",
+      "is_identity": false,
+      "auc_bin": 0.6678,
+      "f1_multi": 0.2145
+    },
+    {
+      "feature": "DstRate",
+      "is_identity": false,
+      "auc_bin": 0.5758,
+      "f1_multi": 0.196
+    },
+    {
+      "feature": "State",
+      "is_identity": false,
+      "auc_bin": 0.6502,
+      "f1_multi": 0.2014
+    },
+    {
+      "feature": "SrcWin",
+      "is_identity": false,
+      "auc_bin": 0.6604,
+      "f1_multi": 0.3291
+    },
+    {
+      "feature": "DstWin",
+      "is_identity": false,
+      "auc_bin": 0.6205,
+      "f1_multi": 0.3344
+    },
+    {
+      "feature": "sVid",
+      "is_identity": true,
+      "auc_bin": 0.6221,
+      "f1_multi": 0.1089
+    },
+    {
+      "feature": "dVid",
+      "is_identity": true,
+      "auc_bin": 0.5022,
+      "f1_multi": 0.0627
+    },
+    {
+      "feature": "SrcTCPBase",
+      "is_identity": true,
+      "auc_bin": 0.6626,
+      "f1_multi": 0.1691
+    },
+    {
+      "feature": "DstTCPBase",
+      "is_identity": true,
+      "auc_bin": 0.642,
+      "f1_multi": 0.1557
+    },
+    {
+      "feature": "TcpRtt",
+      "is_identity": false,
+      "auc_bin": 0.6459,
+      "f1_multi": 0.3603
+    },
+    {
+      "feature": "SynAck",
+      "is_identity": false,
+      "auc_bin": 0.6505,
+      "f1_multi": 0.1584
+    },
+    {
+      "feature": "AckDat",
+      "is_identity": false,
+      "auc_bin": 0.6398,
+      "f1_multi": 0.2585
+    }
+  ],
+  "top3_bin": [
+    "Seq",
+    "Offset",
+    "sMeanPktSz"
+  ],
+  "top3_multi": [
+    "DstBytes",
+    "TcpRtt",
+    "DstWin"
+  ],
+  "runtime_s": 59.1
+}

@@ -1,0 +1,13 @@
+\begin{tabular}{l r ll}
+\toprule
+Feature set & $n_{\text{feat}}$ & Accuracy (original labels) & Accuracy (corrected labels)\\
+\midrule
+All features & 46 & 0.9996 $\pm$ 0.0001 & 0.7681 $\pm$ 0.0006\\
+Without Seq & 45 & 0.9838 $\pm$ 0.0001 & 0.7809 $\pm$ 0.0008\\
+Without Offset & 45 & 0.9989 $\pm$ 0.0001 & 0.7672 $\pm$ 0.0006\\
+Without Seq+Offset & 44 & 0.7602 $\pm$ 0.0008 & 0.8877 $\pm$ 0.0062\\
+Without all identity columns & 42 & 0.7602 $\pm$ 0.0008 & 0.8895 $\pm$ 0.0084\\
+\midrule
+Permutation: accuracy drop &  & Seq: 0.3012 & Offset: 0.0186\\
+\bottomrule
+\end{tabular}

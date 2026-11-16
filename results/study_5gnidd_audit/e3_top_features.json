@@ -1,0 +1,180 @@
+{
+  "metode": "ANOVA F-score (sklearn f_classif) pada seluruh data versi A, label asli multikelas; NaN diimputasi median; kolom konstan dibuang; F NaN -> 0",
+  "n_fitur_dinilai": 46,
+  "top25": [
+    {
+      "fitur": "AckDat",
+      "rank": 1,
+      "F": 399528.1,
+      "identitas": false
+    },
+    {
+      "fitur": "sHops",
+      "rank": 2,
+      "F": 227592.4,
+      "identitas": false
+    },
+    {
+      "fitur": "Seq",
+      "rank": 3,
+      "F": 74642.2,
+      "identitas": true
+    },
+    {
+      "fitur": "TcpRtt",
+      "rank": 4,
+      "F": 70806.6,
+      "identitas": false
+    },
+    {
+      "fitur": "dMeanPktSz",
+      "rank": 5,
+      "F": 59082.4,
+      "identitas": false
+    },
+    {
+      "fitur": "Offset",
+      "rank": 6,
+      "F": 55414.3,
+      "identitas": true
+    },
+    {
+      "fitur": "Proto",
+      "rank": 7,
+      "F": 41305.3,
+      "identitas": false
+    },
+    {
+      "fitur": "sTtl",
+      "rank": 8,
+      "F": 35188.4,
+      "identitas": false
+    },
+    {
+      "fitur": "State",
+      "rank": 9,
+      "F": 27943.7,
+      "identitas": false
+    },
+    {
+      "fitur": "Max",
+      "rank": 10,
+      "F": 21870.9,
+      "identitas": false
+    },
+    {
+      "fitur": "RunTime",
+      "rank": 11,
+      "F": 21870.9,
+      "identitas": false
+    },
+    {
+      "fitur": "Dur",
+      "rank": 12,
+      "F": 21870.9,
+      "identitas": false
+    },
+    {
+      "fitur": "Mean",
+      "rank": 13,
+      "F": 21870.9,
+      "identitas": false
+    },
+    {
+      "fitur": "Min",
+      "rank": 14,
+      "F": 21870.9,
+      "identitas": false
+    },
+    {
+      "fitur": "Sum",
+      "rank": 15,
+      "F": 21870.9,
+      "identitas": false
+    },
+    {
+      "fitur": "Cause",
+      "rank": 16,
+      "F": 19762.7,
+      "identitas": false
+    },
+    {
+      "fitur": "SrcTCPBase",
+      "rank": 17,
+      "F": 9422.9,
+      "identitas": true
+    },
+    {
+      "fitur": "sMeanPktSz",
+      "rank": 18,
+      "F": 5908.9,
+      "identitas": false
+    },
+    {
+      "fitur": "dTtl",
+      "rank": 19,
+      "F": 3825.1,
+      "identitas": false
+    },
+    {
+      "fitur": "DstLoss",
+      "rank": 20,
+      "F": 3756.4,
+      "identitas": false
+    },
+    {
+      "fitur": "Loss",
+      "rank": 21,
+      "F": 2803.5,
+      "identitas": false
+    },
+    {
+      "fitur": "TotPkts",
+      "rank": 22,
+      "F": 2528.3,
+      "identitas": false
+    },
+    {
+      "fitur": "TotBytes",
+      "rank": 23,
+      "F": 2312.1,
+      "identitas": false
+    },
+    {
+      "fitur": "SrcBytes",
+      "rank": 24,
+      "F": 2270.4,
+      "identitas": false
+    },
+    {
+      "fitur": "SrcPkts",
+      "rank": 25,
+      "F": 2135.3,
+      "identitas": false
+    }
+  ],
+  "top10": [
+    "AckDat",
+    "sHops",
+    "Seq",
+    "TcpRtt",
+    "dMeanPktSz",
+    "Offset",
+    "Proto",
+    "sTtl",
+    "State",
+    "Max"
+  ],
+  "rank_kolom_identitas": {
+    "Seq": 3,
+    "Offset": 6,
+    "sVid": null,
+    "dVid": null,
+    "SrcTCPBase": 17,
+    "DstTCPBase": 45
+  },
+  "seq_masuk_top25": true,
+  "offset_masuk_top25": true,
+  "seq_masuk_top10": true,
+  "offset_masuk_top10": true
+}

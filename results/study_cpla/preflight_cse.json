@@ -1,0 +1,93 @@
+{
+  "cse": {
+    "n_train": 69997,
+    "n_test": 30000,
+    "n_fitur": 77,
+    "benign": "Benign",
+    "kelas": [
+      "Benign",
+      "Bot",
+      "Brute Force -Web",
+      "Brute Force -XSS",
+      "DDOS attack-HOIC",
+      "DDOS attack-LOIC-UDP",
+      "DDoS attacks-LOIC-HTTP",
+      "DoS attacks-GoldenEye",
+      "DoS attacks-Hulk",
+      "DoS attacks-SlowHTTPTest",
+      "DoS attacks-Slowloris",
+      "FTP-BruteForce",
+      "Infilteration",
+      "SQL Injection",
+      "SSH-Bruteforce"
+    ],
+    "n_partisi_train": 10,
+    "n_sumber_train": 2723,
+    "kelas_train": {
+      "Benign": 39031,
+      "Infilteration": 7000,
+      "Bot": 3500,
+      "DDoS attacks-LOIC-HTTP": 3500,
+      "SSH-Bruteforce": 3473,
+      "DoS attacks-Hulk": 3472,
+      "DDOS attack-HOIC": 2635,
+      "DoS attacks-Slowloris": 2333,
+      "DoS attacks-GoldenEye": 2333,
+      "DDOS attack-LOIC-UDP": 1730,
+      "Brute Force -Web": 568,
+      "Brute Force -XSS": 229,
+      "SQL Injection": 85,
+      "DoS attacks-SlowHTTPTest": 55,
+      "FTP-BruteForce": 53
+    },
+    "kelas_test": {
+      "Benign": 24000,
+      "Infilteration": 3000,
+      "DDOS attack-HOIC": 1500,
+      "DoS attacks-Hulk": 1500
+    },
+    "pasangan_R2": [
+      "Benign",
+      "Infilteration"
+    ],
+    "aturan_pasangan": "massa konflik vektor identik = 142",
+    "grup_R1_top5": [
+      {
+        "partisi": "Bruteforce-Wednesday-14-02-2018",
+        "sumber": "6|26883|230|32",
+        "kelas": "SSH-Bruteforce",
+        "n": 3464
+      },
+      {
+        "partisi": "Botnet-Friday-02-03-2018",
+        "sumber": "6|8192|219|20",
+        "kelas": "Bot",
+        "n": 3353
+      },
+      {
+        "partisi": "DoS2-Friday-16-02-2018",
+        "sumber": "6|225|-1|32",
+        "kelas": "DoS attacks-Hulk",
+        "n": 2798
+      },
+      {
+        "partisi": "DDoS2-Wednesday-21-02-2018",
+        "sumber": "6|65535|219|20",
+        "kelas": "DDOS attack-HOIC",
+        "n": 2193
+      },
+      {
+        "partisi": "DDoS2-Wednesday-21-02-2018",
+        "sumber": "17|-1|-1|8",
+        "kelas": "DDOS attack-LOIC-UDP",
+        "n": 1730
+      }
+    ],
+    "target_blok": [
+      700,
+      2100,
+      5600
+    ],
+    "kolom_nominal": []
+  }
+}

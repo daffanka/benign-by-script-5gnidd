@@ -1,0 +1,195 @@
+[
+  {
+    "size": 0.01,
+    "seed": 0,
+    "n_inj": 646,
+    "grup_n_g": 664,
+    "blok_q": "SlowrateDoS",
+    "blok_n_b": 2,
+    "blok_rate": 0.003,
+    "latar_med": 0.0133,
+    "z": -1.03,
+    "lolos_ambang_cpla": false,
+    "kelas_asli": "TCPConnectScan",
+    "partisi": "TCPConnect1.csv",
+    "sumber": "10.155.15.1",
+    "frac_auditable_blok": 1.0,
+    "prediksi_oof_di_blok": {
+      "Benign": 644,
+      "SlowrateDoS": 2
+    },
+    "frac_diprediksi_benign": 0.9969
+  },
+  {
+    "size": 0.01,
+    "seed": 1,
+    "n_inj": 646,
+    "grup_n_g": 664,
+    "blok_q": "UDPScan",
+    "blok_n_b": 646,
+    "blok_rate": 0.9729,
+    "latar_med": 1.0,
+    "z": -2.71,
+    "lolos_ambang_cpla": false,
+    "kelas_asli": "SYNScan",
+    "partisi": "SYNScan1.csv",
+    "sumber": "10.155.15.1",
+    "frac_auditable_blok": 1.0,
+    "prediksi_oof_di_blok": {
+      "UDPScan": 646
+    },
+    "frac_diprediksi_benign": 0.0
+  },
+  {
+    "size": 0.01,
+    "seed": 2,
+    "n_inj": 646,
+    "grup_n_g": 669,
+    "blok_q": "SYNScan",
+    "blok_n_b": 602,
+    "blok_rate": 0.8999,
+    "latar_med": 0.0,
+    "z": 89.99,
+    "lolos_ambang_cpla": true,
+    "kelas_asli": "UDPScan",
+    "partisi": "UDPScan1.csv",
+    "sumber": "10.155.15.9",
+    "frac_auditable_blok": 1.0,
+    "prediksi_oof_di_blok": {
+      "SYNScan": 602,
+      "UDPFlood": 36,
+      "Benign": 8
+    },
+    "frac_diprediksi_benign": 0.0124
+  },
+  {
+    "size": 0.03,
+    "seed": 0,
+    "n_inj": 1938,
+    "grup_n_g": 1956,
+    "blok_q": "SYNScan",
+    "blok_n_b": 7,
+    "blok_rate": 0.0036,
+    "latar_med": 0.0,
+    "z": 0.36,
+    "lolos_ambang_cpla": false,
+    "kelas_asli": "TCPConnectScan",
+    "partisi": "TCPConnect1.csv",
+    "sumber": "10.155.15.1",
+    "frac_auditable_blok": 1.0,
+    "prediksi_oof_di_blok": {
+      "Benign": 1927,
+      "SYNScan": 7,
+      "SlowrateDoS": 4
+    },
+    "frac_diprediksi_benign": 0.9943
+  },
+  {
+    "size": 0.03,
+    "seed": 1,
+    "n_inj": 1938,
+    "grup_n_g": 1956,
+    "blok_q": "UDPScan",
+    "blok_n_b": 1935,
+    "blok_rate": 0.9893,
+    "latar_med": 1.0,
+    "z": -1.07,
+    "lolos_ambang_cpla": false,
+    "kelas_asli": "SYNScan",
+    "partisi": "SYNScan1.csv",
+    "sumber": "10.155.15.1",
+    "frac_auditable_blok": 1.0,
+    "prediksi_oof_di_blok": {
+      "UDPScan": 1935,
+      "SYNFlood": 3
+    },
+    "frac_diprediksi_benign": 0.0
+  },
+  {
+    "size": 0.03,
+    "seed": 2,
+    "n_inj": 1938,
+    "grup_n_g": 1961,
+    "blok_q": "SYNScan",
+    "blok_n_b": 1822,
+    "blok_rate": 0.9291,
+    "latar_med": 0.0,
+    "z": 92.91,
+    "lolos_ambang_cpla": true,
+    "kelas_asli": "UDPScan",
+    "partisi": "UDPScan1.csv",
+    "sumber": "10.155.15.9",
+    "frac_auditable_blok": 1.0,
+    "prediksi_oof_di_blok": {
+      "SYNScan": 1822,
+      "UDPFlood": 87,
+      "Benign": 29
+    },
+    "frac_diprediksi_benign": 0.015
+  },
+  {
+    "size": 0.08,
+    "seed": 0,
+    "n_inj": 5169,
+    "grup_n_g": 5187,
+    "blok_q": "SYNScan",
+    "blok_n_b": 13,
+    "blok_rate": 0.0025,
+    "latar_med": 0.0,
+    "z": 0.25,
+    "lolos_ambang_cpla": false,
+    "kelas_asli": "TCPConnectScan",
+    "partisi": "TCPConnect1.csv",
+    "sumber": "10.155.15.1",
+    "frac_auditable_blok": 1.0,
+    "prediksi_oof_di_blok": {
+      "Benign": 5143,
+      "SYNScan": 13,
+      "SlowrateDoS": 13
+    },
+    "frac_diprediksi_benign": 0.995
+  },
+  {
+    "size": 0.08,
+    "seed": 1,
+    "n_inj": 5169,
+    "grup_n_g": 5187,
+    "blok_q": "UDPScan",
+    "blok_n_b": 5163,
+    "blok_rate": 0.9954,
+    "latar_med": 1.0,
+    "z": -0.46,
+    "lolos_ambang_cpla": false,
+    "kelas_asli": "SYNScan",
+    "partisi": "SYNScan1.csv",
+    "sumber": "10.155.15.1",
+    "frac_auditable_blok": 1.0,
+    "prediksi_oof_di_blok": {
+      "UDPScan": 5163,
+      "SYNFlood": 6
+    },
+    "frac_diprediksi_benign": 0.0
+  },
+  {
+    "size": 0.08,
+    "seed": 2,
+    "n_inj": 5169,
+    "grup_n_g": 5187,
+    "blok_q": "SYNScan",
+    "blok_n_b": 12,
+    "blok_rate": 0.0023,
+    "latar_med": 0.0,
+    "z": 0.23,
+    "lolos_ambang_cpla": false,
+    "kelas_asli": "TCPConnectScan",
+    "partisi": "TCPConnect1.csv",
+    "sumber": "10.155.15.1",
+    "frac_auditable_blok": 1.0,
+    "prediksi_oof_di_blok": {
+      "Benign": 5146,
+      "SYNScan": 12,
+      "SlowrateDoS": 11
+    },
+    "frac_diprediksi_benign": 0.9956
+  }
+]

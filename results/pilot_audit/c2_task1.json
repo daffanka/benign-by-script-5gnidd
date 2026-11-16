@@ -1,0 +1,36 @@
+{
+  "n_rows": 299997,
+  "variants": {
+    "i_semua_fitur": {
+      "n_features": 48,
+      "macro_f1_seeds": [
+        0.9979,
+        0.9982,
+        0.9993
+      ],
+      "mean": 0.9985,
+      "sd": 0.0007
+    },
+    "ii_minus_identitas": {
+      "n_features": 42,
+      "macro_f1_seeds": [
+        0.9261,
+        0.9269,
+        0.9269
+      ],
+      "mean": 0.9266,
+      "sd": 0.0005
+    },
+    "iii_hanya_seq_offset": {
+      "n_features": 2,
+      "macro_f1_seeds": [
+        0.6362,
+        0.6387,
+        0.6424
+      ],
+      "mean": 0.6391,
+      "sd": 0.0031
+    }
+  },
+  "runtime_s": 130.2
+}

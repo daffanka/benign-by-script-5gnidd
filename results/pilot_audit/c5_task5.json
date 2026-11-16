@@ -1,0 +1,79 @@
+{
+  "rows": 1215890,
+  "n_salah_label_vs_oof": 2645,
+  "n_keyakinan_95": 413,
+  "pct_keyakinan_95": 0.034,
+  "top10_kelompok": [
+    {
+      "file": "BS1/Torshammer1.csv",
+      "SrcAddr": "10.155.15.4",
+      "label": "SlowrateDoS",
+      "prediksi": "HTTPFlood",
+      "n": 128
+    },
+    {
+      "file": "BS1/Slowloris1.csv",
+      "SrcAddr": "10.155.15.0",
+      "label": "SlowrateDoS",
+      "prediksi": "HTTPFlood",
+      "n": 83
+    },
+    {
+      "file": "BS2/Slowloris2.csv",
+      "SrcAddr": "10.155.15.6",
+      "label": "SlowrateDoS",
+      "prediksi": "HTTPFlood",
+      "n": 72
+    },
+    {
+      "file": "BS2/Torshammer2.csv",
+      "SrcAddr": "10.155.15.3",
+      "label": "SlowrateDoS",
+      "prediksi": "HTTPFlood",
+      "n": 55
+    },
+    {
+      "file": "BS1/Goldeneye1.csv",
+      "SrcAddr": "10.155.15.3",
+      "label": "HTTPFlood",
+      "prediksi": "SlowrateDoS",
+      "n": 11
+    },
+    {
+      "file": "BS2/Goldeneye2.csv",
+      "SrcAddr": "10.155.15.6",
+      "label": "HTTPFlood",
+      "prediksi": "SlowrateDoS",
+      "n": 8
+    },
+    {
+      "file": "BS2/TCPConnect2.csv",
+      "SrcAddr": "10.155.15.14",
+      "label": "TCPConnectScan",
+      "prediksi": "UDPScan",
+      "n": 6
+    },
+    {
+      "file": "BS2/UDPScan2.csv",
+      "SrcAddr": "10.155.15.3",
+      "label": "UDPScan",
+      "prediksi": "SYNScan",
+      "n": 6
+    },
+    {
+      "file": "BS2/SYNScan2.csv",
+      "SrcAddr": "10.155.15.14",
+      "label": "SYNScan",
+      "prediksi": "TCPConnectScan",
+      "n": 5
+    },
+    {
+      "file": "BS1/SYNScan1.csv",
+      "SrcAddr": "10.155.15.1",
+      "label": "SYNScan",
+      "prediksi": "UDPScan",
+      "n": 5
+    }
+  ],
+  "runtime_s": 210.7
+}

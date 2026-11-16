@@ -1,0 +1,61 @@
+{
+  "directions": {
+    "BS1->BS2|semua_fitur": {
+      "TPR_seeds": [
+        0.759,
+        0.7571,
+        0.7587
+      ],
+      "TPR_mean": 0.7583,
+      "FPR_seeds": [
+        0.0005,
+        0.0005,
+        0.0004
+      ],
+      "FPR_mean": 0.0005
+    },
+    "BS1->BS2|tanpa_identitas": {
+      "TPR_seeds": [
+        0.3245,
+        0.3245,
+        0.3245
+      ],
+      "TPR_mean": 0.3245,
+      "FPR_seeds": [
+        0.0039,
+        0.0039,
+        0.0039
+      ],
+      "FPR_mean": 0.0039
+    },
+    "BS2->BS1|semua_fitur": {
+      "TPR_seeds": [
+        0.9908,
+        0.9902,
+        0.9906
+      ],
+      "TPR_mean": 0.9905,
+      "FPR_seeds": [
+        0.6923,
+        0.6923,
+        0.6923
+      ],
+      "FPR_mean": 0.6923
+    },
+    "BS2->BS1|tanpa_identitas": {
+      "TPR_seeds": [
+        0.991,
+        0.991,
+        0.991
+      ],
+      "TPR_mean": 0.991,
+      "FPR_seeds": [
+        0.6923,
+        0.6923,
+        0.6923
+      ],
+      "FPR_mean": 0.6923
+    }
+  },
+  "runtime_s": 38.9
+}

@@ -1,0 +1,183 @@
+{
+  "g5c": {
+    "n_train": 64607,
+    "n_test": 28355,
+    "n_fitur": 42,
+    "benign": "Benign",
+    "kelas": [
+      "Benign",
+      "HTTPFlood",
+      "ICMPFlood",
+      "SYNFlood",
+      "SYNScan",
+      "SlowrateDoS",
+      "TCPConnectScan",
+      "UDPFlood",
+      "UDPScan"
+    ],
+    "n_partisi_train": 10,
+    "n_sumber_train": 79,
+    "kelas_train": {
+      "Benign": 30121,
+      "SlowrateDoS": 7000,
+      "TCPConnectScan": 5896,
+      "SYNScan": 5569,
+      "UDPScan": 4908,
+      "HTTPFlood": 3500,
+      "SYNFlood": 3500,
+      "UDPFlood": 3500,
+      "ICMPFlood": 613
+    },
+    "kelas_test": {
+      "Benign": 14084,
+      "UDPFlood": 3000,
+      "SlowrateDoS": 3000,
+      "TCPConnectScan": 1729,
+      "HTTPFlood": 1500,
+      "SYNFlood": 1500,
+      "SYNScan": 1500,
+      "UDPScan": 1500,
+      "ICMPFlood": 542
+    },
+    "pasangan_R2": [
+      "SYNScan",
+      "UDPScan"
+    ],
+    "aturan_pasangan": "cadangan: kebingungan OOF lintas-partisi = 9996",
+    "grup_R1_top5": [
+      {
+        "partisi": "TCPConnect1.csv",
+        "sumber": "10.155.15.1",
+        "kelas": "TCPConnectScan",
+        "n": 5896
+      },
+      {
+        "partisi": "SYNScan1.csv",
+        "sumber": "10.155.15.1",
+        "kelas": "SYNScan",
+        "n": 5569
+      },
+      {
+        "partisi": "UDPScan1.csv",
+        "sumber": "10.155.15.9",
+        "kelas": "UDPScan",
+        "n": 4908
+      },
+      {
+        "partisi": "Slowloris1.csv",
+        "sumber": "10.155.15.0",
+        "kelas": "SlowrateDoS",
+        "n": 3500
+      },
+      {
+        "partisi": "Goldeneye1.csv",
+        "sumber": "10.155.15.3",
+        "kelas": "HTTPFlood",
+        "n": 3500
+      }
+    ],
+    "target_blok": [
+      646,
+      1938,
+      5169
+    ],
+    "kolom_nominal": [
+      "Proto",
+      "sDSb",
+      "dDSb",
+      "Cause",
+      "State"
+    ]
+  },
+  "unsw": {
+    "n_train": 69994,
+    "n_test": 29999,
+    "n_fitur": 39,
+    "benign": "Normal",
+    "kelas": [
+      "Analysis",
+      "Backdoor",
+      "DoS",
+      "Exploits",
+      "Fuzzers",
+      "Generic",
+      "Normal",
+      "Reconnaissance",
+      "Shellcode",
+      "Worms"
+    ],
+    "n_partisi_train": 3,
+    "n_sumber_train": 32,
+    "kelas_train": {
+      "Exploits": 12056,
+      "Normal": 12056,
+      "Fuzzers": 12056,
+      "Generic": 12056,
+      "DoS": 8448,
+      "Reconnaissance": 8381,
+      "Analysis": 2007,
+      "Backdoor": 1663,
+      "Shellcode": 1140,
+      "Worms": 131
+    },
+    "kelas_test": {
+      "Exploits": 4953,
+      "Fuzzers": 4953,
+      "Normal": 4953,
+      "Generic": 4953,
+      "DoS": 4907,
+      "Reconnaissance": 3530,
+      "Analysis": 670,
+      "Backdoor": 666,
+      "Shellcode": 371,
+      "Worms": 43
+    },
+    "pasangan_R2": [
+      "DoS",
+      "Exploits"
+    ],
+    "aturan_pasangan": "massa konflik vektor identik = 3314",
+    "grup_R1_top5": [
+      {
+        "partisi": "UNSW-NB15_1.csv",
+        "sumber": "175.45.176.1",
+        "kelas": "Generic",
+        "n": 4471
+      },
+      {
+        "partisi": "UNSW-NB15_3.csv",
+        "sumber": "175.45.176.1",
+        "kelas": "DoS",
+        "n": 2486
+      },
+      {
+        "partisi": "UNSW-NB15_2.csv",
+        "sumber": "175.45.176.0",
+        "kelas": "Generic",
+        "n": 2333
+      },
+      {
+        "partisi": "UNSW-NB15_3.csv",
+        "sumber": "175.45.176.3",
+        "kelas": "Generic",
+        "n": 2090
+      },
+      {
+        "partisi": "UNSW-NB15_2.csv",
+        "sumber": "175.45.176.0",
+        "kelas": "DoS",
+        "n": 1914
+      }
+    ],
+    "target_blok": [
+      700,
+      2100,
+      5600
+    ],
+    "kolom_nominal": [
+      "proto",
+      "state",
+      "service"
+    ]
+  }
+}

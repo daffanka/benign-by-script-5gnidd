@@ -1,0 +1,1810 @@
+{
+ "dataset": "unsw",
+ "judul": "UNSW-NB15 (4 CSV penuh)",
+ "uji_asap": false,
+ "kolom": {
+  "fitur": [
+   "proto",
+   "state",
+   "dur",
+   "sbytes",
+   "dbytes",
+   "sttl",
+   "dttl",
+   "sloss",
+   "dloss",
+   "service",
+   "Sload",
+   "Dload",
+   "Spkts",
+   "Dpkts",
+   "swin",
+   "dwin",
+   "smeansz",
+   "dmeansz",
+   "trans_depth",
+   "res_bdy_len",
+   "Sjit",
+   "Djit",
+   "Sintpkt",
+   "Dintpkt",
+   "tcprtt",
+   "synack",
+   "ackdat",
+   "is_sm_ips_ports",
+   "ct_state_ttl",
+   "ct_flw_http_mthd",
+   "is_ftp_login",
+   "ct_ftp_cmd",
+   "ct_srv_src",
+   "ct_srv_dst",
+   "ct_dst_ltm",
+   "ct_src_ltm",
+   "ct_src_dport_ltm",
+   "ct_dst_sport_ltm",
+   "ct_dst_src_ltm"
+  ],
+  "nominal": [
+   "proto",
+   "state",
+   "service"
+  ],
+  "identitas_lokal": [
+   "srcip",
+   "sport",
+   "dstip",
+   "dsport",
+   "Stime",
+   "Ltime",
+   "stcpb",
+   "dtcpb",
+   "Label_biner"
+  ]
+ },
+ "label_benign": "Normal",
+ "distribusi_label": {
+  "Normal": 2218764,
+  "Generic": 215481,
+  "Exploits": 44525,
+  "Fuzzers": 24246,
+  "DoS": 16353,
+  "Reconnaissance": 13987,
+  "Analysis": 2677,
+  "Backdoor": 1795,
+  "Shellcode": 1511,
+  "Backdoors": 534,
+  "Worms": 174
+ },
+ "catatan_ekstra": {
+  "attack_cat_mentah": {
+   "<KOSONG>": 2218764,
+   "Generic": 215481,
+   "Exploits": 44525,
+   " Fuzzers": 5051,
+   "Reconnaissance": 1759,
+   "DoS": 16353,
+   "Backdoors": 534,
+   "Analysis": 2677,
+   "Shellcode": 223,
+   "Worms": 174,
+   " Fuzzers ": 19195,
+   " Reconnaissance ": 12228,
+   "Backdoor": 1795,
+   " Shellcode ": 1288
+  },
+  "biner_vs_kelas_mismatch": 0,
+  "nilai_nonnumerik_jadi_nan": {
+   "ct_ftp_cmd": 1429879
+  }
+ },
+ "ringkasan": {
+  "n_baris": 2540047,
+  "n_vektor_unik": 2016850,
+  "pct_baris_duplikat": 20.5979,
+  "n_vektor_konflik": 2579,
+  "pct_baris_konflik_label": 1.6646,
+  "bayes_akurasi": 0.990612,
+  "bayes_macro_f1": 0.723444,
+  "catatan_mayoritas": "seri mayoritas dipecah deterministik (kode label terbesar)"
+ },
+ "pasangan_top10": [
+  {
+   "kelas_a": "Exploits",
+   "kelas_b": "DoS",
+   "vektor": 1843,
+   "baris": 28901
+  },
+  {
+   "kelas_a": "Exploits",
+   "kelas_b": "Fuzzers",
+   "vektor": 1779,
+   "baris": 18959
+  },
+  {
+   "kelas_a": "Exploits",
+   "kelas_b": "Reconnaissance",
+   "vektor": 1545,
+   "baris": 17464
+  },
+  {
+   "kelas_a": "Exploits",
+   "kelas_b": "Generic",
+   "vektor": 1594,
+   "baris": 17258
+  },
+  {
+   "kelas_a": "Exploits",
+   "kelas_b": "Analysis",
+   "vektor": 1578,
+   "baris": 16569
+  },
+  {
+   "kelas_a": "DoS",
+   "kelas_b": "Fuzzers",
+   "vektor": 1743,
+   "baris": 15157
+  },
+  {
+   "kelas_a": "Exploits",
+   "kelas_b": "Backdoor",
+   "vektor": 1279,
+   "baris": 14377
+  },
+  {
+   "kelas_a": "Reconnaissance",
+   "kelas_b": "DoS",
+   "vektor": 1501,
+   "baris": 14118
+  },
+  {
+   "kelas_a": "DoS",
+   "kelas_b": "Generic",
+   "vektor": 1523,
+   "baris": 13821
+  },
+  {
+   "kelas_a": "DoS",
+   "kelas_b": "Analysis",
+   "vektor": 1578,
+   "baris": 13584
+  }
+ ],
+ "pasangan_top3_detail": [
+  {
+   "kelas_a": "Exploits",
+   "kelas_b": "DoS",
+   "vektor": [
+    {
+     "hash": "d48f607d11df1934",
+     "baris_pasangan": 142,
+     "baris_vektor": 192,
+     "label_baris": {
+      "Exploits": 76,
+      "Reconnaissance": 10,
+      "DoS": 66,
+      "Generic": 10,
+      "Fuzzers": 10,
+      "Analysis": 10,
+      "Backdoor": 10
+     },
+     "sebaran": {
+      "file": {
+       "Exploits": {
+        "UNSW-NB15_3.csv": 40,
+        "UNSW-NB15_4.csv": 36
+       },
+       "Reconnaissance": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "DoS": {
+        "UNSW-NB15_4.csv": 42,
+        "UNSW-NB15_3.csv": 24
+       },
+       "Generic": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "Fuzzers": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "Analysis": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "Backdoor": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       }
+      },
+      "day": {
+       "Exploits": {
+        "2015-02-18": 76
+       },
+       "Reconnaissance": {
+        "2015-02-18": 10
+       },
+       "DoS": {
+        "2015-02-18": 66
+       },
+       "Generic": {
+        "2015-02-18": 10
+       },
+       "Fuzzers": {
+        "2015-02-18": 10
+       },
+       "Analysis": {
+        "2015-02-18": 10
+       },
+       "Backdoor": {
+        "2015-02-18": 10
+       }
+      },
+      "srcip": {
+       "Exploits": {
+        "175.45.176.1": 40,
+        "175.45.176.2": 36
+       },
+       "Reconnaissance": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "DoS": {
+        "175.45.176.2": 42,
+        "175.45.176.1": 24
+       },
+       "Generic": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "Fuzzers": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "Analysis": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "Backdoor": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       }
+      }
+     },
+     "contoh_fitur": {
+      "proto": "unas",
+      "state": "INT",
+      "dur": 9.000000318337698e-06,
+      "sbytes": 200.0,
+      "dbytes": 0.0,
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "sloss": 0.0,
+      "dloss": 0.0,
+      "service": "-",
+      "Sload": 88888888.0,
+      "Dload": 0.0,
+      "Spkts": 2.0,
+      "Dpkts": 0.0,
+      "swin": 0.0,
+      "dwin": 0.0,
+      "smeansz": 100.0,
+      "dmeansz": 0.0,
+      "trans_depth": 0.0,
+      "res_bdy_len": 0.0,
+      "Sjit": 0.0,
+      "Djit": 0.0,
+      "Sintpkt": 0.008999999612569809,
+      "Dintpkt": 0.0,
+      "tcprtt": 0.0,
+      "synack": 0.0,
+      "ackdat": 0.0,
+      "is_sm_ips_ports": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_flw_http_mthd": NaN,
+      "is_ftp_login": NaN,
+      "ct_ftp_cmd": NaN,
+      "ct_srv_src": 6.0,
+      "ct_srv_dst": 6.0,
+      "ct_dst_ltm": 2.0,
+      "ct_src_ltm": 3.0,
+      "ct_src_dport_ltm": 2.0,
+      "ct_dst_sport_ltm": 2.0,
+      "ct_dst_src_ltm": 6.0
+     }
+    },
+    {
+     "hash": "74e0cacad8deb8f3",
+     "baris_pasangan": 109,
+     "baris_vektor": 144,
+     "label_baris": {
+      "Exploits": 62,
+      "Reconnaissance": 7,
+      "DoS": 47,
+      "Generic": 7,
+      "Fuzzers": 7,
+      "Analysis": 7,
+      "Backdoor": 7
+     },
+     "sebaran": {
+      "file": {
+       "Exploits": {
+        "UNSW-NB15_4.csv": 42,
+        "UNSW-NB15_3.csv": 20
+       },
+       "Reconnaissance": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "DoS": {
+        "UNSW-NB15_4.csv": 35,
+        "UNSW-NB15_3.csv": 12
+       },
+       "Generic": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "Fuzzers": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "Analysis": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "Backdoor": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       }
+      },
+      "day": {
+       "Exploits": {
+        "2015-02-18": 62
+       },
+       "Reconnaissance": {
+        "2015-02-18": 7
+       },
+       "DoS": {
+        "2015-02-18": 47
+       },
+       "Generic": {
+        "2015-02-18": 7
+       },
+       "Fuzzers": {
+        "2015-02-18": 7
+       },
+       "Analysis": {
+        "2015-02-18": 7
+       },
+       "Backdoor": {
+        "2015-02-18": 7
+       }
+      },
+      "srcip": {
+       "Exploits": {
+        "175.45.176.0": 36,
+        "175.45.176.1": 20,
+        "175.45.176.2": 6
+       },
+       "Reconnaissance": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "DoS": {
+        "175.45.176.0": 28,
+        "175.45.176.1": 12,
+        "175.45.176.2": 7
+       },
+       "Generic": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "Fuzzers": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "Analysis": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "Backdoor": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       }
+      }
+     },
+     "contoh_fitur": {
+      "proto": "unas",
+      "state": "INT",
+      "dur": 9.000000318337698e-06,
+      "sbytes": 200.0,
+      "dbytes": 0.0,
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "sloss": 0.0,
+      "dloss": 0.0,
+      "service": "-",
+      "Sload": 88888888.0,
+      "Dload": 0.0,
+      "Spkts": 2.0,
+      "Dpkts": 0.0,
+      "swin": 0.0,
+      "dwin": 0.0,
+      "smeansz": 100.0,
+      "dmeansz": 0.0,
+      "trans_depth": 0.0,
+      "res_bdy_len": 0.0,
+      "Sjit": 0.0,
+      "Djit": 0.0,
+      "Sintpkt": 0.008999999612569809,
+      "Dintpkt": 0.0,
+      "tcprtt": 0.0,
+      "synack": 0.0,
+      "ackdat": 0.0,
+      "is_sm_ips_ports": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_flw_http_mthd": NaN,
+      "is_ftp_login": NaN,
+      "ct_ftp_cmd": NaN,
+      "ct_srv_src": 6.0,
+      "ct_srv_dst": 6.0,
+      "ct_dst_ltm": 3.0,
+      "ct_src_ltm": 3.0,
+      "ct_src_dport_ltm": 3.0,
+      "ct_dst_sport_ltm": 3.0,
+      "ct_dst_src_ltm": 6.0
+     }
+    },
+    {
+     "hash": "20ffc7c410251e42",
+     "baris_pasangan": 98,
+     "baris_vektor": 126,
+     "label_baris": {
+      "Exploits": 60,
+      "Reconnaissance": 6,
+      "DoS": 38,
+      "Generic": 6,
+      "Fuzzers": 6,
+      "Analysis": 6,
+      "Backdoor": 4
+     },
+     "sebaran": {
+      "file": {
+       "Exploits": {
+        "UNSW-NB15_2.csv": 22,
+        "UNSW-NB15_3.csv": 20,
+        "UNSW-NB15_4.csv": 18
+       },
+       "Reconnaissance": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "DoS": {
+        "UNSW-NB15_4.csv": 14,
+        "UNSW-NB15_2.csv": 12,
+        "UNSW-NB15_3.csv": 12
+       },
+       "Generic": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "Fuzzers": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "Analysis": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "Backdoor": {
+        "UNSW-NB15_4.csv": 2,
+        "UNSW-NB15_3.csv": 2
+       }
+      },
+      "day": {
+       "Exploits": {
+        "2015-02-18": 60
+       },
+       "Reconnaissance": {
+        "2015-02-18": 6
+       },
+       "DoS": {
+        "2015-02-18": 38
+       },
+       "Generic": {
+        "2015-02-18": 6
+       },
+       "Fuzzers": {
+        "2015-02-18": 6
+       },
+       "Analysis": {
+        "2015-02-18": 6
+       },
+       "Backdoor": {
+        "2015-02-18": 4
+       }
+      },
+      "srcip": {
+       "Exploits": {
+        "175.45.176.3": 22,
+        "175.45.176.1": 20,
+        "175.45.176.0": 18
+       },
+       "Reconnaissance": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "DoS": {
+        "175.45.176.0": 14,
+        "175.45.176.3": 12,
+        "175.45.176.1": 12
+       },
+       "Generic": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "Fuzzers": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "Analysis": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "Backdoor": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2
+       }
+      }
+     },
+     "contoh_fitur": {
+      "proto": "unas",
+      "state": "INT",
+      "dur": 9.000000318337698e-06,
+      "sbytes": 200.0,
+      "dbytes": 0.0,
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "sloss": 0.0,
+      "dloss": 0.0,
+      "service": "-",
+      "Sload": 88888888.0,
+      "Dload": 0.0,
+      "Spkts": 2.0,
+      "Dpkts": 0.0,
+      "swin": 0.0,
+      "dwin": 0.0,
+      "smeansz": 100.0,
+      "dmeansz": 0.0,
+      "trans_depth": 0.0,
+      "res_bdy_len": 0.0,
+      "Sjit": 0.0,
+      "Djit": 0.0,
+      "Sintpkt": 0.008999999612569809,
+      "Dintpkt": 0.0,
+      "tcprtt": 0.0,
+      "synack": 0.0,
+      "ackdat": 0.0,
+      "is_sm_ips_ports": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_flw_http_mthd": NaN,
+      "is_ftp_login": NaN,
+      "ct_ftp_cmd": NaN,
+      "ct_srv_src": 5.0,
+      "ct_srv_dst": 5.0,
+      "ct_dst_ltm": 3.0,
+      "ct_src_ltm": 3.0,
+      "ct_src_dport_ltm": 3.0,
+      "ct_dst_sport_ltm": 3.0,
+      "ct_dst_src_ltm": 5.0
+     }
+    }
+   ]
+  },
+  {
+   "kelas_a": "Exploits",
+   "kelas_b": "Fuzzers",
+   "vektor": [
+    {
+     "hash": "d48f607d11df1934",
+     "baris_pasangan": 86,
+     "baris_vektor": 192,
+     "label_baris": {
+      "Exploits": 76,
+      "Reconnaissance": 10,
+      "DoS": 66,
+      "Generic": 10,
+      "Fuzzers": 10,
+      "Analysis": 10,
+      "Backdoor": 10
+     },
+     "sebaran": {
+      "file": {
+       "Exploits": {
+        "UNSW-NB15_3.csv": 40,
+        "UNSW-NB15_4.csv": 36
+       },
+       "Reconnaissance": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "DoS": {
+        "UNSW-NB15_4.csv": 42,
+        "UNSW-NB15_3.csv": 24
+       },
+       "Generic": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "Fuzzers": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "Analysis": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "Backdoor": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       }
+      },
+      "day": {
+       "Exploits": {
+        "2015-02-18": 76
+       },
+       "Reconnaissance": {
+        "2015-02-18": 10
+       },
+       "DoS": {
+        "2015-02-18": 66
+       },
+       "Generic": {
+        "2015-02-18": 10
+       },
+       "Fuzzers": {
+        "2015-02-18": 10
+       },
+       "Analysis": {
+        "2015-02-18": 10
+       },
+       "Backdoor": {
+        "2015-02-18": 10
+       }
+      },
+      "srcip": {
+       "Exploits": {
+        "175.45.176.1": 40,
+        "175.45.176.2": 36
+       },
+       "Reconnaissance": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "DoS": {
+        "175.45.176.2": 42,
+        "175.45.176.1": 24
+       },
+       "Generic": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "Fuzzers": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "Analysis": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "Backdoor": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       }
+      }
+     },
+     "contoh_fitur": {
+      "proto": "unas",
+      "state": "INT",
+      "dur": 9.000000318337698e-06,
+      "sbytes": 200.0,
+      "dbytes": 0.0,
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "sloss": 0.0,
+      "dloss": 0.0,
+      "service": "-",
+      "Sload": 88888888.0,
+      "Dload": 0.0,
+      "Spkts": 2.0,
+      "Dpkts": 0.0,
+      "swin": 0.0,
+      "dwin": 0.0,
+      "smeansz": 100.0,
+      "dmeansz": 0.0,
+      "trans_depth": 0.0,
+      "res_bdy_len": 0.0,
+      "Sjit": 0.0,
+      "Djit": 0.0,
+      "Sintpkt": 0.008999999612569809,
+      "Dintpkt": 0.0,
+      "tcprtt": 0.0,
+      "synack": 0.0,
+      "ackdat": 0.0,
+      "is_sm_ips_ports": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_flw_http_mthd": NaN,
+      "is_ftp_login": NaN,
+      "ct_ftp_cmd": NaN,
+      "ct_srv_src": 6.0,
+      "ct_srv_dst": 6.0,
+      "ct_dst_ltm": 2.0,
+      "ct_src_ltm": 3.0,
+      "ct_src_dport_ltm": 2.0,
+      "ct_dst_sport_ltm": 2.0,
+      "ct_dst_src_ltm": 6.0
+     }
+    },
+    {
+     "hash": "74e0cacad8deb8f3",
+     "baris_pasangan": 69,
+     "baris_vektor": 144,
+     "label_baris": {
+      "Exploits": 62,
+      "Reconnaissance": 7,
+      "DoS": 47,
+      "Generic": 7,
+      "Fuzzers": 7,
+      "Analysis": 7,
+      "Backdoor": 7
+     },
+     "sebaran": {
+      "file": {
+       "Exploits": {
+        "UNSW-NB15_4.csv": 42,
+        "UNSW-NB15_3.csv": 20
+       },
+       "Reconnaissance": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "DoS": {
+        "UNSW-NB15_4.csv": 35,
+        "UNSW-NB15_3.csv": 12
+       },
+       "Generic": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "Fuzzers": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "Analysis": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "Backdoor": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       }
+      },
+      "day": {
+       "Exploits": {
+        "2015-02-18": 62
+       },
+       "Reconnaissance": {
+        "2015-02-18": 7
+       },
+       "DoS": {
+        "2015-02-18": 47
+       },
+       "Generic": {
+        "2015-02-18": 7
+       },
+       "Fuzzers": {
+        "2015-02-18": 7
+       },
+       "Analysis": {
+        "2015-02-18": 7
+       },
+       "Backdoor": {
+        "2015-02-18": 7
+       }
+      },
+      "srcip": {
+       "Exploits": {
+        "175.45.176.0": 36,
+        "175.45.176.1": 20,
+        "175.45.176.2": 6
+       },
+       "Reconnaissance": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "DoS": {
+        "175.45.176.0": 28,
+        "175.45.176.1": 12,
+        "175.45.176.2": 7
+       },
+       "Generic": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "Fuzzers": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "Analysis": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "Backdoor": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       }
+      }
+     },
+     "contoh_fitur": {
+      "proto": "unas",
+      "state": "INT",
+      "dur": 9.000000318337698e-06,
+      "sbytes": 200.0,
+      "dbytes": 0.0,
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "sloss": 0.0,
+      "dloss": 0.0,
+      "service": "-",
+      "Sload": 88888888.0,
+      "Dload": 0.0,
+      "Spkts": 2.0,
+      "Dpkts": 0.0,
+      "swin": 0.0,
+      "dwin": 0.0,
+      "smeansz": 100.0,
+      "dmeansz": 0.0,
+      "trans_depth": 0.0,
+      "res_bdy_len": 0.0,
+      "Sjit": 0.0,
+      "Djit": 0.0,
+      "Sintpkt": 0.008999999612569809,
+      "Dintpkt": 0.0,
+      "tcprtt": 0.0,
+      "synack": 0.0,
+      "ackdat": 0.0,
+      "is_sm_ips_ports": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_flw_http_mthd": NaN,
+      "is_ftp_login": NaN,
+      "ct_ftp_cmd": NaN,
+      "ct_srv_src": 6.0,
+      "ct_srv_dst": 6.0,
+      "ct_dst_ltm": 3.0,
+      "ct_src_ltm": 3.0,
+      "ct_src_dport_ltm": 3.0,
+      "ct_dst_sport_ltm": 3.0,
+      "ct_dst_src_ltm": 6.0
+     }
+    },
+    {
+     "hash": "20ffc7c410251e42",
+     "baris_pasangan": 66,
+     "baris_vektor": 126,
+     "label_baris": {
+      "Exploits": 60,
+      "Reconnaissance": 6,
+      "DoS": 38,
+      "Generic": 6,
+      "Fuzzers": 6,
+      "Analysis": 6,
+      "Backdoor": 4
+     },
+     "sebaran": {
+      "file": {
+       "Exploits": {
+        "UNSW-NB15_2.csv": 22,
+        "UNSW-NB15_3.csv": 20,
+        "UNSW-NB15_4.csv": 18
+       },
+       "Reconnaissance": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "DoS": {
+        "UNSW-NB15_4.csv": 14,
+        "UNSW-NB15_2.csv": 12,
+        "UNSW-NB15_3.csv": 12
+       },
+       "Generic": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "Fuzzers": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "Analysis": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "Backdoor": {
+        "UNSW-NB15_4.csv": 2,
+        "UNSW-NB15_3.csv": 2
+       }
+      },
+      "day": {
+       "Exploits": {
+        "2015-02-18": 60
+       },
+       "Reconnaissance": {
+        "2015-02-18": 6
+       },
+       "DoS": {
+        "2015-02-18": 38
+       },
+       "Generic": {
+        "2015-02-18": 6
+       },
+       "Fuzzers": {
+        "2015-02-18": 6
+       },
+       "Analysis": {
+        "2015-02-18": 6
+       },
+       "Backdoor": {
+        "2015-02-18": 4
+       }
+      },
+      "srcip": {
+       "Exploits": {
+        "175.45.176.3": 22,
+        "175.45.176.1": 20,
+        "175.45.176.0": 18
+       },
+       "Reconnaissance": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "DoS": {
+        "175.45.176.0": 14,
+        "175.45.176.3": 12,
+        "175.45.176.1": 12
+       },
+       "Generic": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "Fuzzers": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "Analysis": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "Backdoor": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2
+       }
+      }
+     },
+     "contoh_fitur": {
+      "proto": "unas",
+      "state": "INT",
+      "dur": 9.000000318337698e-06,
+      "sbytes": 200.0,
+      "dbytes": 0.0,
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "sloss": 0.0,
+      "dloss": 0.0,
+      "service": "-",
+      "Sload": 88888888.0,
+      "Dload": 0.0,
+      "Spkts": 2.0,
+      "Dpkts": 0.0,
+      "swin": 0.0,
+      "dwin": 0.0,
+      "smeansz": 100.0,
+      "dmeansz": 0.0,
+      "trans_depth": 0.0,
+      "res_bdy_len": 0.0,
+      "Sjit": 0.0,
+      "Djit": 0.0,
+      "Sintpkt": 0.008999999612569809,
+      "Dintpkt": 0.0,
+      "tcprtt": 0.0,
+      "synack": 0.0,
+      "ackdat": 0.0,
+      "is_sm_ips_ports": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_flw_http_mthd": NaN,
+      "is_ftp_login": NaN,
+      "ct_ftp_cmd": NaN,
+      "ct_srv_src": 5.0,
+      "ct_srv_dst": 5.0,
+      "ct_dst_ltm": 3.0,
+      "ct_src_ltm": 3.0,
+      "ct_src_dport_ltm": 3.0,
+      "ct_dst_sport_ltm": 3.0,
+      "ct_dst_src_ltm": 5.0
+     }
+    }
+   ]
+  },
+  {
+   "kelas_a": "Exploits",
+   "kelas_b": "Reconnaissance",
+   "vektor": [
+    {
+     "hash": "d48f607d11df1934",
+     "baris_pasangan": 86,
+     "baris_vektor": 192,
+     "label_baris": {
+      "Exploits": 76,
+      "Reconnaissance": 10,
+      "DoS": 66,
+      "Generic": 10,
+      "Fuzzers": 10,
+      "Analysis": 10,
+      "Backdoor": 10
+     },
+     "sebaran": {
+      "file": {
+       "Exploits": {
+        "UNSW-NB15_3.csv": 40,
+        "UNSW-NB15_4.csv": 36
+       },
+       "Reconnaissance": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "DoS": {
+        "UNSW-NB15_4.csv": 42,
+        "UNSW-NB15_3.csv": 24
+       },
+       "Generic": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "Fuzzers": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "Analysis": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       },
+       "Backdoor": {
+        "UNSW-NB15_4.csv": 6,
+        "UNSW-NB15_3.csv": 4
+       }
+      },
+      "day": {
+       "Exploits": {
+        "2015-02-18": 76
+       },
+       "Reconnaissance": {
+        "2015-02-18": 10
+       },
+       "DoS": {
+        "2015-02-18": 66
+       },
+       "Generic": {
+        "2015-02-18": 10
+       },
+       "Fuzzers": {
+        "2015-02-18": 10
+       },
+       "Analysis": {
+        "2015-02-18": 10
+       },
+       "Backdoor": {
+        "2015-02-18": 10
+       }
+      },
+      "srcip": {
+       "Exploits": {
+        "175.45.176.1": 40,
+        "175.45.176.2": 36
+       },
+       "Reconnaissance": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "DoS": {
+        "175.45.176.2": 42,
+        "175.45.176.1": 24
+       },
+       "Generic": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "Fuzzers": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "Analysis": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       },
+       "Backdoor": {
+        "175.45.176.2": 6,
+        "175.45.176.1": 4
+       }
+      }
+     },
+     "contoh_fitur": {
+      "proto": "unas",
+      "state": "INT",
+      "dur": 9.000000318337698e-06,
+      "sbytes": 200.0,
+      "dbytes": 0.0,
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "sloss": 0.0,
+      "dloss": 0.0,
+      "service": "-",
+      "Sload": 88888888.0,
+      "Dload": 0.0,
+      "Spkts": 2.0,
+      "Dpkts": 0.0,
+      "swin": 0.0,
+      "dwin": 0.0,
+      "smeansz": 100.0,
+      "dmeansz": 0.0,
+      "trans_depth": 0.0,
+      "res_bdy_len": 0.0,
+      "Sjit": 0.0,
+      "Djit": 0.0,
+      "Sintpkt": 0.008999999612569809,
+      "Dintpkt": 0.0,
+      "tcprtt": 0.0,
+      "synack": 0.0,
+      "ackdat": 0.0,
+      "is_sm_ips_ports": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_flw_http_mthd": NaN,
+      "is_ftp_login": NaN,
+      "ct_ftp_cmd": NaN,
+      "ct_srv_src": 6.0,
+      "ct_srv_dst": 6.0,
+      "ct_dst_ltm": 2.0,
+      "ct_src_ltm": 3.0,
+      "ct_src_dport_ltm": 2.0,
+      "ct_dst_sport_ltm": 2.0,
+      "ct_dst_src_ltm": 6.0
+     }
+    },
+    {
+     "hash": "74e0cacad8deb8f3",
+     "baris_pasangan": 69,
+     "baris_vektor": 144,
+     "label_baris": {
+      "Exploits": 62,
+      "Reconnaissance": 7,
+      "DoS": 47,
+      "Generic": 7,
+      "Fuzzers": 7,
+      "Analysis": 7,
+      "Backdoor": 7
+     },
+     "sebaran": {
+      "file": {
+       "Exploits": {
+        "UNSW-NB15_4.csv": 42,
+        "UNSW-NB15_3.csv": 20
+       },
+       "Reconnaissance": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "DoS": {
+        "UNSW-NB15_4.csv": 35,
+        "UNSW-NB15_3.csv": 12
+       },
+       "Generic": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "Fuzzers": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "Analysis": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       },
+       "Backdoor": {
+        "UNSW-NB15_4.csv": 5,
+        "UNSW-NB15_3.csv": 2
+       }
+      },
+      "day": {
+       "Exploits": {
+        "2015-02-18": 62
+       },
+       "Reconnaissance": {
+        "2015-02-18": 7
+       },
+       "DoS": {
+        "2015-02-18": 47
+       },
+       "Generic": {
+        "2015-02-18": 7
+       },
+       "Fuzzers": {
+        "2015-02-18": 7
+       },
+       "Analysis": {
+        "2015-02-18": 7
+       },
+       "Backdoor": {
+        "2015-02-18": 7
+       }
+      },
+      "srcip": {
+       "Exploits": {
+        "175.45.176.0": 36,
+        "175.45.176.1": 20,
+        "175.45.176.2": 6
+       },
+       "Reconnaissance": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "DoS": {
+        "175.45.176.0": 28,
+        "175.45.176.1": 12,
+        "175.45.176.2": 7
+       },
+       "Generic": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "Fuzzers": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "Analysis": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       },
+       "Backdoor": {
+        "175.45.176.0": 4,
+        "175.45.176.1": 2,
+        "175.45.176.2": 1
+       }
+      }
+     },
+     "contoh_fitur": {
+      "proto": "unas",
+      "state": "INT",
+      "dur": 9.000000318337698e-06,
+      "sbytes": 200.0,
+      "dbytes": 0.0,
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "sloss": 0.0,
+      "dloss": 0.0,
+      "service": "-",
+      "Sload": 88888888.0,
+      "Dload": 0.0,
+      "Spkts": 2.0,
+      "Dpkts": 0.0,
+      "swin": 0.0,
+      "dwin": 0.0,
+      "smeansz": 100.0,
+      "dmeansz": 0.0,
+      "trans_depth": 0.0,
+      "res_bdy_len": 0.0,
+      "Sjit": 0.0,
+      "Djit": 0.0,
+      "Sintpkt": 0.008999999612569809,
+      "Dintpkt": 0.0,
+      "tcprtt": 0.0,
+      "synack": 0.0,
+      "ackdat": 0.0,
+      "is_sm_ips_ports": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_flw_http_mthd": NaN,
+      "is_ftp_login": NaN,
+      "ct_ftp_cmd": NaN,
+      "ct_srv_src": 6.0,
+      "ct_srv_dst": 6.0,
+      "ct_dst_ltm": 3.0,
+      "ct_src_ltm": 3.0,
+      "ct_src_dport_ltm": 3.0,
+      "ct_dst_sport_ltm": 3.0,
+      "ct_dst_src_ltm": 6.0
+     }
+    },
+    {
+     "hash": "20ffc7c410251e42",
+     "baris_pasangan": 66,
+     "baris_vektor": 126,
+     "label_baris": {
+      "Exploits": 60,
+      "Reconnaissance": 6,
+      "DoS": 38,
+      "Generic": 6,
+      "Fuzzers": 6,
+      "Analysis": 6,
+      "Backdoor": 4
+     },
+     "sebaran": {
+      "file": {
+       "Exploits": {
+        "UNSW-NB15_2.csv": 22,
+        "UNSW-NB15_3.csv": 20,
+        "UNSW-NB15_4.csv": 18
+       },
+       "Reconnaissance": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "DoS": {
+        "UNSW-NB15_4.csv": 14,
+        "UNSW-NB15_2.csv": 12,
+        "UNSW-NB15_3.csv": 12
+       },
+       "Generic": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "Fuzzers": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "Analysis": {
+        "UNSW-NB15_2.csv": 2,
+        "UNSW-NB15_3.csv": 2,
+        "UNSW-NB15_4.csv": 2
+       },
+       "Backdoor": {
+        "UNSW-NB15_4.csv": 2,
+        "UNSW-NB15_3.csv": 2
+       }
+      },
+      "day": {
+       "Exploits": {
+        "2015-02-18": 60
+       },
+       "Reconnaissance": {
+        "2015-02-18": 6
+       },
+       "DoS": {
+        "2015-02-18": 38
+       },
+       "Generic": {
+        "2015-02-18": 6
+       },
+       "Fuzzers": {
+        "2015-02-18": 6
+       },
+       "Analysis": {
+        "2015-02-18": 6
+       },
+       "Backdoor": {
+        "2015-02-18": 4
+       }
+      },
+      "srcip": {
+       "Exploits": {
+        "175.45.176.3": 22,
+        "175.45.176.1": 20,
+        "175.45.176.0": 18
+       },
+       "Reconnaissance": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "DoS": {
+        "175.45.176.0": 14,
+        "175.45.176.3": 12,
+        "175.45.176.1": 12
+       },
+       "Generic": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "Fuzzers": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "Analysis": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2,
+        "175.45.176.3": 2
+       },
+       "Backdoor": {
+        "175.45.176.0": 2,
+        "175.45.176.1": 2
+       }
+      }
+     },
+     "contoh_fitur": {
+      "proto": "unas",
+      "state": "INT",
+      "dur": 9.000000318337698e-06,
+      "sbytes": 200.0,
+      "dbytes": 0.0,
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "sloss": 0.0,
+      "dloss": 0.0,
+      "service": "-",
+      "Sload": 88888888.0,
+      "Dload": 0.0,
+      "Spkts": 2.0,
+      "Dpkts": 0.0,
+      "swin": 0.0,
+      "dwin": 0.0,
+      "smeansz": 100.0,
+      "dmeansz": 0.0,
+      "trans_depth": 0.0,
+      "res_bdy_len": 0.0,
+      "Sjit": 0.0,
+      "Djit": 0.0,
+      "Sintpkt": 0.008999999612569809,
+      "Dintpkt": 0.0,
+      "tcprtt": 0.0,
+      "synack": 0.0,
+      "ackdat": 0.0,
+      "is_sm_ips_ports": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_flw_http_mthd": NaN,
+      "is_ftp_login": NaN,
+      "ct_ftp_cmd": NaN,
+      "ct_srv_src": 5.0,
+      "ct_srv_dst": 5.0,
+      "ct_dst_ltm": 3.0,
+      "ct_src_ltm": 3.0,
+      "ct_src_dport_ltm": 3.0,
+      "ct_dst_sport_ltm": 3.0,
+      "ct_dst_src_ltm": 5.0
+     }
+    }
+   ]
+  }
+ ],
+ "model_satu_fitur": {
+  "n_sampel": 200000,
+  "latih": 100000,
+  "uji": 100000,
+  "hasil": [
+   {
+    "kolom": "proto",
+    "jenis": "fitur",
+    "auc_biner": 0.7518,
+    "macro_f1_multikelas": 0.1059
+   },
+   {
+    "kolom": "state",
+    "jenis": "fitur",
+    "auc_biner": 0.8772,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "dur",
+    "jenis": "fitur",
+    "auc_biner": 0.9229,
+    "macro_f1_multikelas": 0.1288
+   },
+   {
+    "kolom": "sbytes",
+    "jenis": "fitur",
+    "auc_biner": 0.9212,
+    "macro_f1_multikelas": 0.1847
+   },
+   {
+    "kolom": "dbytes",
+    "jenis": "fitur",
+    "auc_biner": 0.9004,
+    "macro_f1_multikelas": 0.0853
+   },
+   {
+    "kolom": "sttl",
+    "jenis": "fitur",
+    "auc_biner": 0.9916,
+    "macro_f1_multikelas": 0.2079
+   },
+   {
+    "kolom": "dttl",
+    "jenis": "fitur",
+    "auc_biner": 0.9441,
+    "macro_f1_multikelas": 0.1232
+   },
+   {
+    "kolom": "sloss",
+    "jenis": "fitur",
+    "auc_biner": 0.7733,
+    "macro_f1_multikelas": 0.0859
+   },
+   {
+    "kolom": "dloss",
+    "jenis": "fitur",
+    "auc_biner": 0.7757,
+    "macro_f1_multikelas": 0.0853
+   },
+   {
+    "kolom": "service",
+    "jenis": "fitur",
+    "auc_biner": 0.7206,
+    "macro_f1_multikelas": 0.0918
+   },
+   {
+    "kolom": "Sload",
+    "jenis": "fitur",
+    "auc_biner": 0.9477,
+    "macro_f1_multikelas": 0.1591
+   },
+   {
+    "kolom": "Dload",
+    "jenis": "fitur",
+    "auc_biner": 0.9202,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "Spkts",
+    "jenis": "fitur",
+    "auc_biner": 0.803,
+    "macro_f1_multikelas": 0.0856
+   },
+   {
+    "kolom": "Dpkts",
+    "jenis": "fitur",
+    "auc_biner": 0.9103,
+    "macro_f1_multikelas": 0.0853
+   },
+   {
+    "kolom": "swin",
+    "jenis": "fitur",
+    "auc_biner": 0.7326,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "dwin",
+    "jenis": "fitur",
+    "auc_biner": 0.7318,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "smeansz",
+    "jenis": "fitur",
+    "auc_biner": 0.9014,
+    "macro_f1_multikelas": 0.1757
+   },
+   {
+    "kolom": "dmeansz",
+    "jenis": "fitur",
+    "auc_biner": 0.9049,
+    "macro_f1_multikelas": 0.0936
+   },
+   {
+    "kolom": "trans_depth",
+    "jenis": "fitur",
+    "auc_biner": 0.5166,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "res_bdy_len",
+    "jenis": "fitur",
+    "auc_biner": 0.5447,
+    "macro_f1_multikelas": 0.1009
+   },
+   {
+    "kolom": "Sjit",
+    "jenis": "fitur",
+    "auc_biner": 0.792,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "Djit",
+    "jenis": "fitur",
+    "auc_biner": 0.8085,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "Sintpkt",
+    "jenis": "fitur",
+    "auc_biner": 0.8536,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "Dintpkt",
+    "jenis": "fitur",
+    "auc_biner": 0.921,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "tcprtt",
+    "jenis": "fitur",
+    "auc_biner": 0.8399,
+    "macro_f1_multikelas": 0.1139
+   },
+   {
+    "kolom": "synack",
+    "jenis": "fitur",
+    "auc_biner": 0.8391,
+    "macro_f1_multikelas": 0.116
+   },
+   {
+    "kolom": "ackdat",
+    "jenis": "fitur",
+    "auc_biner": 0.84,
+    "macro_f1_multikelas": 0.1225
+   },
+   {
+    "kolom": "is_sm_ips_ports",
+    "jenis": "fitur",
+    "auc_biner": 0.501,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "ct_state_ttl",
+    "jenis": "fitur",
+    "auc_biner": 0.9939,
+    "macro_f1_multikelas": 0.2082
+   },
+   {
+    "kolom": "ct_flw_http_mthd",
+    "jenis": "fitur",
+    "auc_biner": 0.7101,
+    "macro_f1_multikelas": 0.0864
+   },
+   {
+    "kolom": "is_ftp_login",
+    "jenis": "fitur",
+    "auc_biner": 0.7079,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "ct_ftp_cmd",
+    "jenis": "fitur",
+    "auc_biner": 0.708,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "ct_srv_src",
+    "jenis": "fitur",
+    "auc_biner": 0.7762,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "ct_srv_dst",
+    "jenis": "fitur",
+    "auc_biner": 0.7907,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "ct_dst_ltm",
+    "jenis": "fitur",
+    "auc_biner": 0.7962,
+    "macro_f1_multikelas": 0.118
+   },
+   {
+    "kolom": "ct_src_ltm",
+    "jenis": "fitur",
+    "auc_biner": 0.7797,
+    "macro_f1_multikelas": 0.0848
+   },
+   {
+    "kolom": "ct_src_dport_ltm",
+    "jenis": "fitur",
+    "auc_biner": 0.8019,
+    "macro_f1_multikelas": 0.1381
+   },
+   {
+    "kolom": "ct_dst_sport_ltm",
+    "jenis": "fitur",
+    "auc_biner": 0.815,
+    "macro_f1_multikelas": 0.1253
+   },
+   {
+    "kolom": "ct_dst_src_ltm",
+    "jenis": "fitur",
+    "auc_biner": 0.802,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "srcip",
+    "jenis": "identitas",
+    "auc_biner": 0.9823,
+    "macro_f1_multikelas": 0.1547
+   },
+   {
+    "kolom": "sport",
+    "jenis": "identitas",
+    "auc_biner": 0.8496,
+    "macro_f1_multikelas": 0.1349
+   },
+   {
+    "kolom": "dstip",
+    "jenis": "identitas",
+    "auc_biner": 0.9887,
+    "macro_f1_multikelas": 0.1886
+   },
+   {
+    "kolom": "dsport",
+    "jenis": "identitas",
+    "auc_biner": 0.8251,
+    "macro_f1_multikelas": 0.1154
+   },
+   {
+    "kolom": "Stime",
+    "jenis": "identitas",
+    "auc_biner": 0.7475,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "Ltime",
+    "jenis": "identitas",
+    "auc_biner": 0.7474,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "stcpb",
+    "jenis": "identitas",
+    "auc_biner": 0.7317,
+    "macro_f1_multikelas": 0.0847
+   },
+   {
+    "kolom": "dtcpb",
+    "jenis": "identitas",
+    "auc_biner": 0.7318,
+    "macro_f1_multikelas": 0.0848
+   },
+   {
+    "kolom": "Label_biner",
+    "jenis": "bocoran-label",
+    "auc_biner": 1.0,
+    "macro_f1_multikelas": 0.1639
+   }
+  ]
+ },
+ "waktu_detik": {
+  "pass_a": 170.6,
+  "statistik": 4.6,
+  "pass_b": 571.0,
+  "task5": 168.9
+ }
+}
