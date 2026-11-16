@@ -1,0 +1,15 @@
+\begin{tabular}{l rrr r rr}
+\toprule
+& & & & & \multicolumn{2}{c}{Replica block rank}\\
+\cmidrule(lr){6-7}
+Audit procedure & Rank-1 (\%) & Top-3 (\%) & Mean rank & Missed blocks/40 & s12 & s28\\
+\midrule
+(a) Per-file OOF, with IDs & 17.5 & 35.0 & 13.47 & 22 & 18 & 22\\
+(b) Per-file OOF, no IDs & 15.0 & 40.0 & 11.88 & 24 & 16 & 19\\
+(c) Global OOF, no IDs & 67.5 & 80.0 & 4.15 & 1 & 1 & 33\\
+(d) Cross-capture disagreement & 50.0 & 90.0 & 2.05 & 0 & 2 & 1\\
+(f) Confident learning & 57.5 & 57.5 & 5.95 & 2 & 12 & 10\\
+\midrule
+Paired tests (d) vs (c) & \multicolumn{3}{l}{Wilcoxon signed-rank on ranks: $p$ = 0.1551} & \multicolumn{3}{l}{McNemar on rank-1: $p$ = 0.1435}\\
+\bottomrule
+\end{tabular}

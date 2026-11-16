@@ -1,0 +1,54 @@
+\begin{table*}[t]
+\centering
+\caption{Closest prior work on defects in intrusion-detection benchmark
+datasets (Panel A) and recent studies that use 5G-NIDD as distributed
+(Panel B), and how this paper relates to them. Per-cell evidence, with the
+quotation and the URL consulted on 2026-11-16, is in the supplementary
+file \texttt{RELATED\_WORK\_EVIDENCE.csv}.}
+\label{tab:related}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{p{1.85cm} p{1.85cm} X X p{2.25cm} p{1.85cm} X}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Panel A: audits of intrusion-detection benchmark datasets}}\\
+\midrule
+Study & Dataset(s) & Defect or issue reported & Evidence / method & Scale reported & Release & Difference from this work\\
+\midrule
+\citep{engelen2021_troubleshooting} & CICIDS2017 & Flow construction, feature extraction and labelling flaws & Manual re-analysis of the collection pipeline; improved processing applied & More than 20\% of traces reconstructed or relabelled & Improved data-processing methodology reported & Studies CICIDS2017; this work audits 5G-NIDD and recovers an exact (session $\times$ source IP) labelling rule (Sec.~5.3)\\
+\addlinespace[2pt]
+\citep{flood2024_badsmells} & 7 benchmark NIDS datasets & Six recurring design smells, including murky labelling & In-depth manual analysis plus six heuristics & Six smells across seven datasets & n.s. & Catalogues smells across datasets; this work quantifies one labelling rule and the share of 5G-NIDD rows it affects (Sec.~5.3)\\
+\addlinespace[2pt]
+\citep{jerabek2025_simplemodel} & 12 traffic-classification datasets & Redundant samples; identical flows with conflicting labels & k-NN baseline across 12 datasets and 15 tasks & Over 50\% redundant samples & n.s. & Reports redundancy in traffic-classification data; this work reports duplicate and label-conflict rates for 5G-NIDD and four other datasets (Sec.~8)\\
+\addlinespace[2pt]
+\citep{chen2021_dataquality} & 11 host-IDS datasets & Poor data quality affecting intrusion-detection performance & Data-preparation workflow plus experiments with ten models & Eleven datasets, ten models & n.s. & Addresses host-IDS data quality broadly; this work traces one network-flow labelling rule and its effect on eleven models (Sec.~5.4)\\
+\addlinespace[2pt]
+\citep{luay2025_temporal} & NetFlow NIDS datasets & Published NetFlow datasets lack temporal features & Temporal analysis of feature distributions over time & New NetFlow datasets with temporal features released & Public NetFlow datasets with temporal features & Adds temporal features to NetFlow data; this work removes record-counter columns and corrects labels in 5G-NIDD (Sec.~6)\\
+\addlinespace[2pt]
+\citep{northcutt2021_labelerrors} & 10 vision, NLP and audio test sets & Pervasive label errors in widely used test sets & Confident learning, then crowdsourced human validation & At least 3.3\% errors on average; 6\% of ImageNet validation & n.s. & Diffuse errors across general ML benchmarks; this work reports one contiguous block inside a single capture file (Sec.~5.3)\\
+\addlinespace[2pt]
+\citep{galal2026_edgeiiotset} & Edge-IIoTset & Serialisation artifact makes the label recoverable from provenance & Column ablation under 5-fold $\times$ 3-repeat cross-validation & Four columns separate attack from normal at accuracy 1.0000 & Leakage-free benchmark proposed & Shortcut from a serialisation artifact; here the shortcut columns are record counters and the labels themselves are wrong (Secs.~5.1, 5.3)\\
+\addlinespace[2pt]
+\citep{roy2026_shortcut} & CyberFlowIoT-GICAP & Shortcut learning from testbed addresses and recording artifacts & Four learning paradigms, four feature sets, PCAP-disjoint splits & 3{,}617{,}388 flow records; 92.58\% macro-F1 with behaviour-only features & n.s. & Shortcut study on an IoT benchmark; this work adds a labelling error verified three independent ways on a 5G capture (Sec.~5.3)\\
+\addlinespace[2pt]
+\textbf{This work} & 5G-NIDD (plus four datasets scanned) & Block labelling error and identity-shortcut columns & Single-file localisation, depth-2 rule, cross-capture twins, 40 injected scenarios & 281{,}529 rows: 23.15\% of the dataset, 58.93\% of its Benign class & Scripts for versions A/B/C and the number manifest & ---\\
+\midrule
+\multicolumn{7}{@{}l}{\textbf{Panel B: studies using 5G-NIDD as distributed}}\\
+\midrule
+Study & Dataset & \multicolumn{3}{l}{What it reports} & \multicolumn{2}{l}{Difference from this work}\\
+\midrule
+\citep{samarakoon2022_5gnidd} & 5G-NIDD (dataset paper) & \multicolumn{3}{p{0.40\textwidth}}{Dataset built on a functional 5G test network; no dataset defect in the abstract (n.s.)} & \multicolumn{2}{p{0.26\textwidth}}{Introduces 5G-NIDD; this work reports cross-capture record twins carrying opposite labels in the released data (Sec.~5.3)}\\
+\addlinespace[2pt]
+\citep{uccello2026_featureattr} & 5G-NIDD & \multicolumn{3}{p{0.40\textwidth}}{Compares statistical and logic-based feature attribution for 5G alerts} & \multicolumn{2}{p{0.26\textwidth}}{Attributes model alerts on 5G-NIDD; this work shows two attributed columns are Argus record counters (Sec.~5.1)}\\
+\addlinespace[2pt]
+\citep{ilias2024_cnnmoe} & 5G-NIDD & \multicolumn{3}{p{0.40\textwidth}}{Convolutional network with Mixture of Experts for malicious traffic} & \multicolumn{2}{p{0.26\textwidth}}{Trains on 5G-NIDD as distributed; this work evaluates after removing identity columns and correcting labels (Sec.~6)}\\
+\addlinespace[2pt]
+\citep{moubayed2024_eda_pipeline} & 5G-NIDD & \multicolumn{3}{p{0.40\textwidth}}{EDA and deep-learning pipeline; reports detection above 99.5\%} & \multicolumn{2}{p{0.26\textwidth}}{Reports above 99.5\% on 5G-NIDD; this work measures accuracy against corrected labels instead (Sec.~5.4)}\\
+\addlinespace[2pt]
+\citep{lassoued2026_supervised_5gnidd} & 5G-NIDD & \multicolumn{3}{p{0.40\textwidth}}{Supervised models on 5G-NIDD; notes earlier work uses limited subsets} & \multicolumn{2}{p{0.26\textwidth}}{Evaluates supervised models on 5G-NIDD; this work audits the labels and the evaluation protocol itself (Secs.~5--6)}\\
+\addlinespace[2pt]
+\bottomrule
+\end{tabularx}
+\vspace{2pt}
+{\footnotesize \textit{n.s.}: not stated in the abstract or record we
+opened; full texts were not read.}
+\end{table*}

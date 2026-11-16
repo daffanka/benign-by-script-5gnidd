@@ -1,0 +1,13 @@
+\begin{tabular}{l rr rr r r rr}
+\toprule
+& \multicolumn{2}{c}{F1} & & & & Neg.\ control & \multicolumn{2}{c}{Real-bug replica}\\
+\cmidrule(lr){2-3}\cmidrule(lr){8-9}
+Audit procedure & mean & median & Precision & Recall & Best/40 & (flags) & Recall & F1\\
+\midrule
+(a) Per-file OOF, with IDs & 0.0016 & 0.0000 & 0.0668 & 0.0009 & 0 & 36 & 0.0000 & 0.0000\\
+(b) Per-file OOF, no IDs & 0.1493 & 0.0000 & 0.1979 & 0.1321 & 3 & 26 & 0.0000 & 0.0000\\
+(c) Global OOF, no IDs & 0.5289 & 0.5564 & 0.5069 & 0.6615 & 18 & 2\,674 & 0.3943 & 0.5595\\
+(d) Cross-capture disagreement & 0.5410 & 0.5760 & 0.3933 & 0.9991 & 14 & 4\,719 & 1.0000 & 0.5512\\
+(f) Confident learning & 0.2273 & 0.0778 & 0.5381 & 0.2375 & 5 & 96 & 0.0000 & 0.0000\\
+\bottomrule
+\end{tabular}

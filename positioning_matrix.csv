@@ -1,0 +1,78 @@
+baris,kolom,kolom_judul,nilai,simbol,bukti,sumber,status_verifikasi
+Engelen et al. 2021 [9],C1,Identifies label error,1.0,penuh,"flaws in traffic generation, flow construction, feature extraction, and labelling",ResearchPortal listing SPW/WTMC 2021,TERVERIFIKASI (ringkasan resmi)
+Engelen et al. 2021 [9],C2,Quantifies prevalence,1.0,penuh,more than 20 percent of original traffic traces reconstructed or relabelled,ResearchPortal listing SPW/WTMC 2021,TERVERIFIKASI (ringkasan resmi)
+Engelen et al. 2021 [9],C3,Verifies exact mechanism,0.5,setengah,uncover a series of problems and trace their causes,ResearchPortal listing SPW/WTMC 2021,"TERVERIFIKASI (sebab, bukan aturan label eksak)"
+Engelen et al. 2021 [9],C4,Identity / bookkeeping shortcut,,?,,,BELUM DINILAI
+Engelen et al. 2021 [9],C5,Releases fix or scripts,1.0,penuh,address most of them by applying an improved data processing methodology,ResearchPortal listing + repo GintsEngelen/WTMC2021-Code,TERVERIFIKASI
+Engelen et al. 2021 [9],C6,Audits on injected errors,,?,,,BELUM DINILAI
+Engelen et al. 2021 [9],C7,Targets a 5G dataset,0.0,kosong,judul menyebut CICIDS2017 sebagai studi kasus,references.bib,TERVERIFIKASI (judul)
+Liu et al. 2022 [10],C1,Identifies label error,1.0,penuh,"errors across the creation lifecycle, including attack orchestration, feature generation, documentation, and labeling",abstrak CNS 2022 (aminer / CPS-VO),TERVERIFIKASI (abstrak)
+Liu et al. 2022 [10],C2,Quantifies prevalence,0.5,setengah,many previously undocumented errors,abstrak CNS 2022,TERVERIFIKASI (tanpa porsi numerik di abstrak)
+Liu et al. 2022 [10],C3,Verifies exact mechanism,1.0,penuh,"a recreated dataset with reverse-engineered, corrected labeling logic",abstrak CNS 2022,TERVERIFIKASI (abstrak)
+Liu et al. 2022 [10],C4,Identity / bookkeeping shortcut,,?,,,BELUM DINILAI
+Liu et al. 2022 [10],C5,Releases fix or scripts,1.0,penuh,release documentation of the issues and a recreated dataset,abstrak CNS 2022,TERVERIFIKASI (abstrak)
+Liu et al. 2022 [10],C6,Audits on injected errors,,?,,,BELUM DINILAI
+Liu et al. 2022 [10],C7,Targets a 5G dataset,0.0,kosong,judul menyebut CIC-IDS-2017 dan CSE-CIC-IDS-2018,references.bib,TERVERIFIKASI (judul)
+Lanvin et al. 2022 [11],C1,Identifies label error,1.0,penuh,attacks that were carried out but not labeled correctly,abstrak HAL hal-03775466 (CRiSIS 2022),TERVERIFIKASI (abstrak)
+Lanvin et al. 2022 [11],C2,Quantifies prevalence,,?,,,BELUM DINILAI
+Lanvin et al. 2022 [11],C3,Verifies exact mechanism,0.5,setengah,flaws in how the dataset labels events and how its traffic was captured,abstrak HAL hal-03775466,"TERVERIFIKASI (jenis cacat, bukan aturan eksak)"
+Lanvin et al. 2022 [11],C4,Identity / bookkeeping shortcut,,?,,,BELUM DINILAI
+Lanvin et al. 2022 [11],C5,Releases fix or scripts,,?,,,BELUM DINILAI
+Lanvin et al. 2022 [11],C6,Audits on injected errors,,?,,,BELUM DINILAI
+Lanvin et al. 2022 [11],C7,Targets a 5G dataset,0.0,kosong,judul menyebut CICIDS2017,references.bib,TERVERIFIKASI (judul)
+Flood et al. 2024 [12],C1,Identifies label error,0.5,setengah,six recurring data design smells ... correlate with ... murky labelling,abstrak/draf final EuroS&P 2024,"TERVERIFIKASI (smell, bukan kesalahan label konkret)"
+Flood et al. 2024 [12],C2,Quantifies prevalence,0.5,setengah,a heuristic measure for each [smell],draf final EuroS&P 2024,"TERVERIFIKASI (ukuran smell, bukan porsi kesalahan label)"
+Flood et al. 2024 [12],C3,Verifies exact mechanism,,?,,,BELUM DINILAI
+Flood et al. 2024 [12],C4,Identity / bookkeeping shortcut,,?,,,BELUM DINILAI
+Flood et al. 2024 [12],C5,Releases fix or scripts,,?,,,BELUM DINILAI
+Flood et al. 2024 [12],C6,Audits on injected errors,,?,,,BELUM DINILAI
+Flood et al. 2024 [12],C7,Targets a 5G dataset,,?,daftar 7 dataset yang dianalisis tidak terbuka dari abstrak,,BELUM DINILAI
+Goldschmidt & Chuda 2025 [13],C1,Identifies label error,0.5,setengah,synthesizes findings on flaws of existing datasets,abstrak arXiv 2502.06688,TERVERIFIKASI (sintesis temuan orang lain)
+Goldschmidt & Chuda 2025 [13],C2,Quantifies prevalence,,?,,,BELUM DINILAI
+Goldschmidt & Chuda 2025 [13],C3,Verifies exact mechanism,,?,,,BELUM DINILAI
+Goldschmidt & Chuda 2025 [13],C4,Identity / bookkeeping shortcut,,?,,,BELUM DINILAI
+Goldschmidt & Chuda 2025 [13],C5,Releases fix or scripts,,?,"katalog 89 dataset dirilis, bukan dataset terkoreksi",github.com/xGoldy/nid-datasets,BELUM DINILAI
+Goldschmidt & Chuda 2025 [13],C6,Audits on injected errors,,?,,,BELUM DINILAI
+Goldschmidt & Chuda 2025 [13],C7,Targets a 5G dataset,,?,89 dataset disurvei; tidak terverifikasi apakah 5G-NIDD termasuk,,BELUM DINILAI
+Galal 2026 [14],C1,Identifies label error,,?,,,BELUM DINILAI
+Galal 2026 [14],C2,Quantifies prevalence,,?,,,BELUM DINILAI
+Galal 2026 [14],C3,Verifies exact mechanism,0.5,setengah,a serialisation artifact ... lets a model recover labels from file provenance,arXiv 2608.15761 (judul + fragmen),TERVERIFIKASI SEBAGIAN (abstrak penuh tidak terbuka)
+Galal 2026 [14],C4,Identity / bookkeeping shortcut,1.0,penuh,"Provenance, Not Behaviour: A Serialisation Artifact in Edge-IIoTset",judul arXiv 2608.15761,TERVERIFIKASI (judul)
+Galal 2026 [14],C5,Releases fix or scripts,1.0,penuh,and a Leakage-Free Benchmark for Precision-Agriculture Intrusion Detection,judul arXiv 2608.15761,TERVERIFIKASI (judul)
+Galal 2026 [14],C6,Audits on injected errors,,?,,,BELUM DINILAI
+Galal 2026 [14],C7,Targets a 5G dataset,0.0,kosong,dataset sasaran Edge-IIoTset,judul arXiv 2608.15761,TERVERIFIKASI (judul)
+Roy & Minu 2026 [15],C1,Identifies label error,,?,,,BELUM DINILAI
+Roy & Minu 2026 [15],C2,Quantifies prevalence,,?,,,BELUM DINILAI
+Roy & Minu 2026 [15],C3,Verifies exact mechanism,,?,,,BELUM DINILAI
+Roy & Minu 2026 [15],C4,Identity / bookkeeping shortcut,1.0,penuh,Unmasking Shortcut Learning ... Feature Dependence and Data Leakage,judul arXiv 2609.28725 + kalimat Bagian 2 naskah (paper_k4/main.tex),TERVERIFIKASI (judul)
+Roy & Minu 2026 [15],C5,Releases fix or scripts,,?,,,BELUM DINILAI
+Roy & Minu 2026 [15],C6,Audits on injected errors,,?,,,BELUM DINILAI
+Roy & Minu 2026 [15],C7,Targets a 5G dataset,0.0,kosong,domain sasaran IoT intrusion detection,judul arXiv 2609.28725,TERVERIFIKASI (judul)
+Jerabek et al. 2025 [16],C1,Identifies label error,0.5,setengah,identical flows [with] conflicting labels,arXiv 2506.08655 (fragmen HTML),TERVERIFIKASI SEBAGIAN
+Jerabek et al. 2025 [16],C2,Quantifies prevalence,0.5,setengah,attribute the strong performance of simple models partly to redundancy in the data,arXiv 2506.08655 (fragmen HTML),TERVERIFIKASI SEBAGIAN (angka >50% duplikat hanya dari ringkasan AI: BELUM TERVERIFIKASI)
+Jerabek et al. 2025 [16],C3,Verifies exact mechanism,,?,,,BELUM DINILAI
+Jerabek et al. 2025 [16],C4,Identity / bookkeeping shortcut,,?,,,BELUM DINILAI
+Jerabek et al. 2025 [16],C5,Releases fix or scripts,,?,,,BELUM DINILAI
+Jerabek et al. 2025 [16],C6,Audits on injected errors,,?,,,BELUM DINILAI
+Jerabek et al. 2025 [16],C7,Targets a 5G dataset,,?,12 dataset klasifikasi trafik; tidak terverifikasi apakah ada dataset 5G,,BELUM DINILAI
+Arp et al. 2022 [17],C1,Identifies label error,,?,,,BELUM DINILAI
+Arp et al. 2022 [17],C2,Quantifies prevalence,,?,,,BELUM DINILAI
+Arp et al. 2022 [17],C3,Verifies exact mechanism,,?,,,BELUM DINILAI
+Arp et al. 2022 [17],C4,Identity / bookkeeping shortcut,0.5,setengah,catalogue pitfalls of machine learning in security - including sampling bias and data snooping,kalimat Bagian 2 naskah (paper_k4/main.tex),"TERVERIFIKASI (kalimat naskah; pitfall umum, bukan kolom identitas)"
+Arp et al. 2022 [17],C5,Releases fix or scripts,,?,,,BELUM DINILAI
+Arp et al. 2022 [17],C6,Audits on injected errors,,?,,,BELUM DINILAI
+Arp et al. 2022 [17],C7,Targets a 5G dataset,0.0,kosong,cakupan keamanan ML secara umum,kalimat Bagian 2 naskah (paper_k4/main.tex),TERVERIFIKASI (kalimat naskah)
+Northcutt et al. 2021 [18],C1,Identifies label error,1.0,penuh,label errors in test sets destabilise benchmarks in general,kalimat Bagian 2 naskah (paper_k4/main.tex) + judul NeurIPS D&B 2021,TERVERIFIKASI (judul)
+Northcutt et al. 2021 [18],C2,Quantifies prevalence,,?,,,BELUM DINILAI
+Northcutt et al. 2021 [18],C3,Verifies exact mechanism,,?,,,BELUM DINILAI
+Northcutt et al. 2021 [18],C4,Identity / bookkeeping shortcut,,?,,,BELUM DINILAI
+Northcutt et al. 2021 [18],C5,Releases fix or scripts,,?,,,BELUM DINILAI
+Northcutt et al. 2021 [18],C6,Audits on injected errors,,?,,,BELUM DINILAI
+Northcutt et al. 2021 [18],C7,Targets a 5G dataset,0.0,kosong,"benchmark ML umum (vision/NLP), bukan dataset 5G",kalimat Bagian 2 naskah (paper_k4/main.tex),TERVERIFIKASI (kalimat naskah)
+This work,C1,Identifies label error,1.0,penuh,281529 UDP flood flows carry the wrong label in the BS1 capture,main.tex Bagian 5.3; NUMBERS meta.n_salah_label,TERVERIFIKASI (berkas hasil)
+This work,C2,Quantifies prevalence,1.0,penuh,23.15% dari dataset dan 58.93% dari kelas Benign,"NUMBERS n.derived.pct_salah_total, n.konflik.pct_dari_benign",TERVERIFIKASI (berkas hasil)
+This work,C3,Verifies exact mechanism,1.0,penuh,depth-2 decision tree reproduces the labels with 100% pure leaves; rule = (capture session x source IP),main.tex Bagian 5.3; study_5gnidd_audit/results,TERVERIFIKASI (berkas hasil)
+This work,C4,Identity / bookkeeping shortcut,1.0,penuh,Seq/Offset shortcut: permutation accuracy drop 0.3012; dose-response Tabel T4,"NUMBERS t4.perm.Seq.drop_acc_mean, t4.dose.*",TERVERIFIKASI (berkas hasil)
+This work,C5,Releases fix or scripts,1.0,penuh,make_clean.py membangun versi A/B/C secara deterministik,study_5gnidd_audit/make_clean.py,TERVERIFIKASI (berkas ada)
+This work,C6,Audits on injected errors,1.0,penuh,40 skenario injeksi (E8/E9) + studi korektor pra-registrasi (Bagian 7.4),"NUMBERS t8.*, t9.*, t10.*",TERVERIFIKASI (berkas hasil)
+This work,C7,Targets a 5G dataset,1.0,penuh,dataset sasaran 5G-NIDD,main.tex judul,TERVERIFIKASI
