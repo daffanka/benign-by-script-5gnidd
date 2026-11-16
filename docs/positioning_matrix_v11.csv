@@ -1,0 +1,65 @@
+baris,kolom,nilai,simbol,dasar_bukti,rujukan_bukti
+Engelen et al. 2021,C1,1.0,penuh,labelling flaws; >20% traces relabelled; causes traced; improved processing,RELATED_WORK_EVIDENCE.csv
+Engelen et al. 2021,C2,1.0,penuh,labelling flaws; >20% traces relabelled; causes traced; improved processing,RELATED_WORK_EVIDENCE.csv
+Engelen et al. 2021,C3,0.5,setengah,labelling flaws; >20% traces relabelled; causes traced; improved processing,RELATED_WORK_EVIDENCE.csv
+Engelen et al. 2021,C4,1.0,penuh,labelling flaws; >20% traces relabelled; causes traced; improved processing,RELATED_WORK_EVIDENCE.csv
+Liu et al. 2022 (gap),C1,,dikeluarkan,dikeluarkan: abstrak tidak terbuka,RELATED_WORK_EVIDENCE.csv
+Liu et al. 2022 (gap),C2,,dikeluarkan,dikeluarkan: abstrak tidak terbuka,RELATED_WORK_EVIDENCE.csv
+Liu et al. 2022 (gap),C3,,dikeluarkan,dikeluarkan: abstrak tidak terbuka,RELATED_WORK_EVIDENCE.csv
+Liu et al. 2022 (gap),C4,,dikeluarkan,dikeluarkan: abstrak tidak terbuka,RELATED_WORK_EVIDENCE.csv
+Flood et al. 2024,C1,1.0,penuh,six design smells incl. murky labelling; heuristics per smell; no mechanism or release in abstract,RELATED_WORK_EVIDENCE.csv
+Flood et al. 2024,C2,0.5,setengah,six design smells incl. murky labelling; heuristics per smell; no mechanism or release in abstract,RELATED_WORK_EVIDENCE.csv
+Flood et al. 2024,C3,0.0,kosong,six design smells incl. murky labelling; heuristics per smell; no mechanism or release in abstract,RELATED_WORK_EVIDENCE.csv
+Flood et al. 2024,C4,0.0,kosong,six design smells incl. murky labelling; heuristics per smell; no mechanism or release in abstract,RELATED_WORK_EVIDENCE.csv
+Jerabek et al. 2025,C1,1.0,penuh,over 50% redundant samples; splitting practice named; no release in abstract,RELATED_WORK_EVIDENCE.csv
+Jerabek et al. 2025,C2,1.0,penuh,over 50% redundant samples; splitting practice named; no release in abstract,RELATED_WORK_EVIDENCE.csv
+Jerabek et al. 2025,C3,0.5,setengah,over 50% redundant samples; splitting practice named; no release in abstract,RELATED_WORK_EVIDENCE.csv
+Jerabek et al. 2025,C4,0.0,kosong,over 50% redundant samples; splitting practice named; no release in abstract,RELATED_WORK_EVIDENCE.csv
+Chen et al. 2021,C1,1.0,penuh,data-quality impact; 11 datasets; no mechanism or release in abstract,RELATED_WORK_EVIDENCE.csv
+Chen et al. 2021,C2,0.5,setengah,data-quality impact; 11 datasets; no mechanism or release in abstract,RELATED_WORK_EVIDENCE.csv
+Chen et al. 2021,C3,0.0,kosong,data-quality impact; 11 datasets; no mechanism or release in abstract,RELATED_WORK_EVIDENCE.csv
+Chen et al. 2021,C4,0.0,kosong,data-quality impact; 11 datasets; no mechanism or release in abstract,RELATED_WORK_EVIDENCE.csv
+Luay et al. 2025,C1,1.0,penuh,missing temporal features; new NetFlow datasets released,RELATED_WORK_EVIDENCE.csv
+Luay et al. 2025,C2,0.0,kosong,missing temporal features; new NetFlow datasets released,RELATED_WORK_EVIDENCE.csv
+Luay et al. 2025,C3,0.0,kosong,missing temporal features; new NetFlow datasets released,RELATED_WORK_EVIDENCE.csv
+Luay et al. 2025,C4,1.0,penuh,missing temporal features; new NetFlow datasets released,RELATED_WORK_EVIDENCE.csv
+Northcutt et al. 2021,C1,1.0,penuh,label errors in 10 test sets; >=3.3% average; confident learning,RELATED_WORK_EVIDENCE.csv
+Northcutt et al. 2021,C2,1.0,penuh,label errors in 10 test sets; >=3.3% average; confident learning,RELATED_WORK_EVIDENCE.csv
+Northcutt et al. 2021,C3,0.5,setengah,label errors in 10 test sets; >=3.3% average; confident learning,RELATED_WORK_EVIDENCE.csv
+Northcutt et al. 2021,C4,0.0,kosong,label errors in 10 test sets; >=3.3% average; confident learning,RELATED_WORK_EVIDENCE.csv
+Galal 2026,C1,1.0,penuh,serialisation artifact; four columns at accuracy 1.0000; leakage-free benchmark,RELATED_WORK_EVIDENCE.csv
+Galal 2026,C2,1.0,penuh,serialisation artifact; four columns at accuracy 1.0000; leakage-free benchmark,RELATED_WORK_EVIDENCE.csv
+Galal 2026,C3,1.0,penuh,serialisation artifact; four columns at accuracy 1.0000; leakage-free benchmark,RELATED_WORK_EVIDENCE.csv
+Galal 2026,C4,1.0,penuh,serialisation artifact; four columns at accuracy 1.0000; leakage-free benchmark,RELATED_WORK_EVIDENCE.csv
+Roy & Minu 2026,C1,1.0,penuh,shortcut from addresses/timestamps; 3.6M flows; no release in abstract,RELATED_WORK_EVIDENCE.csv
+Roy & Minu 2026,C2,1.0,penuh,shortcut from addresses/timestamps; 3.6M flows; no release in abstract,RELATED_WORK_EVIDENCE.csv
+Roy & Minu 2026,C3,0.5,setengah,shortcut from addresses/timestamps; 3.6M flows; no release in abstract,RELATED_WORK_EVIDENCE.csv
+Roy & Minu 2026,C4,0.0,kosong,shortcut from addresses/timestamps; 3.6M flows; no release in abstract,RELATED_WORK_EVIDENCE.csv
+Samarakoon et al. 2022,C1,0.0,kosong,dataset paper; no defect in abstract; dataset released,RELATED_WORK_EVIDENCE.csv
+Samarakoon et al. 2022,C2,0.0,kosong,dataset paper; no defect in abstract; dataset released,RELATED_WORK_EVIDENCE.csv
+Samarakoon et al. 2022,C3,0.0,kosong,dataset paper; no defect in abstract; dataset released,RELATED_WORK_EVIDENCE.csv
+Samarakoon et al. 2022,C4,1.0,penuh,dataset paper; no defect in abstract; dataset released,RELATED_WORK_EVIDENCE.csv
+Uccello & Nadjm-Tehrani 2026,C1,0.0,kosong,feature attribution on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Uccello & Nadjm-Tehrani 2026,C2,0.0,kosong,feature attribution on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Uccello & Nadjm-Tehrani 2026,C3,0.0,kosong,feature attribution on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Uccello & Nadjm-Tehrani 2026,C4,0.0,kosong,feature attribution on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Ilias et al. 2024,C1,0.0,kosong,CNN+MoE detector on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Ilias et al. 2024,C2,0.0,kosong,CNN+MoE detector on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Ilias et al. 2024,C3,0.0,kosong,CNN+MoE detector on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Ilias et al. 2024,C4,0.0,kosong,CNN+MoE detector on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Moubayed 2024,C1,0.0,kosong,EDA+DL pipeline on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Moubayed 2024,C2,0.0,kosong,EDA+DL pipeline on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Moubayed 2024,C3,0.0,kosong,EDA+DL pipeline on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Moubayed 2024,C4,0.0,kosong,EDA+DL pipeline on 5G-NIDD,RELATED_WORK_EVIDENCE.csv
+Lassoued et al. 2026,C1,0.5,setengah,notes earlier work uses limited subsets,RELATED_WORK_EVIDENCE.csv
+Lassoued et al. 2026,C2,0.0,kosong,notes earlier work uses limited subsets,RELATED_WORK_EVIDENCE.csv
+Lassoued et al. 2026,C3,0.0,kosong,notes earlier work uses limited subsets,RELATED_WORK_EVIDENCE.csv
+Lassoued et al. 2026,C4,0.0,kosong,notes earlier work uses limited subsets,RELATED_WORK_EVIDENCE.csv
+Neto et al. 2023,C1,0.5,setengah,notes omitted attacks; dataset released,RELATED_WORK_EVIDENCE.csv
+Neto et al. 2023,C2,0.0,kosong,notes omitted attacks; dataset released,RELATED_WORK_EVIDENCE.csv
+Neto et al. 2023,C3,0.0,kosong,notes omitted attacks; dataset released,RELATED_WORK_EVIDENCE.csv
+Neto et al. 2023,C4,1.0,penuh,notes omitted attacks; dataset released,RELATED_WORK_EVIDENCE.csv
+This work,C1,1.0,penuh,labelling block + shortcut columns; 23.15% of rows; (session x source IP) rule; versions A/B/C,RELATED_WORK_EVIDENCE.csv
+This work,C2,1.0,penuh,labelling block + shortcut columns; 23.15% of rows; (session x source IP) rule; versions A/B/C,RELATED_WORK_EVIDENCE.csv
+This work,C3,1.0,penuh,labelling block + shortcut columns; 23.15% of rows; (session x source IP) rule; versions A/B/C,RELATED_WORK_EVIDENCE.csv
+This work,C4,1.0,penuh,labelling block + shortcut columns; 23.15% of rows; (session x source IP) rule; versions A/B/C,RELATED_WORK_EVIDENCE.csv

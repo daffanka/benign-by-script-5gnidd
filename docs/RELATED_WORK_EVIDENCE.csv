@@ -1,0 +1,84 @@
+row,column,cell_text,source_quote,url_or_file,access_date,status,match
+engelen2021_troubleshooting,Study,\citep{engelen2021_troubleshooting},,https://api.crossref.org/works/10.1109/spw53761.2021.00009,2026-11-16,metadata verified,1.00
+engelen2021_troubleshooting,Dataset(s),CICIDS2017,,https://api.crossref.org/works/10.1109/spw53761.2021.00009,2026-11-16,metadata verified,1.00
+engelen2021_troubleshooting,Defect or issue reported,"Flow construction, feature extraction and labelling flaws","problems with traffic generation, flow construction, feature extraction and labelling",https://api.crossref.org/works/10.1109/spw53761.2021.00009,2026-11-16,VERIFIED,0.90
+engelen2021_troubleshooting,Evidence / method,Manual re-analysis of the collection pipeline; improved processing applied,revisit CICIDS2017 and its data collection pipeline and analyze correctness,https://api.crossref.org/works/10.1109/spw53761.2021.00009,2026-11-16,VERIFIED,1.00
+engelen2021_troubleshooting,Scale reported,More than 20\% of traces reconstructed or relabelled,more than 20 percent of original traces are reconstructed or relabelled,https://api.crossref.org/works/10.1109/spw53761.2021.00009,2026-11-16,VERIFIED,1.00
+engelen2021_troubleshooting,Release,Improved data-processing methodology reported,address most of them by applying an improved data processing methodology,https://api.crossref.org/works/10.1109/spw53761.2021.00009,2026-11-16,VERIFIED,1.00
+engelen2021_troubleshooting,Difference from this work,Studies CICIDS2017; this work audits 5G-NIDD and recovers an exact (session $\times$ source IP) labelling rule (Sec.~5.3),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+flood2024_badsmells,Study,\citep{flood2024_badsmells},,https://api.crossref.org/works/10.1109/eurosp60621.2024.00042,2026-11-16,metadata verified,1.00
+flood2024_badsmells,Dataset(s),7 benchmark NIDS datasets,,https://api.crossref.org/works/10.1109/eurosp60621.2024.00042,2026-11-16,metadata verified,1.00
+flood2024_badsmells,Defect or issue reported,"Six recurring design smells, including murky labelling","seven highly-cited benchmark datasets, discovering six suspect design patterns",https://api.crossref.org/works/10.1109/eurosp60621.2024.00042,2026-11-16,VERIFIED,1.00
+flood2024_badsmells,Evidence / method,In-depth manual analysis plus six heuristics,We formulate six heuristics to measure the prevalence of these issues,https://api.crossref.org/works/10.1109/eurosp60621.2024.00042,2026-11-16,VERIFIED,1.00
+flood2024_badsmells,Scale reported,Six smells across seven datasets,"seven highly-cited benchmark datasets, six design smells",https://api.crossref.org/works/10.1109/eurosp60621.2024.00042,2026-11-16,VERIFIED,1.00
+flood2024_badsmells,Release,n.s.,we conclude with some recommendations for using and creating NIDS datasets,https://api.crossref.org/works/10.1109/eurosp60621.2024.00042,2026-11-16,VERIFIED,1.00
+flood2024_badsmells,Difference from this work,Catalogues smells across datasets; this work quantifies one labelling rule and the share of 5G-NIDD rows it affects (Sec.~5.3),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+jerabek2025_simplemodel,Study,\citep{jerabek2025_simplemodel},,http://arxiv.org/abs/2506.08655v1,2026-11-16,metadata verified,1.00
+jerabek2025_simplemodel,Dataset(s),12 traffic-classification datasets,,http://arxiv.org/abs/2506.08655v1,2026-11-16,metadata verified,1.00
+jerabek2025_simplemodel,Defect or issue reported,Redundant samples; identical flows with conflicting labels,most datasets contain over 50% redundant samples identical packet sequences,http://arxiv.org/abs/2506.08655v1,2026-11-16,VERIFIED,1.00
+jerabek2025_simplemodel,Evidence / method,k-NN baseline across 12 datasets and 15 tasks,evaluate this baseline across 12 datasets and 15 TC tasks,http://arxiv.org/abs/2506.08655v1,2026-11-16,VERIFIED,1.00
+jerabek2025_simplemodel,Scale reported,Over 50\% redundant samples,over 50% redundant samples,http://arxiv.org/abs/2506.08655v1,2026-11-16,VERIFIED,1.00
+jerabek2025_simplemodel,Release,n.s.,we further argue that standard,http://arxiv.org/abs/2506.08655v1,2026-11-16,VERIFIED,1.00
+jerabek2025_simplemodel,Difference from this work,Reports redundancy in traffic-classification data; this work reports duplicate and label-conflict rates for 5G-NIDD and four other datasets (Sec.~8),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+chen2021_dataquality,Study,\citep{chen2021_dataquality},,http://arxiv.org/abs/2105.10041v1,2026-11-16,metadata verified,1.00
+chen2021_dataquality,Dataset(s),11 host-IDS datasets,,http://arxiv.org/abs/2105.10041v1,2026-11-16,metadata verified,1.00
+chen2021_dataquality,Defect or issue reported,Poor data quality affecting intrusion-detection performance,poor data quality has a direct impact on the performance,http://arxiv.org/abs/2105.10041v1,2026-11-16,VERIFIED,1.00
+chen2021_dataquality,Evidence / method,Data-preparation workflow plus experiments with ten models,we conducted experiments on 11 HIDS datasets using seven machine learning models,http://arxiv.org/abs/2105.10041v1,2026-11-16,VERIFIED,1.00
+chen2021_dataquality,Scale reported,"Eleven datasets, ten models",experiments on 11 HIDS datasets using seven machine learning models and three deep learning models,http://arxiv.org/abs/2105.10041v1,2026-11-16,VERIFIED,1.00
+chen2021_dataquality,Release,n.s.,the data preparation workflow and quality requirements for intrusion detection are discussed,http://arxiv.org/abs/2105.10041v1,2026-11-16,VERIFIED,1.00
+chen2021_dataquality,Difference from this work,Addresses host-IDS data quality broadly; this work traces one network-flow labelling rule and its effect on eleven models (Sec.~5.4),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+luay2025_temporal,Study,\citep{luay2025_temporal},,http://arxiv.org/abs/2503.04404v3,2026-11-16,metadata verified,1.00
+luay2025_temporal,Dataset(s),NetFlow NIDS datasets,,http://arxiv.org/abs/2503.04404v3,2026-11-16,metadata verified,1.00
+luay2025_temporal,Defect or issue reported,Published NetFlow datasets lack temporal features,currently available NetFlow datasets for NIDS lack these temporal features,http://arxiv.org/abs/2503.04404v3,2026-11-16,VERIFIED,1.00
+luay2025_temporal,Evidence / method,Temporal analysis of feature distributions over time,we provide a comprehensive temporal analysis of NetFlow datasets by examining the distribution,http://arxiv.org/abs/2503.04404v3,2026-11-16,VERIFIED,1.00
+luay2025_temporal,Scale reported,New NetFlow datasets with temporal features released,creating and making publicly available a set of NetFlow datasets,http://arxiv.org/abs/2503.04404v3,2026-11-16,VERIFIED,1.00
+luay2025_temporal,Release,Public NetFlow datasets with temporal features,making publicly available a set of NetFlow datasets that incorporate these temporal features,http://arxiv.org/abs/2503.04404v3,2026-11-16,VERIFIED,1.00
+luay2025_temporal,Difference from this work,Adds temporal features to NetFlow data; this work removes record-counter columns and corrects labels in 5G-NIDD (Sec.~6),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+northcutt2021_labelerrors,Study,\citep{northcutt2021_labelerrors},,http://arxiv.org/abs/2103.14749v4,2026-11-16,metadata verified,1.00
+northcutt2021_labelerrors,Dataset(s),"10 vision, NLP and audio test sets",,http://arxiv.org/abs/2103.14749v4,2026-11-16,metadata verified,1.00
+northcutt2021_labelerrors,Defect or issue reported,Pervasive label errors in widely used test sets,We identify label errors in the test sets of 10 of the most commonly-used,http://arxiv.org/abs/2103.14749v4,2026-11-16,VERIFIED,1.00
+northcutt2021_labelerrors,Evidence / method,"Confident learning, then crowdsourced human validation",identified using confident learning algorithms and then human-validated via crowdsourcing,http://arxiv.org/abs/2103.14749v4,2026-11-16,VERIFIED,1.00
+northcutt2021_labelerrors,Scale reported,At least 3.3\% errors on average; 6\% of ImageNet validation,we estimate an average of at least 3.3% errors across the 10 datasets,http://arxiv.org/abs/2103.14749v4,2026-11-16,VERIFIED,1.00
+northcutt2021_labelerrors,Release,n.s.,proposing that judging models over correctly labeled test sets may be more useful,http://arxiv.org/abs/2103.14749v4,2026-11-16,VERIFIED,1.00
+northcutt2021_labelerrors,Difference from this work,Diffuse errors across general ML benchmarks; this work reports one contiguous block inside a single capture file (Sec.~5.3),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+galal2026_edgeiiotset,Study,\citep{galal2026_edgeiiotset},,http://arxiv.org/abs/2608.15761v1,2026-11-16,metadata verified,1.00
+galal2026_edgeiiotset,Dataset(s),Edge-IIoTset,,http://arxiv.org/abs/2608.15761v1,2026-11-16,metadata verified,1.00
+galal2026_edgeiiotset,Defect or issue reported,Serialisation artifact makes the label recoverable from provenance,The label is recoverable from a serialisation artifact encoding file provenance,http://arxiv.org/abs/2608.15761v1,2026-11-16,VERIFIED,1.00
+galal2026_edgeiiotset,Evidence / method,Column ablation under 5-fold $\times$ 3-repeat cross-validation,"Under 5-fold x 3-repeat cross-validation, five of six standard classifiers",http://arxiv.org/abs/2608.15761v1,2026-11-16,VERIFIED,1.00
+galal2026_edgeiiotset,Scale reported,Four columns separate attack from normal at accuracy 1.0000,Four of them separate attack from normal traffic with an accuracy of 1.0000,http://arxiv.org/abs/2608.15761v1,2026-11-16,VERIFIED,1.00
+galal2026_edgeiiotset,Release,Leakage-free benchmark proposed,a Leakage-Free Benchmark for Precision-Agriculture Intrusion Detection,http://arxiv.org/abs/2608.15761v1,2026-11-16,VERIFIED,1.00
+galal2026_edgeiiotset,Difference from this work,"Shortcut from a serialisation artifact; here the shortcut columns are record counters and the labels themselves are wrong (Secs.~5.1, 5.3)",,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+roy2026_shortcut,Study,\citep{roy2026_shortcut},,http://arxiv.org/abs/2609.28725v1,2026-11-16,metadata verified,1.00
+roy2026_shortcut,Dataset(s),CyberFlowIoT-GICAP,,http://arxiv.org/abs/2609.28725v1,2026-11-16,metadata verified,1.00
+roy2026_shortcut,Defect or issue reported,Shortcut learning from testbed addresses and recording artifacts,static testbed IP/MAC addresses and chronological recording artifacts,http://arxiv.org/abs/2609.28725v1,2026-11-16,VERIFIED,1.00
+roy2026_shortcut,Evidence / method,"Four learning paradigms, four feature sets, PCAP-disjoint splits",Four learning paradigms are evaluated across four feature configurations using PCAP-disjoint splits,http://arxiv.org/abs/2609.28725v1,2026-11-16,VERIFIED,1.00
+roy2026_shortcut,Scale reported,"3{,}617{,}388 flow records; 92.58\% macro-F1 with behaviour-only features","containing 3,617,388 flow records across 126 PCAP sessions",http://arxiv.org/abs/2609.28725v1,2026-11-16,VERIFIED,1.00
+roy2026_shortcut,Release,n.s.,LightGBM is additionally evaluated using conventional random-flow splitting,http://arxiv.org/abs/2609.28725v1,2026-11-16,VERIFIED,1.00
+roy2026_shortcut,Difference from this work,Shortcut study on an IoT benchmark; this work adds a labelling error verified three independent ways on a 5G capture (Sec.~5.3),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+samarakoon2022_5gnidd,Study,\citep{samarakoon2022_5gnidd},,http://arxiv.org/abs/2212.01298v1,2026-11-16,metadata verified,1.00
+samarakoon2022_5gnidd,Dataset,5G-NIDD (dataset paper),,http://arxiv.org/abs/2212.01298v1,2026-11-16,metadata verified,1.00
+samarakoon2022_5gnidd,What it reports,Dataset built on a functional 5G test network; no dataset defect in the abstract (n.s.),a fully labeled dataset built on a functional 5G test network,http://arxiv.org/abs/2212.01298v1,2026-11-16,VERIFIED,1.00
+samarakoon2022_5gnidd,Difference from this work,Introduces 5G-NIDD; this work reports cross-capture record twins carrying opposite labels in the released data (Sec.~5.3),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+uccello2026_featureattr,Study,\citep{uccello2026_featureattr},,http://arxiv.org/abs/2509.10206v2,2026-11-16,metadata verified,1.00
+uccello2026_featureattr,Dataset,5G-NIDD,,http://arxiv.org/abs/2509.10206v2,2026-11-16,metadata verified,1.00
+uccello2026_featureattr,What it reports,Compares statistical and logic-based feature attribution for 5G alerts,feature attribution based on logic,http://arxiv.org/abs/2509.10206v2,2026-11-16,VERIFIED,1.00
+uccello2026_featureattr,Difference from this work,Attributes model alerts on 5G-NIDD; this work shows two attributed columns are Argus record counters (Sec.~5.1),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+ilias2024_cnnmoe,Study,\citep{ilias2024_cnnmoe},,http://arxiv.org/abs/2412.03483v2,2026-11-16,metadata verified,1.00
+ilias2024_cnnmoe,Dataset,5G-NIDD,,http://arxiv.org/abs/2412.03483v2,2026-11-16,metadata verified,1.00
+ilias2024_cnnmoe,What it reports,Convolutional network with Mixture of Experts for malicious traffic,we pass this matrix through convolutional neural network,http://arxiv.org/abs/2412.03483v2,2026-11-16,VERIFIED,1.00
+ilias2024_cnnmoe,Difference from this work,Trains on 5G-NIDD as distributed; this work evaluates after removing identity columns and correcting labels (Sec.~6),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+moubayed2024_eda_pipeline,Study,\citep{moubayed2024_eda_pipeline},,https://api.crossref.org/works/10.3390/fi16090331,2026-11-16,metadata verified,1.00
+moubayed2024_eda_pipeline,Dataset,5G-NIDD,,https://api.crossref.org/works/10.3390/fi16090331,2026-11-16,metadata verified,1.00
+moubayed2024_eda_pipeline,What it reports,EDA and deep-learning pipeline; reports detection above 99.5\%,extremely high intrusion detection and attack identification capabilities above 99.5,https://api.crossref.org/works/10.3390/fi16090331,2026-11-16,VERIFIED,1.00
+moubayed2024_eda_pipeline,Difference from this work,Reports above 99.5\% on 5G-NIDD; this work measures accuracy against corrected labels instead (Sec.~5.4),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+lassoued2026_supervised_5gnidd,Study,\citep{lassoued2026_supervised_5gnidd},,https://api.crossref.org/works/10.3390/computers15060362,2026-11-16,metadata verified,1.00
+lassoued2026_supervised_5gnidd,Dataset,5G-NIDD,,https://api.crossref.org/works/10.3390/computers15060362,2026-11-16,metadata verified,1.00
+lassoued2026_supervised_5gnidd,What it reports,Supervised models on 5G-NIDD; notes earlier work uses limited subsets,existing works using 5G-NIDD often focus on limited subsets,https://api.crossref.org/works/10.3390/computers15060362,2026-11-16,VERIFIED,1.00
+lassoued2026_supervised_5gnidd,Difference from this work,Evaluates supervised models on 5G-NIDD; this work audits the labels and the evaluation protocol itself (Secs.~5--6),,main_v11_1.tex + NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+this_work,Study,\textbf{This work},,main_v11_1.tex + paper_k4/NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+this_work,Dataset(s),5G-NIDD (plus four datasets scanned),,main_v11_1.tex + paper_k4/NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+this_work,Defect or issue reported,Block labelling error and identity-shortcut columns,,main_v11_1.tex + paper_k4/NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+this_work,Evidence / method,"Single-file localisation, depth-2 rule, cross-capture twins, 40 injected scenarios",,main_v11_1.tex + paper_k4/NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+this_work,Scale reported,"281{,}529 rows: 23.15\% of the dataset, 58.93\% of its Benign class",,main_v11_1.tex + paper_k4/NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+this_work,Release,Scripts for versions A/B/C and the number manifest,,main_v11_1.tex + paper_k4/NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
+this_work,Difference from this work,---,,main_v11_1.tex + paper_k4/NUMBERS.json,2026-11-16,OUR OWN FACT (paper section / NUMBERS.json),1.00
